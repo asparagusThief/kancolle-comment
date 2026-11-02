@@ -1,0 +1,5721 @@
+{
+  "verified_on": "2026-11-02",
+  "verification": "Visual comparison of fleet and comment against the original selection-column crops; flagship not rechecked.",
+  "interpretation_notice": "Chinese explanations are editorial readings, not official selection criteria or canonical character facts.",
+  "examples": [
+    {
+      "id": "180911-02",
+      "fleet": "5-2",
+      "comment": "もういくつ寝ると秋刀魚漁",
+      "flagship_ocr": "Ark Royal改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180911.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "秋",
+        "食物",
+        "期待"
+      ],
+      "meaning_zh": "再睡几觉就到秋刀鱼捕鱼了",
+      "observation_zh": "借用倒数期待节日的口吻写捕鱼；只借表达结构，不照搬成当前活动预告。",
+      "dependency_zh": "无特定角色依赖；有季节与游戏捕鱼语境"
+    },
+    {
+      "id": "180911-03",
+      "fleet": "秋刀魚はサンマいおろし",
+      "comment": "秋刀魚は飲み物です",
+      "flagship_ocr": "飛龍改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180911.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "秋",
+        "食物",
+        "谐音",
+        "夸张"
+      ],
+      "meaning_zh": "舰队名：秋刀鱼要三片切；签名：秋刀鱼是饮料",
+      "observation_zh": "サンマいおろし把サンマ接入三枚おろし的读音；comment 再作夸张。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "191114-03",
+      "fleet": "色々育ててあげ隊",
+      "comment": "綾波型はいいぞ。",
+      "flagship_ocr": "綾波改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank191114.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "角色",
+        "直率"
+      ],
+      "meaning_zh": "绫波型真好啊。",
+      "observation_zh": "一句直接的喜爱表达，句末いいぞ有向别人推荐的语气，不必额外制造笑点。",
+      "dependency_zh": "与绫波关联；不是关于角色设定的证据"
+    },
+    {
+      "id": "191114-07",
+      "fleet": "第1艦隊",
+      "comment": "布団が恋しくなる季節",
+      "flagship_ocr": "加賀改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank191114.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "冬",
+        "日常",
+        "睡眠"
+      ],
+      "meaning_zh": "到了想念被窝的季节",
+      "observation_zh": "用身体和生活感受表达季节，没有角色名也成立。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "191114-08",
+      "fleet": "第11艦隊",
+      "comment": "金曜じゃなくてもカレー",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank191114.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "食物",
+        "日常"
+      ],
+      "meaning_zh": "就算不是星期五也要吃咖喱",
+      "observation_zh": "有海军与星期五咖喱的背景，但句子本身也是普通吃饭感想。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "230302-02",
+      "fleet": "ゴト花見艦隊",
+      "comment": "ゴトとお花見に行きたい！",
+      "flagship_ocr": "Gotland andra",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230302.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "春",
+        "角色",
+        "愿望"
+      ],
+      "meaning_zh": "想和哥特一起去赏花！",
+      "observation_zh": "舰队名与comment围绕同一愿望；表达想一起做什么，不是在声称官方剧情。",
+      "dependency_zh": "明确与Gotland关联"
+    },
+    {
+      "id": "230302-03",
+      "fleet": "第4艦隊",
+      "comment": "熟練昼寝要員+布団改二",
+      "flagship_ocr": "大和改二重",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230302.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "日常",
+        "睡眠",
+        "游戏术语"
+      ],
+      "meaning_zh": "熟练午睡人员＋被子改二",
+      "observation_zh": "把装备和改造命名格式借给生活里的午睡，读者能直接看见画面。",
+      "dependency_zh": "无特定角色依赖；需要理解游戏命名格式"
+    },
+    {
+      "id": "230302-04",
+      "fleet": "レベリングなう艦隊",
+      "comment": "美味しいご飯は元気の源",
+      "flagship_ocr": "Hornet改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230302.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "食物",
+        "日常",
+        "温柔"
+      ],
+      "meaning_zh": "好吃的饭是元气的来源",
+      "observation_zh": "平实肯定句，食物带来的精神恢复本身就是内容。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "230214-08",
+      "fleet": "カフェイン中毒",
+      "comment": "毎日コーヒー飲みすぎてる",
+      "flagship_ocr": "天津風",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230214.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "日常",
+        "饮料",
+        "自嘲",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：咖啡因中毒；签名：每天咖啡都喝得太多",
+      "observation_zh": "两栏共同构成一个小习惯的自白；不需要游戏背景也能理解。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "241112-03",
+      "fleet": "待機",
+      "comment": "索敵は全てを解決する",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241112.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "游戏",
+        "夸张"
+      ],
+      "meaning_zh": "索敌能解决一切",
+      "observation_zh": "把一种游戏能力夸大成万能答案，保留一本正经的口吻。",
+      "dependency_zh": "无特定角色依赖；使用游戏词汇"
+    },
+    {
+      "id": "241112-04",
+      "fleet": "かわいい",
+      "comment": "秋刀魚には大根おろし！",
+      "flagship_ocr": "赤城改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241112.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "秋",
+        "食物",
+        "日常"
+      ],
+      "meaning_zh": "秋刀鱼就要配萝卜泥！",
+      "observation_zh": "具体的饮食偏好足以成句，避免把它解释成复杂的隐藏梗。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "241112-05",
+      "fleet": "秘書艦隊",
+      "comment": "秋刀魚、ほら出ておいで…",
+      "flagship_ocr": "川内改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241112.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "秋",
+        "食物",
+        "拟人"
+      ],
+      "meaning_zh": "秋刀鱼，快出来呀……",
+      "observation_zh": "把寻找鱼写成招呼一个会回应的对象，趣味来自口吻和对象的错位。",
+      "dependency_zh": "无特定角色依赖；可能让人联想到捕鱼，但不证明当前有活动"
+    },
+    {
+      "id": "241112-07",
+      "fleet": "慢心ダメ絶対",
+      "comment": "落ち込んでる時はカレー",
+      "flagship_ocr": "大鳳改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241112.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "食物",
+        "日常",
+        "安慰"
+      ],
+      "meaning_zh": "心情低落的时候就吃咖喱",
+      "observation_zh": "一句简单的自我安慰或生活建议，重点是亲切感。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "241112-08",
+      "fleet": "第一艦隊",
+      "comment": "この海で、また会おう",
+      "flagship_ocr": "大和改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241112.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "温柔",
+        "海",
+        "再会"
+      ],
+      "meaning_zh": "在这片海上，再见吧",
+      "observation_zh": "用海和再会营造情绪；不认定它是某角色的官方台词。",
+      "dependency_zh": "无明确角色依赖；引用来源未作认定"
+    },
+    {
+      "id": "260918-01",
+      "fleet": "演習",
+      "comment": "レベリングが生きがい",
+      "flagship_ocr": "野埼改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260918.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "游戏",
+        "日常"
+      ],
+      "meaning_zh": "练级就是生活的乐趣",
+      "observation_zh": "直接表达玩家自己的游戏兴趣，可以真诚而无需反转。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260918-02",
+      "fleet": "補給狩り①",
+      "comment": "鎮守府秋祭り！",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260918.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "秋",
+        "祭典"
+      ],
+      "meaning_zh": "镇守府秋祭！",
+      "observation_zh": "短促的季节问候或标题式表达；历史日期不能用于推断当前活动。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260918-03",
+      "fleet": "第1艦隊",
+      "comment": "矢矧。かわいいよ矢矧。",
+      "flagship_ocr": "矢矧改二乙",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260918.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "角色",
+        "喜爱"
+      ],
+      "meaning_zh": "矢矧，真可爱啊矢矧。",
+      "observation_zh": "重复名字表现直接的喜爱，标点控制节奏。",
+      "dependency_zh": "明确与矢矧关联"
+    },
+    {
+      "id": "260918-05",
+      "fleet": "通勤特快艦隊",
+      "comment": "翔鶴姉ケッコンしてくれ",
+      "flagship_ocr": "翔鶴改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260918.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "角色",
+        "愿望"
+      ],
+      "meaning_zh": "翔鹤姐，和我结婚吧",
+      "observation_zh": "直接表达对角色的愿望；ケッコン带有游戏语境。",
+      "dependency_zh": "明确与翔鹤关联"
+    },
+    {
+      "id": "260918-06",
+      "fleet": "E5-4②",
+      "comment": "秋の鎮守府が一番好き",
+      "flagship_ocr": "野埼改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260918.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "秋",
+        "日常",
+        "喜爱"
+      ],
+      "meaning_zh": "最喜欢秋天的镇守府",
+      "observation_zh": "一个不绕弯的季节偏好，提醒创作者不用句句讲笑话。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260918-07",
+      "fleet": "1",
+      "comment": "おいしい屋台がてんこ盛り",
+      "flagship_ocr": "明石",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260918.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "秋",
+        "食物",
+        "祭典"
+      ],
+      "meaning_zh": "好吃的小吃摊多得满满当当",
+      "observation_zh": "てんこ盛り写出热闹和丰盛；是在描述摊位的吃食，不是角色设定。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260918-08",
+      "fleet": "第一艦隊",
+      "comment": "海外艦育成強化年間",
+      "flagship_ocr": "Mogador改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260918.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "游戏",
+        "目标"
+      ],
+      "meaning_zh": "海外舰培养强化年",
+      "observation_zh": "把自己的练级目标写成年度计划式的短标题。",
+      "dependency_zh": "泛指海外舰；无特定角色依赖"
+    },
+    {
+      "id": "181020-04",
+      "fleet": "5-5",
+      "comment": "提督も大規模修理しないと",
+      "flagship_ocr": "伊14改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181020.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "日常",
+        "自嘲",
+        "游戏术语"
+      ],
+      "meaning_zh": "提督也得大修一下才行",
+      "observation_zh": "把舰船维修的概念转用于玩家自己，具体疲惫原因留白。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "201117-06",
+      "fleet": "今年もまったり",
+      "comment": "たまには休みたい時もある",
+      "flagship_ocr": "Italia",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201117.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "日常",
+        "休息"
+      ],
+      "meaning_zh": "偶尔也会有想休息的时候",
+      "observation_zh": "舰队名今年もまったり配合放松的comment；语气平和。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "221217-08",
+      "fleet": "2022勤務優秀艦娘",
+      "comment": "大晦日仕事で草生えぬ",
+      "flagship_ocr": "高雄改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank221217.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "themes": [
+        "冬",
+        "年末",
+        "工作",
+        "自嘲"
+      ],
+      "meaning_zh": "除夕还要上班，笑不出来",
+      "observation_zh": "用草生えぬ表达没法笑出声，日语网络口吻和现实处境形成小自嘲。",
+      "dependency_zh": "无特定角色依赖；网络用语可能影响语气"
+    },
+    {
+      "id": "180701-01",
+      "fleet": "第一艦隊",
+      "comment": "きみいい瑞雲をしているね",
+      "flagship_ocr": "天龍改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180701.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "きみいい瑞雲をしているね"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "装备",
+        "幽默"
+      ],
+      "meaning_zh": "你身上的瑞云真不错呢",
+      "observation_zh": "把夸赞人的口吻转用于装备，读起来像一句搭话。",
+      "dependency_zh": "依赖瑞云这一游戏装备名；不指向特定舰娘"
+    },
+    {
+      "id": "180701-02",
+      "fleet": "赤眼の魔王",
+      "comment": "みんな三式弾は持ったな！",
+      "flagship_ocr": "酒匂改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180701.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "赤眼の魔王",
+        "comment": "みんな三式弾は持ったな！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "号召"
+      ],
+      "meaning_zh": "大家都带上三式弹了吧！",
+      "observation_zh": "像出发前确认装备，感叹号保留集体行动的气势。",
+      "dependency_zh": "依赖三式弹的游戏语境；引用出处未作认定"
+    },
+    {
+      "id": "180701-05",
+      "fleet": "横須賀鎮守府へようこそ",
+      "comment": "横須賀はいいぞー",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180701.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "横須賀鎖守府へようこそ",
+        "comment": "横須賀はいいぞー"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "地域",
+        "欢迎",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：欢迎来到横须贺镇守府；签名：横须贺真好啊",
+      "observation_zh": "两栏共同表达对驻地的欢迎和喜爱，信息直接。",
+      "dependency_zh": "与横须贺镇守府关联，无特定角色依赖"
+    },
+    {
+      "id": "180701-06",
+      "fleet": "演習嚮導部隊",
+      "comment": "二期でもよろしくです！",
+      "flagship_ocr": "千歳航",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180701.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習嚮導部隊",
+        "comment": "二期でもよろしくです！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "问候"
+      ],
+      "meaning_zh": "到了二期，也请多多关照！",
+      "observation_zh": "借版本转换送出问候；历史语境清楚，不应当作当前公告。",
+      "dependency_zh": "依赖当时的二期转换背景"
+    },
+    {
+      "id": "180701-07",
+      "fleet": "第1艦隊",
+      "comment": "暁の水平線に生姜を刻め",
+      "flagship_ocr": "時雨",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180701.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1欽待",
+        "comment": "暁の水平線に生姜を刻め"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "幽默",
+        "改词",
+        "食物"
+      ],
+      "meaning_zh": "在拂晓的水平线上切姜吧",
+      "observation_zh": "用生姜替换严肃口号中的对象，让壮阔画面突然落到厨房。",
+      "dependency_zh": "依赖游戏宣传用语的联想；无特定角色依赖"
+    },
+    {
+      "id": "181202-02",
+      "fleet": "こたつみかん隊",
+      "comment": "できれば全員育てます！",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181202.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "こたつみかん隊",
+        "comment": "できれば全員育てます！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "目标",
+        "冬"
+      ],
+      "meaning_zh": "如果可以的话，我想把大家都培养起来！",
+      "observation_zh": "温和限定词できれば让培养目标带上个人语气，舰队名有冬季生活感。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "181202-03",
+      "fleet": "雨は、いつか止むさ。",
+      "comment": "呉一筋デス",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181202.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "雨は、いつか止むさ。",
+        "comment": "呉一筋デス"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "地域",
+        "喜爱"
+      ],
+      "meaning_zh": "一心向着吴镇守府",
+      "observation_zh": "一筋强调长期专注，和舰队名里的雨天句子各自成立。",
+      "dependency_zh": "与吴镇守府关联；舰队名是否引用台词未核查"
+    },
+    {
+      "id": "181202-04",
+      "fleet": "一六駆/正月満喫艦隊",
+      "comment": "時津風と過ごす至福の炬燵",
+      "flagship_ocr": "時津風改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181202.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "一六駆/正月満喫艦隊",
+        "comment": "時津風と過ごす至福の炬燧"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "冬",
+        "生活",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：十六驱／尽享新年舰队；签名：和时津风在被炉里度过的幸福时光",
+      "observation_zh": "标题交代季节和小队，签名收束到具体的相处场景。",
+      "dependency_zh": "明确与时津风关联；表达共同生活愿望，不作为官方剧情"
+    },
+    {
+      "id": "181202-07",
+      "fleet": "第一護衛隊群",
+      "comment": "福江ちゃんかあいい",
+      "flagship_ocr": "電改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181202.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一護衛隊群",
+        "comment": "福江ちゃんかあいい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "喜爱",
+        "口语"
+      ],
+      "meaning_zh": "福江酱好可爱",
+      "observation_zh": "かあいい保留亲昵、随口感叹的写法，不必规范成书面评价。",
+      "dependency_zh": "明确与福江关联"
+    },
+    {
+      "id": "181202-08",
+      "fleet": "演習艦隊",
+      "comment": "2期の始まり平成の終わり",
+      "flagship_ocr": "まるゆ改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181202.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習艦隊",
+        "comment": "2期の始まり平成の終わり"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "时代",
+        "对照"
+      ],
+      "meaning_zh": "二期的开始，平成的结束",
+      "observation_zh": "把游戏阶段与现实纪年并置，形成简短的时代记录。",
+      "dependency_zh": "依赖当时的版本和纪年背景，不是当前时间描述"
+    },
+    {
+      "id": "190303-02",
+      "fleet": "主力of主力",
+      "comment": "夕雲と暮らしたい人生",
+      "flagship_ocr": "日向改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190303.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "主力of主力",
+        "comment": "夕雲と暮らしたい人生"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "愿望",
+        "生活"
+      ],
+      "meaning_zh": "想要和夕云一起生活的人生",
+      "observation_zh": "用暮らしたい写向往的生活，语气直接而非角色对白。",
+      "dependency_zh": "明确与夕云关联；属于玩家愿望"
+    },
+    {
+      "id": "190303-03",
+      "fleet": "第1艦隊",
+      "comment": "食料庫見張りを厳として",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190303.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "食料庫見張りを厳として"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "食物",
+        "军务口吻"
+      ],
+      "meaning_zh": "要严加看守食物仓库",
+      "observation_zh": "郑重的警戒语气用在食料库上，保留对日常小事的认真。",
+      "dependency_zh": "无明确角色依赖，不能仅凭旗舰推断偷吃者"
+    },
+    {
+      "id": "190303-04",
+      "fleet": "味方はぐれ艦隊",
+      "comment": "エクストラヴァージン重油",
+      "flagship_ocr": "大鷹改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190303.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "味方はぐれ艦隊",
+        "comment": "エクストラヴァージン重油"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "幽默",
+        "食物",
+        "词语错位"
+      ],
+      "meaning_zh": "特级初榨重油",
+      "observation_zh": "把食用油的商品描述接到重油上，靠相邻概念的不协调制造笑意。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "190303-06",
+      "fleet": "瑞の艦隊",
+      "comment": "瑞雲を止めるな！",
+      "flagship_ocr": "対馬",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190303.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "瑞の艦隊",
+        "comment": "瑞雲を止めるな！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "装备",
+        "号召"
+      ],
+      "meaning_zh": "别让瑞云停下来！",
+      "observation_zh": "简短命令句把装备写成正在推进的事物，语气有冲劲。",
+      "dependency_zh": "依赖瑞云装备名；不认定引用的具体来源"
+    },
+    {
+      "id": "190303-08",
+      "fleet": "食べ隊",
+      "comment": "愛と魚雷をあなたに",
+      "flagship_ocr": "朝潮改二丁",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190303.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "食べ隊",
+        "comment": "愛と魚雷をあなたに"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "幽默",
+        "游戏",
+        "反差"
+      ],
+      "meaning_zh": "把爱与鱼雷献给你",
+      "observation_zh": "柔情的爱与武器并列，献礼式口吻带出反差。",
+      "dependency_zh": "无明确角色依赖；不将其标为某角色原台词"
+    },
+    {
+      "id": "190604-01",
+      "fleet": "7-2",
+      "comment": "愛に勝る補正なし",
+      "flagship_ocr": "石垣改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190604.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "7-2",
+        "comment": "愛に勝る補正なし"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "喜爱",
+        "宣言"
+      ],
+      "meaning_zh": "没有比爱更强的补正",
+      "observation_zh": "用数值补正的术语表达投入与喜爱，形成一句玩家宣言。",
+      "dependency_zh": "依赖游戏数值语境，无特定角色依赖"
+    },
+    {
+      "id": "190604-02",
+      "fleet": "皿の上のおはぎ",
+      "comment": "八畳一間に住む八丈",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190604.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "皿の上のおはぎ",
+        "comment": "八畳一間に住む八丈"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "双关",
+        "生活"
+      ],
+      "meaning_zh": "住在八叠一间房里的八丈",
+      "observation_zh": "八畳和八丈发音联想，角色名与居住空间构成简短文字游戏。",
+      "dependency_zh": "明确使用八丈的名字；居住场景为文案设想"
+    },
+    {
+      "id": "190604-03",
+      "fleet": "第2艦隊",
+      "comment": "今年も半分終わっちまう",
+      "flagship_ocr": "まるゆ",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190604.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第2艦隊",
+        "comment": "今年も半分終わっちまう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "时间",
+        "口语"
+      ],
+      "meaning_zh": "今年也已经快过去一半了啊",
+      "observation_zh": "终わっちまう的随口感叹写出时间流逝感，不依赖复杂设定。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "190604-06",
+      "fleet": "Gaussian",
+      "comment": "由良と京都観光したい",
+      "flagship_ocr": "由良改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190604.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "Gaussian",
+        "comment": "由良と京都観光したい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "愿望",
+        "旅行"
+      ],
+      "meaning_zh": "想和由良一起去京都观光",
+      "observation_zh": "具体目的地与想一起做的事就能形成完整签名。",
+      "dependency_zh": "明确与由良关联；属于玩家愿望"
+    },
+    {
+      "id": "190604-08",
+      "fleet": "浜辺で海風を感じたい",
+      "comment": "海風の淹れる茶は絶品",
+      "flagship_ocr": "海風改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190604.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "浜辺で海風を感じたい",
+        "comment": "海風の淹れる茶は絶品"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "生活",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：想在海边感受海风；签名：海风泡的茶真是一绝",
+      "observation_zh": "舰队名中的自然现象与签名里的同名角色形成双层阅读。",
+      "dependency_zh": "与海风关联；泡茶场景不是由该记录证实的官方设定"
+    },
+    {
+      "id": "190905-01",
+      "fleet": "柴犬艦隊",
+      "comment": "金剛さんが居るだけで幸せ",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190905.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "柴犬艦隊",
+        "comment": "金剛さんが居るだけで幸せ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "喜爱",
+        "陪伴"
+      ],
+      "meaning_zh": "只要金刚在，就很幸福",
+      "observation_zh": "把陪伴本身写成满足的条件，情感直接。",
+      "dependency_zh": "明确与金刚关联"
+    },
+    {
+      "id": "190905-04",
+      "fleet": "知らなかったぬい",
+      "comment": "目で楽しむ夏の艦これ",
+      "flagship_ocr": "伊14改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190905.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "知らなかったぬい",
+        "comment": "目で楽しむ夏の艦これ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "季节",
+        "夏",
+        "游戏"
+      ],
+      "meaning_zh": "用眼睛享受夏日的舰C",
+      "observation_zh": "从视觉体验谈游戏，把夏季与欣赏画面连接起来。",
+      "dependency_zh": "无明确角色依赖，具体立绘或活动未由本句确认"
+    },
+    {
+      "id": "190905-05",
+      "fleet": "第1艦隊",
+      "comment": "鬼怒ごし豆腐にポン瑞雲",
+      "flagship_ocr": "鬼怒改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190905.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "鬼怒ごし豆腐にポン瑞雲"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "幽默",
+        "食物",
+        "游戏",
+        "双关"
+      ],
+      "meaning_zh": "鬼怒嫩豆腐，配上瑞云味的浇料",
+      "observation_zh": "把食物名称与鬼怒、瑞云接合，形成游戏语境里的菜单文字游戏。",
+      "dependency_zh": "用到鬼怒名字与瑞云装备名；不是角色饮食设定"
+    },
+    {
+      "id": "190905-06",
+      "fleet": "およげ！だいはつくん",
+      "comment": "毎日毎日 僕らは 遠征の",
+      "flagship_ocr": "伊400改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190905.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "およげ！だいはつくん",
+        "comment": "毎日毎日 僕らは 遠征の"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "远征",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：游吧！大发君；签名：每天每天，我们都在远征的……",
+      "observation_zh": "标题式的舰队名与有节奏的未完句呼应，写反复远征的日常。",
+      "dependency_zh": "依赖大发艇和远征语境；改词的来源未作正式核实"
+    },
+    {
+      "id": "190905-08",
+      "fleet": "E1",
+      "comment": "小淀！中淀！大淀！明石！",
+      "flagship_ocr": "武歲改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190905.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "E1",
+        "comment": "小淀！中淀！大淀！明石！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "幽默",
+        "角色名",
+        "递进"
+      ],
+      "meaning_zh": "小淀！中淀！大淀！明石！",
+      "observation_zh": "沿大小关系重复造词，末尾忽然切换到另一个名字，节奏鲜明。",
+      "dependency_zh": "依赖大淀与明石的名字，不推断角色关系"
+    },
+    {
+      "id": "200106-01",
+      "fleet": "演習艦隊",
+      "comment": "今年の恵方は西南西海域",
+      "flagship_ocr": "阿武隈改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200106.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習艦隊",
+        "comment": "今年の恵方は西南西海域"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "节日",
+        "游戏",
+        "双关"
+      ],
+      "meaning_zh": "今年的吉利方向是西南西海域",
+      "observation_zh": "将节分的恵方说成出击海域，把节日方位与游戏地图用语接合。",
+      "dependency_zh": "依赖节分与海域语境；年份方向只对应历史记录"
+    },
+    {
+      "id": "200106-04",
+      "fleet": "いっしょに、すこしずつ",
+      "comment": "大好きなみんなと一歩一歩",
+      "flagship_ocr": "雷改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200106.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "いっしょに、すこしずつ",
+        "comment": "大好きなみんなと一歩一歩"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "温柔",
+        "陪伴",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：一起，一点点前进；签名：和最喜欢的大家，一步一步",
+      "observation_zh": "两栏用渐进的节奏呼应，重点是与大家共同积累。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "200106-05",
+      "fleet": "戦艦修行艦隊",
+      "comment": "清霜！ついてきなさい！",
+      "flagship_ocr": "Colorado改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200106.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "戰艦修行艦隊",
+        "comment": "清霜！ついてきなさい！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "号召",
+        "游戏"
+      ],
+      "meaning_zh": "清霜，跟上来！",
+      "observation_zh": "舰队名的训练主题与招呼同行的语气相配，形成小场景。",
+      "dependency_zh": "明确与清霜关联；是否引用原台词需另行核查"
+    },
+    {
+      "id": "200106-07",
+      "fleet": "金剛姉さんを護り隊",
+      "comment": "うちが守っちゃるけぇね！",
+      "flagship_ocr": "浦風丁改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200106.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "金剛姉さんを護り隊",
+        "comment": "うちが守っちゃるけぇね！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "方言",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：想守护金刚姐姐；签名：我会保护你的！",
+      "observation_zh": "两栏重复守护的意愿，方言句尾带来鲜明口吻。",
+      "dependency_zh": "涉及金刚及方言口吻；角色说话者与原台词需查 kcwiki"
+    },
+    {
+      "id": "200106-08",
+      "fleet": "留守番艦隊",
+      "comment": "そうだ遠征に行こう",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200106.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "留守番艦隊",
+        "comment": "そうだ遠征に行こう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "幽默",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：看家舰队；签名：对了，去远征吧",
+      "observation_zh": "看家与突然决定出远门放在一起，形成轻巧反差。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "200407-02",
+      "fleet": "今日も嫁艦に癒される",
+      "comment": "記念日を嫁艦と共に",
+      "flagship_ocr": "鈴谷改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200407.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "今日も嫁艦に癒される",
+        "comment": "記念日を嫁艦と共に"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "喜爱",
+        "纪念",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：今天也被爱舰治愈；签名：和爱舰一起度过纪念日",
+      "observation_zh": "两栏围绕陪伴与纪念日展开，不要求固定角色。",
+      "dependency_zh": "泛指玩家的爱舰；具体纪念日未限定"
+    },
+    {
+      "id": "200407-03",
+      "fleet": "もっと褒めてもいいのよ！",
+      "comment": "よーし、よくやったビス子",
+      "flagship_ocr": "Bismarck drel",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200407.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "もっと褒めてもいいのよ！",
+        "comment": "よーし、よくやったビス子"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "互动",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：还可以再多夸我一点哦；签名：好，干得漂亮，俾斯子",
+      "observation_zh": "请求称赞与回应称赞构成一来一回，两栏的说话者可不同。",
+      "dependency_zh": "涉及俾斯麦昵称；与原台词的关系需另外核查"
+    },
+    {
+      "id": "200407-04",
+      "fleet": "4-5",
+      "comment": "皐月がやってきた",
+      "flagship_ocr": "阜月改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200407.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "4-5",
+        "comment": "皐月がやってきた"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "春",
+        "角色",
+        "双关"
+      ],
+      "meaning_zh": "皋月来了／五月到了",
+      "observation_zh": "角色名皐月同时也是五月的别称，两种读法并存。",
+      "dependency_zh": "与皐月名字及月份双关有关"
+    },
+    {
+      "id": "200407-05",
+      "fleet": "第1艦隊",
+      "comment": "多摩まっしぐら",
+      "flagship_ocr": "多摩改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200407.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "多摩まっしぐら"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "幽默",
+        "短语改写"
+      ],
+      "meaning_zh": "一心直奔多摩",
+      "observation_zh": "把まっしぐら的直奔感接到角色名字上，句子短而明确。",
+      "dependency_zh": "明确使用多摩名字；联想不构成角色设定"
+    },
+    {
+      "id": "200407-06",
+      "fleet": "第1艦隊",
+      "comment": "煮込料理の合間に艦これ",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200407.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "煮込料理の合間に艦これ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "生活",
+        "游戏"
+      ],
+      "meaning_zh": "炖菜的空当里玩舰C",
+      "observation_zh": "把游戏安排在做饭的等待时间里，具体而有生活感。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "200708-01",
+      "fleet": "この格好夏は最高よ！",
+      "comment": "葛城ちゃんと楽しむ夏！",
+      "flagship_ocr": "葛城改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200708.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "この格好夏は最高よ！",
+        "comment": "葛城ちゃんと楽しむ夏！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "角色",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：这身打扮夏天最棒了；签名：和葛城一起享受夏天！",
+      "observation_zh": "舰队名先写夏季服装感受，再由签名交代与谁一起过夏天。",
+      "dependency_zh": "明确与葛城关联；角色口吻和服装版本需查资料"
+    },
+    {
+      "id": "200708-03",
+      "fleet": "第1艦隊",
+      "comment": "水着白露改二あああああ！",
+      "flagship_ocr": "白露改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200708.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "水着白露改二あああああ！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "角色",
+        "喜爱"
+      ],
+      "meaning_zh": "泳装白露改二，啊啊啊啊啊！",
+      "observation_zh": "以名字、形态和感叹直接写出强烈喜爱，重复音节形成情绪。",
+      "dependency_zh": "明确涉及白露改二泳装形象；是否当前可见需另查"
+    },
+    {
+      "id": "200708-04",
+      "fleet": "おうちでも飲み隊",
+      "comment": "水着でも飲むしかないです",
+      "flagship_ocr": "Pola改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200708.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "おうちでも飲み隊",
+        "comment": "水着でも飲むしかないです"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "生活",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：在家也要喝一杯；签名：穿着泳装也只能喝了",
+      "observation_zh": "两栏对同一行为换场景重复，突出执着和随意口吻。",
+      "dependency_zh": "历史旗舰为 Pola；不能只凭该记录认定其官方喜好"
+    },
+    {
+      "id": "200708-06",
+      "fleet": "第4艦隊",
+      "comment": "暑いですね頑張りましょう",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200708.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第4艦隊",
+        "comment": "暑いですね頑張りましょう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "问候",
+        "鼓励"
+      ],
+      "meaning_zh": "天气真热呢，一起加油吧",
+      "observation_zh": "用共同感受接一句鼓励，作为短问候即可成立。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "200708-07",
+      "fleet": "第一艦隊",
+      "comment": "長波推しの提督です。",
+      "flagship_ocr": "長波改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200708.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "長波推しの提督です。"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "喜爱",
+        "自我介绍"
+      ],
+      "meaning_zh": "我是推长波的提督。",
+      "observation_zh": "用自己的支持对象做简洁介绍，不替角色发言。",
+      "dependency_zh": "明确与长波关联"
+    },
+    {
+      "id": "201009-01",
+      "fleet": "幸運艦隊",
+      "comment": "初霜におやつあげ隊",
+      "flagship_ocr": "初霜改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201009.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "幸運艦隊",
+        "comment": "初霜におやつあげ隊"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "生活",
+        "愿望"
+      ],
+      "meaning_zh": "想给初霜点心",
+      "observation_zh": "给点心的具体小愿望，配合隊／たい的常见写法。",
+      "dependency_zh": "明确与初霜关联；属于玩家愿望"
+    },
+    {
+      "id": "201009-02",
+      "fleet": "HiGE艦隊",
+      "comment": "鰻の骨せんべいが好き。",
+      "flagship_ocr": "鹿島改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201009.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "HiGE艦隊",
+        "comment": "鰻の骨せんべいが好き。"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "食物",
+        "喜爱"
+      ],
+      "meaning_zh": "我喜欢鳗鱼骨仙贝。",
+      "observation_zh": "具体而略少见的食物偏好，本身就能体现个人趣味。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "201009-03",
+      "fleet": "第1艦隊",
+      "comment": "摩耶様と鰻食べ行ってくる",
+      "flagship_ocr": "摩耶改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201009.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "摩耶様と鍛食べ行ってくる"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "生活",
+        "口语"
+      ],
+      "meaning_zh": "我和摩耶大人去吃鳗鱼啦",
+      "observation_zh": "用简短口语报告要去做的事，像随手留下的状态。",
+      "dependency_zh": "明确与摩耶关联；共同用餐为原创场景"
+    },
+    {
+      "id": "201009-04",
+      "fleet": "第1艦隊",
+      "comment": "ゴトの水着で乗り切れた",
+      "flagship_ocr": "Gotland andra",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201009.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "ゴトの水着で乗り切れた"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "角色",
+        "喜爱"
+      ],
+      "meaning_zh": "靠哥特的泳装挺过来了",
+      "observation_zh": "将对角色形象的喜爱写成熬过一段时间的动力。",
+      "dependency_zh": "涉及 Gotland 的泳装形象；时效与形态需另查"
+    },
+    {
+      "id": "201009-05",
+      "fleet": "適当艦隊",
+      "comment": "飲み友の縁は永遠",
+      "flagship_ocr": "Zara due",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201009.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "適当艦隊",
+        "comment": "飲み友の縁は永遠"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "友谊",
+        "宣言"
+      ],
+      "meaning_zh": "酒友的缘分是永远的",
+      "observation_zh": "用郑重的永远形容日常交情，轻松中带一点认真。",
+      "dependency_zh": "无明确角色依赖，不由旗舰反推饮酒设定"
+    },
+    {
+      "id": "210210-01",
+      "fleet": "鎮守府俳句会ブイン支部",
+      "comment": "春は曙漣に漂う朧月",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210210.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "鎮守府俳句会ブイン支部",
+        "comment": "春は曙漣に漂う朧月"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "春",
+        "文字游戏",
+        "角色名",
+        "抒情"
+      ],
+      "meaning_zh": "春有曙光，涟漪间一轮朦胧月",
+      "observation_zh": "春景文字中嵌入曙、漣、朧等舰名，可作景色与名字的双层阅读。",
+      "dependency_zh": "依赖日语意象与相关舰名，不描写角色性格"
+    },
+    {
+      "id": "210210-02",
+      "fleet": "第1艦隊っぽい",
+      "comment": "雨音と白露型",
+      "flagship_ocr": "夕立改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210210.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊っぽい",
+        "comment": "雨音と白露型"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "抒情",
+        "雨"
+      ],
+      "meaning_zh": "雨声与白露型",
+      "observation_zh": "只并置声音和舰级名称，留下简短的氛围感。",
+      "dependency_zh": "泛指白露型，无特定个体依赖"
+    },
+    {
+      "id": "210210-03",
+      "fleet": "5-3",
+      "comment": "雪風と行く春探しの旅",
+      "flagship_ocr": "雪風改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210210.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "5-3",
+        "comment": "雪風と行く春探しの旅"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "春",
+        "角色",
+        "旅行"
+      ],
+      "meaning_zh": "和雪风一起踏上寻春之旅",
+      "observation_zh": "把季节写成可一起寻找的目的，场景轻快。",
+      "dependency_zh": "明确与雪风关联；属于原创同行愿望"
+    },
+    {
+      "id": "210210-05",
+      "fleet": "だいいちかんたい!",
+      "comment": "今後も金剛と一緒に！",
+      "flagship_ocr": "金刚改二丙",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210210.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "だいいちかんたい!",
+        "comment": "今後も金剛と一緒に！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "陪伴",
+        "宣言"
+      ],
+      "meaning_zh": "今后也要和金刚在一起！",
+      "observation_zh": "今後も强调持续的陪伴，直率表达长期喜爱。",
+      "dependency_zh": "明确与金刚关联"
+    },
+    {
+      "id": "210210-08",
+      "fleet": "高校艦隊",
+      "comment": "扶桑姉妹かわいい",
+      "flagship_ocr": "扶桑改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210210.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "高校艦隊",
+        "comment": "扶桑姉妹かわいい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "喜爱"
+      ],
+      "meaning_zh": "扶桑姐妹真可爱",
+      "observation_zh": "以组合作为喜爱对象，短句直接表达感想。",
+      "dependency_zh": "明确与扶桑姐妹关联"
+    },
+    {
+      "id": "210511-01",
+      "fleet": "e4-4",
+      "comment": "ウォー様紫陽花見に行こ！",
+      "flagship_ocr": "Warspite改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210511.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "e4-4",
+        "comment": "ウォー様紫陽花見に行こ！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "初夏",
+        "花",
+        "愿望"
+      ],
+      "meaning_zh": "沃大人，一起去看绣球花吧！",
+      "observation_zh": "用具体花期的邀约代替抽象季节词，口吻亲近。",
+      "dependency_zh": "ウォー様指 Warspite；属于玩家邀约，不是角色原台词"
+    },
+    {
+      "id": "210511-02",
+      "fleet": "E5-2-1",
+      "comment": "ルンガルンガ、ドラム缶",
+      "flagship_ocr": "陸奥改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210511.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "E5-2-1",
+        "comment": "ルンガルンガ、ドラム缶"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "节奏",
+        "装备"
+      ],
+      "meaning_zh": "隆加隆加，运输桶",
+      "observation_zh": "重复地名音节再接装备名，靠声音和节奏成句。",
+      "dependency_zh": "依赖当时隆加相关作战与运输语境，不推断当前活动"
+    },
+    {
+      "id": "210511-04",
+      "fleet": "演習",
+      "comment": "イベも梅雨も摩耶様と共に",
+      "flagship_ocr": "摩耶改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210511.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習",
+        "comment": "イベも梅雨も摩耶様と共に"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "梅雨",
+        "陪伴"
+      ],
+      "meaning_zh": "活动和梅雨，都和摩耶大人在一起",
+      "observation_zh": "把游戏挑战与季节生活并置，主旨是持续陪伴。",
+      "dependency_zh": "明确与摩耶关联；イベ为活动简称"
+    },
+    {
+      "id": "210511-06",
+      "fleet": "気合！入れて！挑みます！",
+      "comment": "伊203可愛過ぎんか",
+      "flagship_ocr": "Honolulu",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210511.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "気合！入れて！挑みます！",
+        "comment": "伊203可愛過ぎんか"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "喜爱",
+        "口语"
+      ],
+      "meaning_zh": "伊203是不是可爱过头了",
+      "observation_zh": "疑问口吻表达强烈肯定，像随口向同好感叹。",
+      "dependency_zh": "明确与伊203关联"
+    },
+    {
+      "id": "210511-07",
+      "fleet": "47KANMUSU",
+      "comment": "のしろあいしてる",
+      "flagship_ocr": "能代改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210511.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "47KANMUSU",
+        "comment": "のしろあいしてる"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "喜爱",
+        "文字形式"
+      ],
+      "meaning_zh": "能代，我爱你",
+      "observation_zh": "全部使用平假名，表达直接，视觉上柔和。",
+      "dependency_zh": "明确与能代关联；字符形式不能证明角色自身口吻"
+    },
+    {
+      "id": "210812-02",
+      "fleet": "お料理研究会",
+      "comment": "パラオに行く夢を見た",
+      "flagship_ocr": "大鯨",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210812.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "お料理研究会",
+        "comment": "パラオに行く夢を見た"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "旅行",
+        "梦想"
+      ],
+      "meaning_zh": "做了一个去帕劳的梦",
+      "observation_zh": "只记录一次梦境，具体地名使简单句也有个人感。",
+      "dependency_zh": "与帕劳地域关联，无特定角色依赖"
+    },
+    {
+      "id": "210812-03",
+      "fleet": "4-5",
+      "comment": "パラオに平穏な一日を",
+      "flagship_ocr": "最上改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210812.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "4-5",
+        "comment": "パラオに平穏なー日を"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "地域",
+        "温柔",
+        "祝愿"
+      ],
+      "meaning_zh": "愿帕劳度过平静的一天",
+      "observation_zh": "用一日平安的小愿望代替宏大口号，语气平和。",
+      "dependency_zh": "与帕劳地域关联，无特定角色依赖"
+    },
+    {
+      "id": "210812-04",
+      "fleet": "西村艦隊",
+      "comment": "山城とケッコンしました",
+      "flagship_ocr": "山城改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210812.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "西村艦隊",
+        "comment": "山城とケッコンしました"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏",
+        "纪念"
+      ],
+      "meaning_zh": "和山城结婚了",
+      "observation_zh": "以过去式记录已达成的游戏纪念事件，像个人状态更新。",
+      "dependency_zh": "明确与山城关联；新创作不能替玩家虚构已达成经历"
+    },
+    {
+      "id": "210812-07",
+      "fleet": "なかよし艦隊",
+      "comment": "帰ればまた来られるからな",
+      "flagship_ocr": "由良改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210812.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "なかよし艦隊",
+        "comment": "帰れぱまた来られるからな"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "温柔",
+        "归航",
+        "鼓励"
+      ],
+      "meaning_zh": "只要能回去，就还能再来",
+      "observation_zh": "用能再次出发的可能性强调平安返回，句末有劝慰感。",
+      "dependency_zh": "无明确角色依赖；是否为引用需另行核查"
+    },
+    {
+      "id": "210812-08",
+      "fleet": "第1艦隊",
+      "comment": "ホノルルと行きたい！海！",
+      "flagship_ocr": "Honolulu改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210812.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "ホノルルと行きたい！海！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "角色",
+        "旅行",
+        "口语"
+      ],
+      "meaning_zh": "想和火奴鲁鲁一起去！海边！",
+      "observation_zh": "先抛出想同行的愿望，再用海这个短词补上目的地，节奏活泼。",
+      "dependency_zh": "明确与 Honolulu 关联；属于玩家愿望"
+    },
+    {
+      "id": "211113-01",
+      "fleet": "涼月の霞む朧夜初霜か",
+      "comment": "涼月の霞む朧夜初霜か",
+      "flagship_ocr": "涼月改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "涼月の霞む臓夜初霜か",
+        "comment": "涼月の霞む朧夜初霜か"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "秋",
+        "抒情",
+        "角色名",
+        "两栏配合"
+      ],
+      "meaning_zh": "凉月隐约的朦胧夜，是初霜吗",
+      "observation_zh": "涼月、霞、朧、初霜等名字嵌入同一幅夜景，两栏重复同一句。",
+      "dependency_zh": "依赖相关舰名与自然意象，不推出人物关系"
+    },
+    {
+      "id": "211113-02",
+      "fleet": "北方",
+      "comment": "全艦娘着任！長かった…",
+      "flagship_ocr": "吹雪改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "北方",
+        "comment": "全艦娘着任！長かった…"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "达成",
+        "感叹"
+      ],
+      "meaning_zh": "全舰娘都到任了！真漫长啊……",
+      "observation_zh": "前半宣告达成，后半补上过程的感慨，短句中有经历感。",
+      "dependency_zh": "记录该玩家当时的收集状态，不能代替新玩家声明已完成"
+    },
+    {
+      "id": "211113-03",
+      "fleet": "第参艦隊",
+      "comment": "秋色家具で染める提督室",
+      "flagship_ocr": "宗谷(特務艦)",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第参艦隊",
+        "comment": "秋色家具で染める提督室"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "秋",
+        "游戏",
+        "装饰"
+      ],
+      "meaning_zh": "用秋色家具装点提督室",
+      "observation_zh": "从房间布置呈现季节，染める一词给出颜色和画面。",
+      "dependency_zh": "依赖游戏家具与提督室语境，无特定角色依赖"
+    },
+    {
+      "id": "211113-04",
+      "fleet": "艦隊戦技教導隊",
+      "comment": "艦隊よ、今が駆ける時！",
+      "flagship_ocr": "加賀改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "艦隊戰技教導隊",
+        "comment": "艦隊よ、今が駆ける時！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "号召",
+        "郑重"
+      ],
+      "meaning_zh": "舰队啊，现在正是驰骋之时！",
+      "observation_zh": "呼告加上时机判断，形成出发前的郑重号召。",
+      "dependency_zh": "无明确角色依赖，不标为角色原台词"
+    },
+    {
+      "id": "211113-08",
+      "fleet": "海上機動連隊第1中隊",
+      "comment": "アジフライ美味しい",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "海上機動連隊第1中隊",
+        "comment": "アジフライ美味しい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "食物",
+        "感想"
+      ],
+      "meaning_zh": "炸竹荚鱼真好吃",
+      "observation_zh": "一句具体的味觉感想，不需要复杂的笑点或角色知识。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "220314-01",
+      "fleet": "第一艦隊",
+      "comment": "美しい波の玉波に一目惚れ",
+      "flagship_ocr": "玉波改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220314.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "美しい波の玉波に一目惚れ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "喜爱",
+        "文字游戏"
+      ],
+      "meaning_zh": "对美丽波浪般的玉波一见钟情",
+      "observation_zh": "围绕角色名里的波字展开赞美，再直说一见钟情。",
+      "dependency_zh": "明确与玉波关联；美しい波是文案表达，不是设定说明"
+    },
+    {
+      "id": "220314-02",
+      "fleet": "翔鶴はいいぞ艦隊",
+      "comment": "翔鶴姉と花見",
+      "flagship_ocr": "翔鶴改二甲",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220314.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "翔鶴はいいぞ艦隊",
+        "comment": "翔鶴姉と花見"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "春",
+        "角色",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：翔鹤真好啊舰队；签名：和翔鹤姐赏花",
+      "observation_zh": "一栏介绍喜爱对象，一栏补出具体想一起做的事。",
+      "dependency_zh": "明确与翔鹤关联；赏花为场景表达"
+    },
+    {
+      "id": "220314-05",
+      "fleet": "松竹梅桃",
+      "comment": "やっぱり僕は桃ちゃん派",
+      "flagship_ocr": "桃改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220314.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "松竹梅桃",
+        "comment": "やっぱり僕は桃ちゃん派"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "喜爱",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：松竹梅桃；签名：果然我还是桃酱派",
+      "observation_zh": "先并列一组名字，再在签名里作个人选择。",
+      "dependency_zh": "与松、竹、梅、桃等名字关联，不表明角色间的官方关系"
+    },
+    {
+      "id": "220314-06",
+      "fleet": "育成中",
+      "comment": "金剛ちゃんは今日も元気",
+      "flagship_ocr": "金刚改二丙",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220314.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "育成中",
+        "comment": "金剛ちゃんは今日も元気"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "日常",
+        "问候"
+      ],
+      "meaning_zh": "金刚酱今天也很有精神",
+      "observation_zh": "今日も让人物感想像持续的日常观察，不需要展开长故事。",
+      "dependency_zh": "明确与金刚关联；作为文案观察，不由此证明固定性格"
+    },
+    {
+      "id": "220314-08",
+      "fleet": "演習",
+      "comment": "がっつりエンジョイ勢です",
+      "flagship_ocr": "梅",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220314.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習",
+        "comment": "がっつりエンジョイ勢です"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "自我介绍",
+        "口语"
+      ],
+      "meaning_zh": "我是尽情享受游戏的那一派",
+      "observation_zh": "强烈程度副词配合エンジョイ勢，表达自己的游玩态度。",
+      "dependency_zh": "无特定角色依赖；不等同于宣称排名或攻略成绩"
+    },
+    {
+      "id": "220615-01",
+      "fleet": "第三十四聯隊",
+      "comment": "君となら雨も一番良い天気",
+      "flagship_ocr": "白露改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220615.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第三十四聯隊",
+        "comment": "君となら雨も一番良い天気"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "梅雨",
+        "温柔",
+        "陪伴"
+      ],
+      "meaning_zh": "和你一起的话，下雨也是最好的天气",
+      "observation_zh": "同一天气因同行者而改变感受，重点是陪伴。",
+      "dependency_zh": "君未指定对象，可泛用；不认定其为角色原台词"
+    },
+    {
+      "id": "220615-02",
+      "fleet": "ここで一句",
+      "comment": "浦風に吹雪と歩む初夏の浜",
+      "flagship_ocr": "吹雪改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220615.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "ここで一句",
+        "comment": "浦風に吹雪と歩む初夏の浜"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "初夏",
+        "角色名",
+        "抒情",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：在这里吟一句；签名：在海风中与吹雪漫步初夏海滨",
+      "observation_zh": "标题引出诗句，浦風可读作自然意象或舰名，吹雪又可作同行角色。",
+      "dependency_zh": "依赖浦风、吹雪等名字的双层阅读，场景是文案想象"
+    },
+    {
+      "id": "220615-03",
+      "fleet": "第2艦隊",
+      "comment": "夕張と歩くような速さで",
+      "flagship_ocr": "夕張改二特",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220615.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第2艦隊",
+        "comment": "夕張と歩くような速さで"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "温柔",
+        "生活"
+      ],
+      "meaning_zh": "以仿佛和夕张一起散步的速度",
+      "observation_zh": "用一起散步作节奏比喻，轻缓感来自具体动作。",
+      "dependency_zh": "明确与夕张关联；不声称是官方对其步速的描述"
+    },
+    {
+      "id": "220615-04",
+      "fleet": "第一艦隊",
+      "comment": "勝った、霞のおかげや",
+      "flagship_ocr": "霞改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220615.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "勝った、霞のおかげや"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏",
+        "感谢"
+      ],
+      "meaning_zh": "赢了，都是多亏霞啊",
+      "observation_zh": "把胜利归功于角色，句末や保留口语感。",
+      "dependency_zh": "明确与霞关联；说话者是表达感谢的玩家"
+    },
+    {
+      "id": "220615-07",
+      "fleet": "第1艦隊",
+      "comment": "潮ちゃんと雨宿り",
+      "flagship_ocr": "潮改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220615.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "潮ちゃんと雨宿り"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "梅雨",
+        "生活"
+      ],
+      "meaning_zh": "和潮一起避雨",
+      "observation_zh": "简短动作与同行对象已经组成完整画面。",
+      "dependency_zh": "明确与潮关联；原创场景不作为角色原剧情"
+    },
+    {
+      "id": "220916-02",
+      "fleet": "第1艦隊",
+      "comment": "波を乗り越え艦が往く",
+      "flagship_ocr": "大鳳改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220916.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "波を乗り越え艦が往く"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "海",
+        "抒情",
+        "航行"
+      ],
+      "meaning_zh": "舰船越过波涛前行",
+      "observation_zh": "用一个动作形成航行画面，语气郑重而不复杂。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "220916-03",
+      "fleet": "第1艦隊",
+      "comment": "出撃だ！はやる心に警戒陣",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220916.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "出撃だ！はやる心に警戒陣"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "自我提醒",
+        "幽默"
+      ],
+      "meaning_zh": "出击！给急切的心摆个警戒阵",
+      "observation_zh": "把警戒阵借给自己的心情，出击的冲劲和谨慎彼此照应。",
+      "dependency_zh": "依赖警戒阵这一游戏阵型，无特定角色依赖"
+    },
+    {
+      "id": "220916-04",
+      "fleet": "第501艦隊",
+      "comment": "北海道は既に寒い",
+      "flagship_ocr": "大和改二重",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220916.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第501艦隊",
+        "comment": "北海道は既に寒い"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "秋",
+        "地域",
+        "日常"
+      ],
+      "meaning_zh": "北海道已经冷起来了",
+      "observation_zh": "一条具体地域的体感记录，直接传达季节差异。",
+      "dependency_zh": "与北海道地域和当时季节关联，不应当作实时天气"
+    },
+    {
+      "id": "220916-06",
+      "fleet": "ボーキは300個まで！",
+      "comment": "ボーキはおやつですか？",
+      "flagship_ocr": "蒼龍改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220916.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "ボーキは300個まで！",
+        "comment": "ボーキはおやつですか？"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "食物",
+        "幽默",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：铝土矿最多带300个；签名：铝土矿算点心吗？",
+      "observation_zh": "数量规定与能否算作点心的问题呼应，把资源放进郊游式对话。",
+      "dependency_zh": "依赖铝土矿资源名；不标为某角色官方食物偏好"
+    },
+    {
+      "id": "220916-07",
+      "fleet": "第壱艦隊",
+      "comment": "菊月と紅葉狩り！",
+      "flagship_ocr": "菊月改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220916.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第壱艦隊",
+        "comment": "菊月と紅葉狩り！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "秋",
+        "角色",
+        "旅行"
+      ],
+      "meaning_zh": "和菊月一起赏红叶！",
+      "observation_zh": "一个季节活动加同行角色，意图和画面都清楚。",
+      "dependency_zh": "明确与菊月关联；属于玩家同行愿望"
+    },
+    {
+      "id": "230417-04",
+      "fleet": "榛名を護り隊",
+      "comment": "榛名は遥かなる高みへ",
+      "flagship_ocr": "榛名改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230417.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "榛名を護り隊",
+        "comment": "榛名は遥かなる高みへ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "期待",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：想守护榛名；签名：榛名将迈向遥远的高处",
+      "observation_zh": "一栏写自己的心情，另一栏表达对角色继续成长的期待。",
+      "dependency_zh": "明确与榛名关联；不据此确认某次具体更新"
+    },
+    {
+      "id": "230417-05",
+      "fleet": "二水戦全艦無事帰港セリ",
+      "comment": "みんな一緒で十周年祝い！",
+      "flagship_ocr": "矢矧改二乙",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230417.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "二水戦全艦無事帰港セリ",
+        "comment": "みんな一緒で十周年祝い！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "纪念",
+        "陪伴",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：二水战全舰平安归港；签名：大家一起庆祝十周年！",
+      "observation_zh": "归港报告与周年庆祝相接，把齐聚和纪念放在一起。",
+      "dependency_zh": "依赖二水战和当时十周年语境，不等同于现实舰历报告"
+    },
+    {
+      "id": "230417-07",
+      "fleet": "第1艦隊",
+      "comment": "桜餅から柏餅へ",
+      "flagship_ocr": "長門改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230417.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "桜餅から柏餅へ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "春",
+        "节日",
+        "食物"
+      ],
+      "meaning_zh": "从樱饼到柏饼",
+      "observation_zh": "用两种节令点心表现春季时间推移，不直说月份。",
+      "dependency_zh": "依赖日本节令饮食习惯，无特定角色依赖"
+    },
+    {
+      "id": "230417-08",
+      "fleet": "酢の物",
+      "comment": "明日の運気は・・・晴れ！",
+      "flagship_ocr": "South Dakota改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230417.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "酢の物",
+        "comment": "明日の運気は・・・晴れ！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "祝愿",
+        "幽默"
+      ],
+      "meaning_zh": "明天的运势嘛……晴！",
+      "observation_zh": "借天气预报的表达来预测运气，停顿后给一个明快收尾。",
+      "dependency_zh": "无特定角色依赖；这是文案，不是实际预测"
+    },
+    {
+      "id": "240818-01",
+      "fleet": "第1艦隊",
+      "comment": "乙でまったりプレイ",
+      "flagship_ocr": "熊野丸",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240818.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "乙でまったりプレイ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "态度",
+        "自我介绍"
+      ],
+      "meaning_zh": "选乙难度，悠闲地玩",
+      "observation_zh": "明确游玩选择与节奏，不以成绩自夸。",
+      "dependency_zh": "依赖活动乙难度语境，是否适合玩家须依其真实选择"
+    },
+    {
+      "id": "240818-02",
+      "fleet": "なんとか成り隊",
+      "comment": "失敗の経験を次に活かし隊",
+      "flagship_ocr": "平戸",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240818.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "なんとか成り隊",
+        "comment": "失敗の経験を次に活かし隊"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "鼓励",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：想努力成点事；签名：想把失败经验用到下一次",
+      "observation_zh": "两栏都用隊／たい的写法，前面的愿望在后面变成具体行动。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "240818-06",
+      "fleet": "第1艦隊",
+      "comment": "のんびりやっていこう",
+      "flagship_ocr": "矢矧改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240818.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "のんびりやっていこう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "态度",
+        "温柔"
+      ],
+      "meaning_zh": "慢慢地继续下去吧",
+      "observation_zh": "用邀请式的いこう表达从容的持续，不依赖具体题材。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "240818-07",
+      "fleet": "演習レベリング編成",
+      "comment": "明日に繋がる今日を作ろう",
+      "flagship_ocr": "Luigi Torelli",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240818.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習レベリング編成",
+        "comment": "明日に繋がる今日を作ろう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "鼓励",
+        "时间",
+        "目标"
+      ],
+      "meaning_zh": "创造一个能连接到明天的今天吧",
+      "observation_zh": "用今天与明天的关系写积累和前进，句尾是共同提议。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "251219-02",
+      "fleet": "第1艦隊",
+      "comment": "もう今年が終わるのか!?",
+      "flagship_ocr": "Ranger改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251219.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "もう今年が終わるのか!?"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "年末",
+        "日常",
+        "口语"
+      ],
+      "meaning_zh": "今年这就要结束了吗！？",
+      "observation_zh": "疑问与惊叹并用，表现年末突然意识到时间流逝。",
+      "dependency_zh": "依赖年末语境，无特定角色依赖"
+    },
+    {
+      "id": "251219-03",
+      "fleet": "特務航空戦隊",
+      "comment": "鳳翔さんと和風クリスマス",
+      "flagship_ocr": "鳳翔改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251219.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "特務航空戰隊",
+        "comment": "鳳翔さんと和風クリスマス"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "节日",
+        "角色"
+      ],
+      "meaning_zh": "和凤翔一起过和风圣诞节",
+      "observation_zh": "把角色、节日和和风这个形式并置，给出鲜明的场景方向。",
+      "dependency_zh": "明确与凤翔关联；不把该场景认定为官方剧情"
+    },
+    {
+      "id": "251219-04",
+      "fleet": "白露型と愉快な仲間たち",
+      "comment": "艦娘たちとの絆を信じよ！",
+      "flagship_ocr": "白露改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251219.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "白露型と愉快な仲間たち",
+        "comment": "艦娘たちとの絆を信じよ！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "陪伴",
+        "宣言"
+      ],
+      "meaning_zh": "相信与舰娘们之间的羁绊！",
+      "observation_zh": "命令式用来坚定自己的信念，舰队名补上同伴范围。",
+      "dependency_zh": "泛指舰娘，不推算羁绊对战斗数值的影响"
+    },
+    {
+      "id": "251219-08",
+      "fleet": "第1艦隊",
+      "comment": "努力家に勝る天才は無し",
+      "flagship_ocr": "大和",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251219.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "努力家に勝る天才は無し"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "鼓励",
+        "努力",
+        "格言"
+      ],
+      "meaning_zh": "没有能胜过努力者的天才",
+      "observation_zh": "像座右铭一样陈述价值判断，适合表达自己的态度。",
+      "dependency_zh": "无特定角色依赖；不认定其为原创格言或角色台词"
+    },
+    {
+      "id": "260520-01",
+      "fleet": "えんしゅう",
+      "comment": "1日は長い。1年は短い。",
+      "flagship_ocr": "野琦改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260520.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "えんしゅう",
+        "comment": "1日は長い。1年は短い。"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "时间",
+        "对照"
+      ],
+      "meaning_zh": "一天很长，一年很短。",
+      "observation_zh": "相同句式并置两种时间尺度，简短而有节奏。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260520-04",
+      "fleet": "第1艦隊",
+      "comment": "艦娘の皆さん、ありがとう",
+      "flagship_ocr": "曙改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260520.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "艦娘の皆さん、ありがとう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "感谢",
+        "温柔"
+      ],
+      "meaning_zh": "各位舰娘，谢谢你们",
+      "observation_zh": "以直接的感谢回应整个舰队，语气朴素。",
+      "dependency_zh": "泛指舰娘，无特定角色依赖"
+    },
+    {
+      "id": "260520-05",
+      "fleet": "第1艦隊",
+      "comment": "うれしいことあるといいね",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260520.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "うれしいことあるといいね"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "祝愿",
+        "温柔"
+      ],
+      "meaning_zh": "希望能有让人开心的事呢",
+      "observation_zh": "语气柔和的愿望，既可对自己也可对读者说。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260520-08",
+      "fleet": "第1艦隊",
+      "comment": "初のカッコカリは叢雲と",
+      "flagship_ocr": "叢雲改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260520.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "初のカッコカリは叢雲と"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏",
+        "纪念"
+      ],
+      "meaning_zh": "第一次婚（假），是和丛云",
+      "observation_zh": "用第一次与具体对象记录游戏里的个人里程碑。",
+      "dependency_zh": "明确与丛云关联；新玩家使用时不能虚构自己的首次婚舰"
+    },
+    {
+      "id": "230101-01",
+      "fleet": "私もブルネイで遊び隊",
+      "comment": "漣ちゃんと舞鶴行きたい！",
+      "flagship_ocr": "漣改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230101.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "私もブルネイで遊び隊",
+        "comment": "漣ちゃんと舞鶴行きたい！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "旅行"
+      ],
+      "meaning_zh": "想和涟酱一起去舞鹤！",
+      "observation_zh": "用具体目的地和同行愿望表达喜爱，字面就能理解。",
+      "dependency_zh": "与漣关联；是玩家愿望，不是官方旅行剧情"
+    },
+    {
+      "id": "230101-02",
+      "fleet": "海上護衛第三群",
+      "comment": "平和な一年を祈願",
+      "flagship_ocr": "神鷹改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230101.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "海上護衛第三群",
+        "comment": "平和な一年を祈願"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "祝愿",
+        "新年"
+      ],
+      "meaning_zh": "祈愿平和的一年",
+      "observation_zh": "简短的新年愿望，正文独立成立。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "230101-04",
+      "fleet": "第一護衛隊群",
+      "comment": "そろそろ朝潮と旅行いくわ",
+      "flagship_ocr": "朝潮改二丁",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230101.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一護衛隊群",
+        "comment": "そろそろ朝潮と旅行いくわ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "旅行",
+        "口语"
+      ],
+      "meaning_zh": "差不多该和朝潮去旅行了",
+      "observation_zh": "そろそろ和いくわ像出门前留下一句状态。",
+      "dependency_zh": "与朝潮关联；旅行为玩家设想"
+    },
+    {
+      "id": "230101-06",
+      "fleet": "三越の蒼龍、節分の飛龍",
+      "comment": "冬の艦これは二航戦まつり",
+      "flagship_ocr": "蒼龍改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230101.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "三越の蒼龍、節分の飛龍",
+        "comment": "冬の艦これは二航戦まつり"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "角色",
+        "游戏",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：三越的苍龙、节分的飞龙；签名：冬日舰C是二航战祭",
+      "observation_zh": "两栏列举当时关注的内容，汇成对冬季体验的感想。",
+      "dependency_zh": "涉及苍龙、飞龙及历史活动，当前情况需另查"
+    },
+    {
+      "id": "230101-07",
+      "fleet": "演習",
+      "comment": "2023も艦これやるぜ！",
+      "flagship_ocr": "Brooklyn改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230101.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習",
+        "comment": "2023も艦これやるぜ！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "宣言",
+        "新年"
+      ],
+      "meaning_zh": "2023年也要继续玩舰C！",
+      "observation_zh": "年份加上继续做的事，形成个人年度宣言。",
+      "dependency_zh": "年份对应历史记录，新创作应依用户目标年份"
+    },
+    {
+      "id": "230101-08",
+      "fleet": "第1艦隊",
+      "comment": "やまない雪はない",
+      "flagship_ocr": "時雨改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230101.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "やまない雪はない"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "鼓励",
+        "天气"
+      ],
+      "meaning_zh": "没有永远不停的雪",
+      "observation_zh": "用天气的变化表达希望，读者不必知道角色台词。",
+      "dependency_zh": "无特定角色依赖；不认定该句的引用来源"
+    },
+    {
+      "id": "230502-01",
+      "fleet": "平戸の眼鏡になりたい",
+      "comment": "6月は平戸と佐世保旅行",
+      "flagship_ocr": "平戸改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230502.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "平戸の眼鏡になりたい",
+        "comment": "6月は平戸と佐世保旅行"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "旅行",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：想变成平户的眼镜；签名：六月和平户去佐世保旅行",
+      "observation_zh": "前一栏夸张亲近，后一栏落到具体月份与行程。",
+      "dependency_zh": "与平户关联；旅行为文案场景，眼镜事实需查角色资料"
+    },
+    {
+      "id": "230502-02",
+      "fleet": "北方遠征艦隊F",
+      "comment": "藤波ちゃんと北方遠征！",
+      "flagship_ocr": "藤波改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230502.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "北方遠征艦隊F",
+        "comment": "藤波ちゃんと北方遠征！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏日常",
+        "同行"
+      ],
+      "meaning_zh": "和藤波酱一起去北方远征！",
+      "observation_zh": "把日常远征写成与角色同行，关联来自一起做事。",
+      "dependency_zh": "与藤波关联；不标为角色原台词"
+    },
+    {
+      "id": "230502-03",
+      "fleet": "演習",
+      "comment": "葛城愛してます",
+      "flagship_ocr": "葛城改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230502.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習",
+        "comment": "葛城愛してます"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "喜爱"
+      ],
+      "meaning_zh": "我爱葛城",
+      "observation_zh": "直接表达玩家的感情，不模仿角色说话。",
+      "dependency_zh": "与葛城关联"
+    },
+    {
+      "id": "230502-06",
+      "fleet": "勝った方が勝ち。",
+      "comment": "瑞鶴と北海道上陸作戦",
+      "flagship_ocr": "瑞鶴改二甲",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230502.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "勝った方が勝ち。",
+        "comment": "瑞鶴と北海道上陸作戦"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "旅行"
+      ],
+      "meaning_zh": "和瑞鹤一起开展北海道登陆作战",
+      "observation_zh": "把旅行说成登陆作战，保留轻微的游戏语境。",
+      "dependency_zh": "与瑞鹤关联；不是现实军事或官方剧情声明"
+    },
+    {
+      "id": "230502-07",
+      "fleet": "第1艦隊",
+      "comment": "呉の地からごきげんよう！",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230502.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "呉の地からごきげんよう！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "地域",
+        "问候"
+      ],
+      "meaning_zh": "从吴这片土地向大家问好！",
+      "observation_zh": "地点与招呼就能组成一条有个人位置感的签名。",
+      "dependency_zh": "与吴地域关联，是否为玩家真实位置需由玩家决定"
+    },
+    {
+      "id": "230502-08",
+      "fleet": "エスコン部隊",
+      "comment": "エスコンに行ってきます",
+      "flagship_ocr": "瑞鶴改二甲",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230502.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "エスコン部隊",
+        "comment": "エスコンに行ってきます"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "旅行",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：Es Con部队；签名：我要去Es Con了",
+      "observation_zh": "以一个出行去向配合临行招呼，信息简单完整。",
+      "dependency_zh": "依赖エスコン这一地点名，具体行程不替用户编造"
+    },
+    {
+      "id": "230903-01",
+      "fleet": "もふもふ嚮導隊",
+      "comment": "むらくもの髪もふもふ",
+      "flagship_ocr": "叢雲改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230903.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "もふもふ嚮導隊",
+        "comment": "むらくもの髪もふもふ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "触感"
+      ],
+      "meaning_zh": "丛云的头发软蓬蓬的",
+      "observation_zh": "以もふもふ表达触感联想，语气来自玩家的欣赏。",
+      "dependency_zh": "与丛云关联；触感描写是文案感想，不是客观设定证明"
+    },
+    {
+      "id": "230903-02",
+      "fleet": "びあ艦隊",
+      "comment": "夏もイベントも熱い！",
+      "flagship_ocr": "稻木改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230903.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "びあ艦隊",
+        "comment": "夏もイベントも熱い！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "游戏日常",
+        "双关"
+      ],
+      "meaning_zh": "夏天很热，活动也很火热！",
+      "observation_zh": "同一热字连接天气与游戏体验，两层意思直接可读。",
+      "dependency_zh": "对应历史夏季与活动感受，不推断当前活动"
+    },
+    {
+      "id": "230903-03",
+      "fleet": "カチコミ",
+      "comment": "新しい艦娘、素敵だ…",
+      "flagship_ocr": "白雲改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230903.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "カチコミ",
+        "comment": "新しい艦娘、素敵だ…"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "喜爱"
+      ],
+      "meaning_zh": "新来的舰娘，真棒啊……",
+      "observation_zh": "含蓄停顿留住刚看到新角色时的感叹。",
+      "dependency_zh": "未点名角色，不由旗舰确定句子指向"
+    },
+    {
+      "id": "230903-04",
+      "fleet": "第3艦隊",
+      "comment": "艦隊が帰投するのを待つ人",
+      "flagship_ocr": "榛名改二乙",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230903.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第3艦隊",
+        "comment": "艦隊が帰投するのを待つ人"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "等待",
+        "自我介绍"
+      ],
+      "meaning_zh": "等舰队归来的人",
+      "observation_zh": "用一个正在做的动作介绍自己，读起来安静简洁。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "230903-05",
+      "fleet": "第三艦隊",
+      "comment": "千歳の夫でございます",
+      "flagship_ocr": "千歲航改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230903.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第三艦隊",
+        "comment": "千歳の夫でございます"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "自我介绍"
+      ],
+      "meaning_zh": "在下是千岁的丈夫",
+      "observation_zh": "用郑重自我介绍表达喜爱，幽默来自礼貌口吻。",
+      "dependency_zh": "与千岁关联；属于玩家自我定位，不证明官方关系"
+    },
+    {
+      "id": "230903-06",
+      "fleet": "対潜演習部隊",
+      "comment": "佐世保に最大級の感謝を。",
+      "flagship_ocr": "金刚改二丙",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230903.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "対潛演習部隊",
+        "comment": "佐世保に最大級の感謝を。"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "地域",
+        "感谢"
+      ],
+      "meaning_zh": "向佐世保献上最大的感谢。",
+      "observation_zh": "用正式的感谢句表达对地方的情感。",
+      "dependency_zh": "与佐世保关联，具体感谢缘由不由本句确定"
+    },
+    {
+      "id": "231204-01",
+      "fleet": "クソ提督に部屋掃除させ隊",
+      "comment": "曙、俺の部屋を掃除して！",
+      "flagship_ocr": "曙改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231204.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "クソ提督に部屋掃除させ隊",
+        "comment": "曙、俺の部屋を掃除して！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "两栏配合",
+        "幽默"
+      ],
+      "meaning_zh": "舰队名：想让混账提督打扫房间；签名：曙，帮我收拾房间吧！",
+      "observation_zh": "两栏对打扫责任的要求相反，像一来一回的小互动。",
+      "dependency_zh": "与曙关联；角色口吻和称呼需核查，不视为原剧情"
+    },
+    {
+      "id": "231204-02",
+      "fleet": "第一",
+      "comment": "煙幕で快適に会敵！？",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231204.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一",
+        "comment": "煙幕で快適に会敵！？"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "幽默",
+        "疑问"
+      ],
+      "meaning_zh": "用烟幕舒舒服服地遇敌！？",
+      "observation_zh": "快适与遇敌并置，再用疑问惊叹留下反差。",
+      "dependency_zh": "依赖烟幕与战斗语境，不据此确认具体机制"
+    },
+    {
+      "id": "231204-03",
+      "fleet": "演習",
+      "comment": "シュトーレン美味しい",
+      "flagship_ocr": "鹿島改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231204.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習",
+        "comment": "シュトーレン美味しい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "食物",
+        "玩家感想"
+      ],
+      "meaning_zh": "史多伦真好吃",
+      "observation_zh": "具体节令点心加一句味觉感想即可成立。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "231204-04",
+      "fleet": "寒さ耐性ゼロ艦隊",
+      "comment": "山風ちゃんおこた出したよ",
+      "flagship_ocr": "山風改二丁",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231204.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "寒さ耐性ゼ口艦隊",
+        "comment": "山風ちゃんおこた出したよ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "冬",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：耐寒力为零舰队；签名：山风酱，我把被炉拿出来了",
+      "observation_zh": "怕冷的自我介绍与准备被炉的小动作呼应，有生活感。",
+      "dependency_zh": "与山风关联；准备被炉是原创生活场景"
+    },
+    {
+      "id": "231204-06",
+      "fleet": "教導演習艦隊",
+      "comment": "艦娘とのんびりクリスマス",
+      "flagship_ocr": "長門改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231204.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "教導演習艦隊",
+        "comment": "艦娘とのんびりクリスマス"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "冬",
+        "节日"
+      ],
+      "meaning_zh": "和舰娘们悠闲地过圣诞节",
+      "observation_zh": "节日、同伴和节奏构成场景，不要求特定口头禅。",
+      "dependency_zh": "泛指舰娘；为玩家希望的过节场景"
+    },
+    {
+      "id": "231204-08",
+      "fleet": "第1艦隊",
+      "comment": "大聖母浦風",
+      "flagship_ocr": "浦風丁改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231204.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "大聖母浦風"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家评价",
+        "夸张"
+      ],
+      "meaning_zh": "大圣母浦风",
+      "observation_zh": "用夸张称号表达赞美，不能把称号当作完整人物设定。",
+      "dependency_zh": "与浦风关联；是玩家评价，性格事实需另查"
+    },
+    {
+      "id": "240105-01",
+      "fleet": "あなたはどこにいますか",
+      "comment": "叢雲に会いたくて２０２４",
+      "flagship_ocr": "叢雲改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240105.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "あなたはどこにいますか",
+        "comment": "叢雲に会いたくて２０２４"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "新年"
+      ],
+      "meaning_zh": "2024年，想见丛云",
+      "observation_zh": "把想见某人的愿望和年份并列，情绪直接。",
+      "dependency_zh": "与丛云关联；保留原文全角年份，使用时按目标年份调整"
+    },
+    {
+      "id": "240105-02",
+      "fleet": "第1艦隊",
+      "comment": "カモシカにあえる街大湊",
+      "flagship_ocr": "扶桑改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240105.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "カモシカにあえる街大湊"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "地域",
+        "日常"
+      ],
+      "meaning_zh": "能遇到日本鬣羚的城市，大凑",
+      "observation_zh": "一个具体地域细节比泛泛赞美更有辨识度。",
+      "dependency_zh": "是原玩家对大凑的描述，当前旅游事实需另查"
+    },
+    {
+      "id": "240105-04",
+      "fleet": "第三艦隊",
+      "comment": "ゴマ油で餅を焼く",
+      "flagship_ocr": "加賀改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240105.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第三艦隊",
+        "comment": "ゴマ油でもを焼く"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "食物",
+        "生活"
+      ],
+      "meaning_zh": "用芝麻油煎年糕",
+      "observation_zh": "只写一种做法，像做饭时顺手记下的小事。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "240105-05",
+      "fleet": "第1機動部隊",
+      "comment": "瑞鶴と 着物で揃え 初詣",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240105.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1機動部隊",
+        "comment": "瑞鶴と 着物で揃え 初詣"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "新年",
+        "抒情"
+      ],
+      "meaning_zh": "和瑞鹤穿着相配的和服去初诣",
+      "observation_zh": "同行、服饰和节日活动组成具体画面，空格分出节奏。",
+      "dependency_zh": "与瑞鹤关联；节日同行为原创愿望"
+    },
+    {
+      "id": "240105-06",
+      "fleet": "演習",
+      "comment": "ホットワイン飲もっ",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240105.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習",
+        "comment": "ホットワイン飲もっ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "饮料",
+        "邀请"
+      ],
+      "meaning_zh": "喝点热红酒吧",
+      "observation_zh": "缩略的邀请句尾让口吻轻松，正文不需角色背景。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "240105-08",
+      "fleet": "第1護衛隊",
+      "comment": "和食が一番異論は認める",
+      "flagship_ocr": "摩耶改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240105.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1護衛隊",
+        "comment": "和食が一 番異論は認める"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "食物",
+        "幽默"
+      ],
+      "meaning_zh": "和食最好，但允许不同意见",
+      "observation_zh": "先表态，再接一句宽容的补充，节奏轻巧。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "240406-01",
+      "fleet": "第1艦隊4-4",
+      "comment": "資源集めなら漣にお任せ！",
+      "flagship_ocr": "漣改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240406.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊4-4",
+        "comment": "資源集めなら漣にお任せ！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏日常",
+        "信任"
+      ],
+      "meaning_zh": "收集资源就交给涟吧！",
+      "observation_zh": "把一起做的游戏任务作为关联，语气是信任和推荐。",
+      "dependency_zh": "与漣关联；是否沿用角色台词需另查"
+    },
+    {
+      "id": "240406-04",
+      "fleet": "第1艦隊",
+      "comment": "ネヴァダ愛してる",
+      "flagship_ocr": "Nevada改 Mod.2",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240406.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "ネヴァダ愛してる"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "喜爱"
+      ],
+      "meaning_zh": "我爱内华达",
+      "observation_zh": "纯粹的喜爱表达，角色名字已经足够建立关联。",
+      "dependency_zh": "与 Nevada 关联"
+    },
+    {
+      "id": "240406-05",
+      "fleet": "第一艦隊",
+      "comment": "健康でいられる幸せを",
+      "flagship_ocr": "Bismarck drei",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240406.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "健康でいられる幸せを"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "温柔",
+        "健康"
+      ],
+      "meaning_zh": "愿能拥有健康生活的幸福",
+      "observation_zh": "把愿望放在健康这种平常而重要的事情上。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "240406-06",
+      "fleet": "第一艦隊",
+      "comment": "瑞鶴、11年を乾杯しよう",
+      "flagship_ocr": "瑞鶴改二甲",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240406.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "瑞鶴、11年を乾杯しよう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "纪念"
+      ],
+      "meaning_zh": "瑞鹤，为这十一年干杯吧",
+      "observation_zh": "直接邀请角色一起纪念一段时间，场景无需角色原句支撑。",
+      "dependency_zh": "与瑞鹤关联；年数属于该历史玩家的文案语境"
+    },
+    {
+      "id": "240406-07",
+      "fleet": "第1艦隊 黎明",
+      "comment": "今日もコツコツLv上げ",
+      "flagship_ocr": "朧改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240406.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊 黎明",
+        "comment": "今日もコツコツLν上げ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "积累",
+        "目标"
+      ],
+      "meaning_zh": "今天也一点点练级",
+      "observation_zh": "コツコツ表达持续的小投入，适合记录自己的节奏。",
+      "dependency_zh": "无特定角色依赖；Lv为等级缩写"
+    },
+    {
+      "id": "240406-08",
+      "fleet": "第3艦隊",
+      "comment": "今日も加賀の茶は美味い",
+      "flagship_ocr": "加賀改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240406.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第3艦隊",
+        "comment": "今日も加賀の茶は美味い"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "日常",
+        "饮料"
+      ],
+      "meaning_zh": "加贺今天泡的茶也很好喝",
+      "observation_zh": "以一杯茶构成共同日常；重点是玩家的感受。",
+      "dependency_zh": "与加贺关联；泡茶场景不作为官方设定证明"
+    },
+    {
+      "id": "240707-01",
+      "fleet": "E3攻略艦隊",
+      "comment": "ヴァリアント、美しい・・",
+      "flagship_ocr": "Valiant",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240707.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "E3攻略艦隊",
+        "comment": "ヴァリアント、美しい・・"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "赞美"
+      ],
+      "meaning_zh": "勇士，真美啊……",
+      "observation_zh": "停顿让赞美带一点出神感，正文是玩家的声音。",
+      "dependency_zh": "与 Valiant 关联，不模仿角色自称"
+    },
+    {
+      "id": "240707-02",
+      "fleet": "リシュリューの奮闘",
+      "comment": "リシュリューと夏祭り。",
+      "flagship_ocr": "Richelieu Deux",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240707.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "リシュリューの奮関",
+        "comment": "リシュリューと夏祭り。"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "夏",
+        "祭典"
+      ],
+      "meaning_zh": "和黎塞留一起逛夏祭。",
+      "observation_zh": "用一个夏日活动表达同行愿望，内容独立可读。",
+      "dependency_zh": "与 Richelieu 关联；祭典同行为文案场景"
+    },
+    {
+      "id": "240707-04",
+      "fleet": "1",
+      "comment": "何処から聞こえる蝉の声",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240707.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "1",
+        "comment": "何処から聞こえる蝉の声"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "日常",
+        "声音"
+      ],
+      "meaning_zh": "不知从哪里传来的蝉声",
+      "observation_zh": "把季节藏在听觉细节里，不需要角色或游戏名词。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "240707-05",
+      "fleet": "バゲットとカフェオレと",
+      "comment": "リシュ改二おめでとう",
+      "flagship_ocr": "Richelieu改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240707.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "バゲットとカフェオレと",
+        "comment": "リシュ改二おめでとう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "祝贺",
+        "游戏",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：法棍与欧蕾咖啡；签名：恭喜黎塞留改二",
+      "observation_zh": "食物组成氛围，签名直接说出祝贺对象与事件。",
+      "dependency_zh": "涉及 Richelieu 改二；年份与实装情况依历史语境"
+    },
+    {
+      "id": "240707-06",
+      "fleet": "大朱屋艦隊朱色隊",
+      "comment": "我慢すな、エアコン使え！",
+      "flagship_ocr": "時雨改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240707.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "大朱屋艦隊朱色隊",
+        "comment": "我慢すな、エアコン使え！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "日常",
+        "提醒"
+      ],
+      "meaning_zh": "别硬撑，开空调！",
+      "observation_zh": "短促命令句可以是关心读者的生活提醒。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "240707-07",
+      "fleet": "演習隊",
+      "comment": "今期の目標はケッコン",
+      "flagship_ocr": "足柄改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240707.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習隊",
+        "comment": "今期の目標はケッコン"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "目标",
+        "纪念"
+      ],
+      "meaning_zh": "这期的目标是婚舰",
+      "observation_zh": "把本阶段目标直接写成签名，简洁而有个人进度感。",
+      "dependency_zh": "ケッコン为游戏语境，不能替用户默认真实目标"
+    },
+    {
+      "id": "241008-01",
+      "fleet": "慢心、ダメ。ゼッタイ。",
+      "comment": "対馬と南瓜パイと紅茶と",
+      "flagship_ocr": "対馬改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241008.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "慢心、ダメ。ゼッタイ。",
+        "comment": "対馬と南瓜パイと紅茶と"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "秋",
+        "食物"
+      ],
+      "meaning_zh": "对马、南瓜派，还有红茶",
+      "observation_zh": "把同行者与桌上的东西并列，留出一个轻松场景。",
+      "dependency_zh": "与对马关联；不是在宣称其官方食物偏好"
+    },
+    {
+      "id": "241008-02",
+      "fleet": "ゆらん家",
+      "comment": "由良さん、熱燗一本頂戴！",
+      "flagship_ocr": "由良改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241008.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "ゆらん家",
+        "comment": "由良さん、熱爛一本頂戴！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "饮料",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：由良家；签名：由良小姐，来一壶热酒！",
+      "observation_zh": "地点式舰队名加点单口吻，像一段生活中的招呼。",
+      "dependency_zh": "与由良关联；提供酒水的场景属文案想象"
+    },
+    {
+      "id": "241008-03",
+      "fleet": "第一艦隊",
+      "comment": "翔鶴と見つめたあの夕日",
+      "flagship_ocr": "翔鶴改二甲",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241008.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "翔鶴と見つめたあの夕日"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "抒情"
+      ],
+      "meaning_zh": "那天和翔鹤一起凝望的夕阳",
+      "observation_zh": "用追忆式片段营造画面，感情来自共同经历的写法。",
+      "dependency_zh": "与翔鹤关联；不能替玩家断言真实发生过此事"
+    },
+    {
+      "id": "241008-04",
+      "fleet": "予備2",
+      "comment": "秋は秋霜!!そしてお芋！",
+      "flagship_ocr": "秋霜改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241008.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "予備2",
+        "comment": "秋は秋霜!!そしてお芋！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "秋",
+        "食物",
+        "节奏"
+      ],
+      "meaning_zh": "秋天就要秋霜！还有红薯！",
+      "observation_zh": "先借名字联系季节，再补一句食物，把情绪写得轻快。",
+      "dependency_zh": "与秋霜关联；红薯不是由本句证实的角色喜好"
+    },
+    {
+      "id": "241008-07",
+      "fleet": "愛し始めて11年",
+      "comment": "球磨ちゃんを愛して11年",
+      "flagship_ocr": "球磨改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241008.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "愛し始めて11年",
+        "comment": "球磨ちゃんを愛して11年"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "纪念",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：开始喜爱已经十一年；签名：喜爱球磨已经十一年",
+      "observation_zh": "两栏重复时间与感情，像一条长期陪伴的纪念。",
+      "dependency_zh": "与球磨关联；年数不能套用为新用户经历"
+    },
+    {
+      "id": "241008-08",
+      "fleet": "ハロウィンマジありがとう",
+      "comment": "朧ちゃんと読書会したい",
+      "flagship_ocr": "腊改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241008.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "ハロウィンマジありがとう",
+        "comment": "朧ちゃんと読書会したい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "愿望"
+      ],
+      "meaning_zh": "想和胧酱办个读书会",
+      "observation_zh": "从一起做什么构思，活动普通而具体。",
+      "dependency_zh": "与胧关联；无需声称原作中已有同一读书会剧情"
+    },
+    {
+      "id": "250109-01",
+      "fleet": "第1艦隊",
+      "comment": "最近少しだけ頑張ってる",
+      "flagship_ocr": "夕暮改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250109.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "最近少しだけ頑張ってる"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "玩家感想",
+        "努力"
+      ],
+      "meaning_zh": "最近稍微有努力一点",
+      "observation_zh": "少しだけ保留克制的自我评价，像随手更新近况。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "250109-02",
+      "fleet": "第1艦隊",
+      "comment": "「み」のある1年になあれ",
+      "flagship_ocr": "熊野改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250109.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "「み」のある1年になあれ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "新年",
+        "祝愿",
+        "文字游戏"
+      ],
+      "meaning_zh": "愿这一年有满满的「实」",
+      "observation_zh": "み可联想到充实的実，年份语境也容许巳的谐音阅读。",
+      "dependency_zh": "是文本解读，不断言作者意图；不套用为任何年份的干支"
+    },
+    {
+      "id": "250109-03",
+      "fleet": "第一艦隊",
+      "comment": "いくら寝ても寝足りない",
+      "flagship_ocr": "General Belgrano",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250109.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "いくら寝ても寝足りない"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "睡眠",
+        "玩家感想"
+      ],
+      "meaning_zh": "怎么睡都睡不够",
+      "observation_zh": "一句普通的身体感受，也能成为完整签名。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "250109-04",
+      "fleet": "上着で何とかする超節電",
+      "comment": "おせちは数の子一強",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250109.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "上着で何とかする超節電",
+        "comment": "おせちは数の子一強"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "新年",
+        "食物",
+        "玩家感想"
+      ],
+      "meaning_zh": "年菜里数鲱鱼籽最强",
+      "observation_zh": "以一强的比较口吻表达自己的食物偏好。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "250109-05",
+      "fleet": "第1艦隊",
+      "comment": "野菜食べよう健診怖いし",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250109.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "野菜食べよう健診怖いし"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "健康",
+        "自嘲"
+      ],
+      "meaning_zh": "多吃蔬菜吧，体检挺吓人的",
+      "observation_zh": "先提建议，再坦白现实动机，趣味来自后半句。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "250109-07",
+      "fleet": "島風艦隊",
+      "comment": "島風ちゃん激LOVE♡",
+      "flagship_ocr": "島風改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250109.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "島風艦隊",
+        "comment": "島風ちゃん激LOVE♡"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "喜爱"
+      ],
+      "meaning_zh": "岛风酱，超级LOVE♡",
+      "observation_zh": "日英混合加爱心，让感情表达直白活泼。",
+      "dependency_zh": "与岛风关联；字符形式按实际客户端确认"
+    },
+    {
+      "id": "250410-02",
+      "fleet": "しあわせ空間",
+      "comment": "電ちゃんありがとね",
+      "flagship_ocr": "電改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250410.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "しあわせ空間",
+        "comment": "電ちゃんありがとね"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "感谢",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：幸福空间；签名：电酱，谢谢你呀",
+      "observation_zh": "柔和的感谢已经能建立情感联系，不需要引用角色说法。",
+      "dependency_zh": "与电关联；说话者是玩家"
+    },
+    {
+      "id": "250410-04",
+      "fleet": "レベル上げTai!",
+      "comment": "平戸ちゃんとのんびり",
+      "flagship_ocr": "平戸改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250410.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "レベル上げTai!",
+        "comment": "平戸ちゃんとのんびり"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "悠闲"
+      ],
+      "meaning_zh": "和平户酱一起慢慢来",
+      "observation_zh": "角色与节奏并列，短句留下从容的相处感。",
+      "dependency_zh": "与平户关联；不声称其固定性格"
+    },
+    {
+      "id": "250410-05",
+      "fleet": "第2艦隊",
+      "comment": "陽炎型の箱推しです！",
+      "flagship_ocr": "陽炎改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250410.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第2艦隊",
+        "comment": "陽炎型の箱推しです！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "自我介绍"
+      ],
+      "meaning_zh": "我是阳炎型全员推！",
+      "observation_zh": "箱推し准确说明支持整个群体的喜好。",
+      "dependency_zh": "与阳炎型整体关联，无需指定个体旗舰"
+    },
+    {
+      "id": "250410-06",
+      "fleet": "遊撃部隊",
+      "comment": "艦娘達と行く海域攻略旅行",
+      "flagship_ocr": "白雪",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250410.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "遊擊部隊",
+        "comment": "艦娘達と行く海域攻略旅行"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "游戏日常",
+        "旅行"
+      ],
+      "meaning_zh": "和舰娘们踏上海域攻略之旅",
+      "observation_zh": "把攻略过程说成同行旅行，重在共同经历。",
+      "dependency_zh": "泛指舰娘；不替玩家声明已攻略的海域"
+    },
+    {
+      "id": "250410-07",
+      "fleet": "舞台最高だった！",
+      "comment": "親方！空から瑞雲が！",
+      "flagship_ocr": "杉",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250410.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "舞台最高だった！",
+        "comment": "親方！空から瑞雲が！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "改词",
+        "幽默"
+      ],
+      "meaning_zh": "师傅！天上有瑞云！",
+      "observation_zh": "熟悉的惊呼句式接上装备名，属于典故式改写的方向。",
+      "dependency_zh": "依赖瑞云与引用式句型；原梗出处未在此核实"
+    },
+    {
+      "id": "250410-08",
+      "fleet": "第1艦隊",
+      "comment": "重婚デビューしました",
+      "flagship_ocr": "Tuscaloosa改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250410.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "重婚デビューしました"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "纪念",
+        "自我介绍"
+      ],
+      "meaning_zh": "我开始重婚啦",
+      "observation_zh": "把新发生的游戏阶段变化写成个人近况。",
+      "dependency_zh": "仅记录历史玩家状态，新用户需与实际经历一致"
+    },
+    {
+      "id": "250711-01",
+      "fleet": "第1艦隊",
+      "comment": "神通と今年も花火",
+      "flagship_ocr": "神通改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250711.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "神通と今年も花火"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "夏",
+        "陪伴"
+      ],
+      "meaning_zh": "今年也和神通一起看烟花",
+      "observation_zh": "今年も带来持续相伴的感觉，活动本身普通可读。",
+      "dependency_zh": "与神通关联；不证明官方有对应烟花剧情"
+    },
+    {
+      "id": "250711-02",
+      "fleet": "第1艦隊",
+      "comment": "かき揚げには蕎麦が合う",
+      "flagship_ocr": "若葉改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250711.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "かき揚げには蕎麦が合う"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "食物",
+        "玩家感想"
+      ],
+      "meaning_zh": "杂菜天妇罗和荞麦面很配",
+      "observation_zh": "从具体吃法表达自己的偏好，读者无需游戏背景。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "250711-03",
+      "fleet": "第壱艦隊",
+      "comment": "暑い日は冷やしラーメン",
+      "flagship_ocr": "沖波改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250711.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第壱艦隊",
+        "comment": "暑い日は冷やしラーメン"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "食物",
+        "日常"
+      ],
+      "meaning_zh": "热天就吃冷拉面",
+      "observation_zh": "天气与一顿饭的选择构成生活状态。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "250711-04",
+      "fleet": "ポニーテールもかわいい",
+      "comment": "待ち望んだ瑞鶴の水着姿",
+      "flagship_ocr": "瑞鶴改二甲",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250711.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "ポニーテールもかわいい",
+        "comment": "待ち望んだ瑞鶴の水着姿"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "夏",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：马尾辫也很可爱；签名：盼了很久的瑞鹤泳装",
+      "observation_zh": "两栏共同表达欣赏的细节与期待，声音属于玩家。",
+      "dependency_zh": "涉及瑞鹤的特定形象，是否存在或当前可见需核查"
+    },
+    {
+      "id": "250711-05",
+      "fleet": "第一艦隊",
+      "comment": "猛暑も榛名と乗り切る！",
+      "flagship_ocr": "榛名改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250711.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "猛暑も榛名と乗り切る！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "夏",
+        "鼓励"
+      ],
+      "meaning_zh": "酷暑也要和榛名一起挺过去！",
+      "observation_zh": "把角色作为陪伴的对象，愿望来自现实季节感受。",
+      "dependency_zh": "与榛名关联，不调用其固定口头禅"
+    },
+    {
+      "id": "250711-08",
+      "fleet": "1",
+      "comment": "目標だった翔鶴改二達成！",
+      "flagship_ocr": "翔鶴改二甲",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250711.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "1",
+        "comment": "目標だった翔鶴改二達成！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏日常",
+        "达成"
+      ],
+      "meaning_zh": "达成了翔鹤改二这个目标！",
+      "observation_zh": "具体进度与感叹号记录玩家的满足。",
+      "dependency_zh": "与翔鹤改二关联，新文案需符合玩家实际进度"
+    },
+    {
+      "id": "251012-01",
+      "fleet": "1.5",
+      "comment": "イベントはBGMも楽しみ",
+      "flagship_ocr": "Maestrale改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251012.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "1.5",
+        "comment": "イベントはBGMも楽しみ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "音乐",
+        "期待"
+      ],
+      "meaning_zh": "活动的BGM也很值得期待",
+      "observation_zh": "把关注点从攻略扩展到音乐，体现个人游玩趣味。",
+      "dependency_zh": "无特定角色依赖，活动与乐曲的当前信息需另查"
+    },
+    {
+      "id": "251012-02",
+      "fleet": "今日も一日頑張るでち！",
+      "comment": "萩風ととけて輝く秋空に",
+      "flagship_ocr": "萩風改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251012.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "今日も一日頑張るでち！",
+        "comment": "萩風ととけて輝く秋空に"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "秋",
+        "抒情"
+      ],
+      "meaning_zh": "和萩风融进闪耀的秋空里",
+      "observation_zh": "用光、天空与同行者写氛围，句子是抒情想象。",
+      "dependency_zh": "与萩风关联；不标为其原台词"
+    },
+    {
+      "id": "251012-03",
+      "fleet": "おつかれさまです",
+      "comment": "大井さんと月見",
+      "flagship_ocr": "大井改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251012.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "おつかれさまです",
+        "comment": "大井さんと月見"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "秋"
+      ],
+      "meaning_zh": "和大井小姐赏月",
+      "observation_zh": "同行对象加上季节活动就能表达相处的向往。",
+      "dependency_zh": "与大井关联，场景不要求官方有同一事件"
+    },
+    {
+      "id": "251012-04",
+      "fleet": "北方一本釣り漁団",
+      "comment": "ゲームは楽しく健やかに。",
+      "flagship_ocr": "大井改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251012.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "北方一本釣り漁团",
+        "comment": "ゲームは楽しく健やかに。"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "态度",
+        "健康"
+      ],
+      "meaning_zh": "游戏要玩得开心、健康。",
+      "observation_zh": "把游玩原则直接写成短提醒，语气平稳。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "251012-06",
+      "fleet": "陸奥LOVE艦隊",
+      "comment": "推しの数だけ強くなれる",
+      "flagship_ocr": "長門改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251012.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "陸奥LOVE艦隊",
+        "comment": "推しの数だけ強くなれる"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "鼓励"
+      ],
+      "meaning_zh": "喜欢的角色有多少，就能变得多强",
+      "observation_zh": "把喜爱说成个人的动力，不必对应真实战斗加成。",
+      "dependency_zh": "泛指支持对象，不据此推算游戏数值"
+    },
+    {
+      "id": "251012-08",
+      "fleet": "主力機動艦隊",
+      "comment": "陸奥さんが美人すぎる",
+      "flagship_ocr": "陸奥改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251012.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "主力機動艦隊",
+        "comment": "陸奥さんが美人すぎる"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "赞美"
+      ],
+      "meaning_zh": "陆奥小姐也太美了",
+      "observation_zh": "程度夸张表达欣赏，是玩家的自然感叹。",
+      "dependency_zh": "与陆奥关联"
+    },
+    {
+      "id": "260113-01",
+      "fleet": "ILOVE時雨",
+      "comment": "今年も良い艦これライフを",
+      "flagship_ocr": "Johnston改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "ILOVE時雨",
+        "comment": "今年も良い艦これライフを"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "祝愿",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：I LOVE 时雨；签名：今年也祝你有美好的舰C生活",
+      "observation_zh": "喜爱对象放在舰队名里，comment可以独立承担普通祝愿。",
+      "dependency_zh": "舰队名关联时雨；正文不需复用其语言习惯"
+    },
+    {
+      "id": "260113-02",
+      "fleet": "冬のあったか艦隊",
+      "comment": "冬でも艦隊はあったかいね",
+      "flagship_ocr": "深雪改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "冬のあったか艦隊",
+        "comment": "冬でも艦隊はあったかいね"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "温柔",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：冬日暖暖舰队；签名：就算冬天，舰队也很温暖呢",
+      "observation_zh": "物理温度与同伴带来的感受可以双层理解，两栏呼应。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260113-03",
+      "fleet": "第1艦隊",
+      "comment": "頑張らない程度でいこう",
+      "flagship_ocr": "野埼改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "頑張らない程度でいこう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "态度",
+        "悠闲"
+      ],
+      "meaning_zh": "就以不用太拼的程度继续吧",
+      "observation_zh": "用轻微反差表达量力而行，语气像对自己也像对同伴。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260113-04",
+      "fleet": "第1艦隊",
+      "comment": "風邪ひかないようにね",
+      "flagship_ocr": "框改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "風邪ひかないようにね"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "冬",
+        "日常",
+        "关心"
+      ],
+      "meaning_zh": "别着凉感冒哦",
+      "observation_zh": "普通生活关心也能作为签名，不需要游戏用语。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260113-06",
+      "fleet": "ぽい",
+      "comment": "正月も艦娘と一緒",
+      "flagship_ocr": "夕立改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "ぽい",
+        "comment": "正月も艦娘と一緒"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "新年"
+      ],
+      "meaning_zh": "新年也和舰娘在一起",
+      "observation_zh": "用时间加陪伴表达过节方式，角色可以不点名。",
+      "dependency_zh": "泛指舰娘，属于玩家场景表达"
+    },
+    {
+      "id": "260113-08",
+      "fleet": "いちぽん",
+      "comment": "強い女の子が好き",
+      "flagship_ocr": "Fletcher",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260113.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "いちぽん",
+        "comment": "強い女の子が好き"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "玩家感想",
+        "喜爱",
+        "自我介绍"
+      ],
+      "meaning_zh": "我喜欢强大的女孩子",
+      "observation_zh": "直接说欣赏的类型，不预设具体人物反应。",
+      "dependency_zh": "未点名角色，不由旗舰反推作者只指她"
+    },
+    {
+      "id": "260214-01",
+      "fleet": "第1艦隊",
+      "comment": "野埼ちゃんとケッコン！",
+      "flagship_ocr": "野埼改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260214.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "野埼ちゃんとケッコン！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏日常",
+        "纪念"
+      ],
+      "meaning_zh": "和野埼酱结婚！",
+      "observation_zh": "角色名与游戏纪念事件直接相连。",
+      "dependency_zh": "与野埼关联；实际进度由玩家确认"
+    },
+    {
+      "id": "260214-02",
+      "fleet": "第1艦隊",
+      "comment": "節分とバレンタインと夕張",
+      "flagship_ocr": "夕張改二特",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260214.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "節分とバレンタインと夕張"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "节日"
+      ],
+      "meaning_zh": "节分、情人节，还有夕张",
+      "observation_zh": "并列节日与陪伴的人，把情绪放在生活背景里。",
+      "dependency_zh": "与夕张关联，不需找到相同顺序的官方台词"
+    },
+    {
+      "id": "260214-04",
+      "fleet": "第1艦隊",
+      "comment": "春の鎮守府梅・桃祭り",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260214.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "春の鎮守府梅・桃祭り"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "春",
+        "游戏",
+        "节日"
+      ],
+      "meaning_zh": "春日镇守府，梅与桃之祭",
+      "observation_zh": "用两个季节意象写成标题，也可联想到同名舰娘。",
+      "dependency_zh": "名字和花卉可双层阅读，具体活动不由本句确认"
+    },
+    {
+      "id": "260214-05",
+      "fleet": "見なよ…俺の蒼飛を…",
+      "comment": "今日も二航戦が尊い",
+      "flagship_ocr": "蒼龍改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260214.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "見なよ…俺の蒼飛を…",
+        "comment": "今日も二航戦が尊い"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：看啊，我的苍龙飞龙……；签名：今天的二航战也很珍贵",
+      "observation_zh": "一栏展示喜爱对象，一栏表达情绪，重点是玩家欣赏。",
+      "dependency_zh": "涉及苍龙、飞龙和二航战；不认定角色间的CP为官方关系"
+    },
+    {
+      "id": "260214-07",
+      "fleet": "大井っちバレンタインっち",
+      "comment": "大井っちヴァレンタイン",
+      "flagship_ocr": "大井改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260214.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "大井っちバレンタインっち",
+        "comment": "大井っちヴァレンタイン"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "节日",
+        "文字形式"
+      ],
+      "meaning_zh": "大井酱的情人节",
+      "observation_zh": "名字与节日直接拼接，两栏通过重复形成强调。",
+      "dependency_zh": "与大井关联，未指定具体剧情或对白"
+    },
+    {
+      "id": "260214-08",
+      "fleet": "2-3",
+      "comment": "比叡出てきてくれて感謝！",
+      "flagship_ocr": "明石",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260214.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "2-3",
+        "comment": "比叡出てきてくれて感謝！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏日常",
+        "感谢"
+      ],
+      "meaning_zh": "比叡，谢谢你出现！",
+      "observation_zh": "把获得角色的喜悦写成面对她的感谢。",
+      "dependency_zh": "与比叡关联；获得经历应符合玩家事实"
+    },
+    {
+      "id": "260315-01",
+      "fleet": "連合第1艦隊",
+      "comment": "ようやく震電改二が星10",
+      "flagship_ocr": "野埼改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260315.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "連合第1艦隊",
+        "comment": "ようやく震電改二が星10"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "装备",
+        "达成"
+      ],
+      "meaning_zh": "终于把震电改二升到十星了",
+      "observation_zh": "ようやく让一条装备进度带上投入后的感慨。",
+      "dependency_zh": "原玩家的装备进度，当前装备机制需另查"
+    },
+    {
+      "id": "260315-03",
+      "fleet": "第1艦隊",
+      "comment": "朝潮をナデナデする会",
+      "flagship_ocr": "朝潮改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260315.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "朝潮をナデナデする会"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "幽默"
+      ],
+      "meaning_zh": "摸摸朝潮的协会",
+      "observation_zh": "把一个小愿望写成团体名称，轻松且画面具体。",
+      "dependency_zh": "与朝潮关联；是玩家想做的事，不是角色喜好证明"
+    },
+    {
+      "id": "260315-04",
+      "fleet": "今月の激推しっ！",
+      "comment": "WDラングレー最カワ！",
+      "flagship_ocr": "Langley改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260315.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "今月の激推しっ！",
+        "comment": "WDラングレー最カワ！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "节日",
+        "两栏配合"
+      ],
+      "meaning_zh": "舰队名：这个月超推！；签名：白色情人节的兰利最可爱！",
+      "observation_zh": "以当月的主题选择和一句直接赞美配合，像玩家推荐。",
+      "dependency_zh": "WD指白色情人节语境；具体形象需查资料"
+    },
+    {
+      "id": "260315-06",
+      "fleet": "精鋭艦隊",
+      "comment": "おにぎりを食べよう",
+      "flagship_ocr": "明石改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260315.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "精銳艦隊",
+        "comment": "おにぎりを食べよう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "食物",
+        "邀请"
+      ],
+      "meaning_zh": "一起吃饭团吧",
+      "observation_zh": "普通的饮食提议，字面就能成立。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260315-07",
+      "fleet": "第一艦隊",
+      "comment": "那智と晩酌したい...",
+      "flagship_ocr": "初月改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260315.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "那智と晚酌したい..."
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "愿望"
+      ],
+      "meaning_zh": "想和那智一起小酌……",
+      "observation_zh": "以想做的事直接表达相处向往，停顿保留余味。",
+      "dependency_zh": "与那智关联；不由本句证明角色酒量或喜好"
+    },
+    {
+      "id": "260315-08",
+      "fleet": "第1艦隊",
+      "comment": "黒潮ちゃん…やっぱり最高",
+      "flagship_ocr": "黑潮改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260315.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "黒潮ちゃん…やっぱり最高"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "喜爱"
+      ],
+      "meaning_zh": "黑潮酱……果然最棒了",
+      "observation_zh": "停顿与やっぱり表现反复确认的喜爱，属于玩家口吻。",
+      "dependency_zh": "与黑潮关联"
+    },
+    {
+      "id": "260416-01",
+      "fleet": "2-4",
+      "comment": "艦これ13周年おめでとう",
+      "flagship_ocr": "Victorious改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260416.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "2-4",
+        "comment": "艦これ13周年おめでとう"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "祝贺",
+        "纪念"
+      ],
+      "meaning_zh": "恭喜舰C十三周年",
+      "observation_zh": "一句明确的周年祝贺就能完整表达参与感。",
+      "dependency_zh": "年份对应历史记录，不当作当前周年数"
+    },
+    {
+      "id": "260416-03",
+      "fleet": "第1艦隊",
+      "comment": "いつまでも単婚主義",
+      "flagship_ocr": "五月雨改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260416.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "いつまでも単婚主義"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "态度",
+        "自我介绍"
+      ],
+      "meaning_zh": "永远坚持单婚主义",
+      "observation_zh": "用长期原则介绍自己的游玩选择。",
+      "dependency_zh": "婚舰选择依玩家意愿，不替所有玩家规定方式"
+    },
+    {
+      "id": "260416-05",
+      "fleet": "第一艦隊",
+      "comment": "マイペースを忘れずに",
+      "flagship_ocr": "龍鳳改二戊",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260416.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "マイペースを忘れずに"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "态度",
+        "提醒"
+      ],
+      "meaning_zh": "别忘记自己的节奏",
+      "observation_zh": "简短提醒适合表达长期持续的态度。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260416-06",
+      "fleet": "第3艦隊",
+      "comment": "浦風こそ我が命",
+      "flagship_ocr": "浦風丁改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260416.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第3艦隊",
+        "comment": "浦風こそ我が命"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "夸张"
+      ],
+      "meaning_zh": "浦风就是我的生命",
+      "observation_zh": "夸张到极点的赞美是玩家情感表达，不是人物设定。",
+      "dependency_zh": "与浦风关联"
+    },
+    {
+      "id": "260416-07",
+      "fleet": "第一艦隊",
+      "comment": "長良大好き",
+      "flagship_ocr": "長良改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260416.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "長良大好き"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "喜爱"
+      ],
+      "meaning_zh": "最喜欢长良了",
+      "observation_zh": "名字和喜欢组成极简感想，角色关联已完整。",
+      "dependency_zh": "与长良关联"
+    },
+    {
+      "id": "260416-08",
+      "fleet": "秘書艦",
+      "comment": "川内可愛いすぎんか",
+      "flagship_ocr": "川内改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260416.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "秘書艦",
+        "comment": "川内可愛いすぎんか"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "口语"
+      ],
+      "meaning_zh": "川内是不是可爱过头了",
+      "observation_zh": "保留原玩家的强烈口语感，疑问实际表达赞美。",
+      "dependency_zh": "与川内关联；不把原文口语直接当作规范语法范例"
+    },
+    {
+      "id": "260517-01",
+      "fleet": "第一艦隊",
+      "comment": "初期艦が大活躍！",
+      "flagship_ocr": "吹雪改三液(六式)",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260517.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "初期艦が大活躍！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏日常",
+        "达成"
+      ],
+      "meaning_zh": "初始舰大显身手！",
+      "observation_zh": "从自己的游戏体验出发表扬陪伴已久的角色。",
+      "dependency_zh": "初始舰依玩家而定，正文没有固定具体名字"
+    },
+    {
+      "id": "260517-03",
+      "fleet": "第1艦隊",
+      "comment": "今日が平和でなによりだ",
+      "flagship_ocr": "烏海改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260517.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "今日が平和でなによりだ"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "温柔",
+        "玩家感想"
+      ],
+      "meaning_zh": "今天平平安安就再好不过了",
+      "observation_zh": "把满足感放在一天的平和上，语气亲切。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260517-04",
+      "fleet": "練習艦隊",
+      "comment": "今日は最高！明日は更に♪",
+      "flagship_ocr": "衣笠改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260517.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "練習艦隊",
+        "comment": "今日は最高！明日は更に♪"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "鼓励",
+        "时间",
+        "祝愿"
+      ],
+      "meaning_zh": "今天最棒！明天还要更好♪",
+      "observation_zh": "今天与明天递进，句尾符号让表达轻快。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260517-06",
+      "fleet": "第一部隊",
+      "comment": "ゆるく続けていきます",
+      "flagship_ocr": "秋月改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260517.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一部隊",
+        "comment": "ゆるく続けていきます"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "态度",
+        "悠闲"
+      ],
+      "meaning_zh": "我会轻松地继续玩下去",
+      "observation_zh": "用继续的意愿说明自己的节奏，不必附战果目标。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260517-07",
+      "fleet": "第1艦隊",
+      "comment": "長波サマとどこまでも…",
+      "flagship_ocr": "長波改二補",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260517.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "長波サマとどこまでも…"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "陪伴"
+      ],
+      "meaning_zh": "和长波大人一起，去哪里都好……",
+      "observation_zh": "同行对象与开放目的地表达陪伴本身的重要。",
+      "dependency_zh": "与长波关联；说话者是玩家"
+    },
+    {
+      "id": "260517-08",
+      "fleet": "金剛型大好き艦隊",
+      "comment": "演習は勝利への近道",
+      "flagship_ocr": "Zara",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260517.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "金剛型大好き艦隊",
+        "comment": "演習は勝利への近道"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "两栏配合",
+        "目标"
+      ],
+      "meaning_zh": "舰队名：最喜欢金刚型舰队；签名：演习是通向胜利的近路",
+      "observation_zh": "角色偏好放在舰队名，正文可以谈普通游玩态度。",
+      "dependency_zh": "关联金刚型来自另一栏，不要求comment模仿其口吻"
+    },
+    {
+      "id": "260618-01",
+      "fleet": "第1艦隊",
+      "comment": "大和マグで飲む珈琲は旨い",
+      "flagship_ocr": "大和改二重",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260618.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "大和マグで飲む珈琲は旨い"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色关联",
+        "玩家日常",
+        "饮料"
+      ],
+      "meaning_zh": "用大和马克杯喝的咖啡真香",
+      "observation_zh": "让角色相关物品进入自己的生活，情绪来自使用体验。",
+      "dependency_zh": "提到大和相关杯子，不推断大和亲手泡咖啡"
+    },
+    {
+      "id": "260618-02",
+      "fleet": "7-5-3",
+      "comment": "窓を打つ雨の音",
+      "flagship_ocr": "最上改二特",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260618.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "7-5-3",
+        "comment": "窓を打つ雨の音"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "梅雨",
+        "日常",
+        "声音"
+      ],
+      "meaning_zh": "雨打窗户的声音",
+      "observation_zh": "一个听觉片段就能留下季节氛围。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260618-03",
+      "fleet": "わかってるな時雨",
+      "comment": "紫陽花彩る乙女たち",
+      "flagship_ocr": "秋月改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260618.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "わかってるな時雨",
+        "comment": "紫陽花彩る乙女たち"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "梅雨",
+        "花",
+        "抒情",
+        "两栏配合"
+      ],
+      "meaning_zh": "绣球花映衬的少女们",
+      "observation_zh": "正文写一组意象，舰队名可另外交代关心的角色。",
+      "dependency_zh": "不由舰队名或旗舰把所有少女限定为同一角色"
+    },
+    {
+      "id": "260618-04",
+      "fleet": "The first",
+      "comment": "雪風と初ケッコン！",
+      "flagship_ocr": "雪風改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260618.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "The first",
+        "comment": "雪風と初ケッコン！"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "游戏日常",
+        "纪念"
+      ],
+      "meaning_zh": "第一次婚舰，是和雪风！",
+      "observation_zh": "用第一次和具体对象记录自己的里程碑。",
+      "dependency_zh": "与雪风关联，新文案不虚构玩家初婚对象"
+    },
+    {
+      "id": "260618-07",
+      "fleet": "睦月型は天使だ、いいね？",
+      "comment": "弥生さんや、てる坊作ろや",
+      "flagship_ocr": "弥生改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260618.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "睦月型は天使だ、いいね？",
+        "comment": "弥生さんや、てる坊作ろや"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "梅雨",
+        "手工"
+      ],
+      "meaning_zh": "弥生小姐呀，一起做晴天娃娃吧",
+      "observation_zh": "将普通小手工作为互动内容，邀请口吻有生活感。",
+      "dependency_zh": "与弥生关联；是原创共同场景，不作为官方手工喜好"
+    },
+    {
+      "id": "260618-08",
+      "fleet": "第一艦隊",
+      "comment": "航海の無事を祈ります",
+      "flagship_ocr": "朝霜改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260618.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "航海の無事を祈ります"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "海",
+        "祝愿",
+        "归航"
+      ],
+      "meaning_zh": "祈愿航行平安",
+      "observation_zh": "正式而简洁的祝愿，情感不依赖俏皮词或角色语尾。",
+      "dependency_zh": "无特定角色依赖"
+    },
+    {
+      "id": "260719-01",
+      "fleet": "演習",
+      "comment": "今日の晩酌はウイスキー",
+      "flagship_ocr": "涼波改二補",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260719.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習",
+        "comment": "今日の晩酌はウイスキー"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "日常",
+        "饮料",
+        "玩家日常"
+      ],
+      "meaning_zh": "今晚小酌喝威士忌",
+      "observation_zh": "写下当天的小选择，像个人近况。",
+      "dependency_zh": "无特定角色依赖，不把饮酒偏好归给旗舰"
+    },
+    {
+      "id": "260719-02",
+      "fleet": "演習艦隊",
+      "comment": "夏の艦娘達の艶姿に感謝",
+      "flagship_ocr": "榛名改二丙",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260719.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習艦隊",
+        "comment": "夏の艦娘達の艶姿に感謝"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "角色",
+        "玩家感想",
+        "感谢"
+      ],
+      "meaning_zh": "感谢舰娘们夏日的美丽身姿",
+      "observation_zh": "面向一组角色的欣赏和感谢，语气属于玩家。",
+      "dependency_zh": "泛指舰娘，具体夏日形象需按对象核查"
+    },
+    {
+      "id": "260719-03",
+      "fleet": "演習艦隊",
+      "comment": "ビーチで砂遊び",
+      "flagship_ocr": "梅改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260719.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習艦隊",
+        "comment": "ビーチで砂遊び"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "夏",
+        "日常",
+        "场景"
+      ],
+      "meaning_zh": "在海滩玩沙子",
+      "observation_zh": "只写一个普通夏日动作，正文无需人物口头禅。",
+      "dependency_zh": "无特定角色依赖，若配角色可成为共享场景"
+    },
+    {
+      "id": "260719-04",
+      "fleet": "演習",
+      "comment": "イベがんばりまっしょい",
+      "flagship_ocr": "T改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260719.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "演習",
+        "comment": "イべがんぱりまっしょい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "鼓励",
+        "口语"
+      ],
+      "meaning_zh": "活动一起加油呀",
+      "observation_zh": "节奏轻快的邀请式鼓励，直接表达参与感。",
+      "dependency_zh": "无特定角色依赖，不据此确认当前活动"
+    },
+    {
+      "id": "260719-05",
+      "fleet": "機動部隊",
+      "comment": "四連装砲はロマン",
+      "flagship_ocr": "時雨改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260719.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "機助部隊",
+        "comment": "四連装砲はロマン"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏",
+        "装备",
+        "玩家感想"
+      ],
+      "meaning_zh": "四联装炮就是浪漫",
+      "observation_zh": "用ロマン表达对装备的个人审美与向往。",
+      "dependency_zh": "依赖装备概念，不等于性能判断"
+    },
+    {
+      "id": "260719-07",
+      "fleet": "第1艦隊",
+      "comment": "初月ほっぺもちりたい",
+      "flagship_ocr": "初月改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260719.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "初月ほっぺもちりたい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "愿望"
+      ],
+      "meaning_zh": "想揉揉初月的脸颊",
+      "observation_zh": "用拟态词式的もちりたい写触感愿望，保留原玩家的造词。",
+      "dependency_zh": "与初月关联；不推断角色愿意被触碰或固定反应"
+    },
+    {
+      "id": "260820-02",
+      "fleet": "第一艦隊",
+      "comment": "榛名一筋",
+      "flagship_ocr": "榛名改二乙",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260820.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第一艦隊",
+        "comment": "榛名一筋"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "自我介绍"
+      ],
+      "meaning_zh": "一心只爱榛名",
+      "observation_zh": "一筋简短说明自己的支持对象与专注。",
+      "dependency_zh": "与榛名关联"
+    },
+    {
+      "id": "260820-03",
+      "fleet": "第1艦隊",
+      "comment": "磯波ちゃん可愛い!!",
+      "flagship_ocr": "磯波改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260820.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "磯波ちゃん可愛い!!"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "喜爱"
+      ],
+      "meaning_zh": "矶波酱真可爱！！",
+      "observation_zh": "最直接的感叹也能表达个体偏好，不必寻找典故。",
+      "dependency_zh": "与矶波关联"
+    },
+    {
+      "id": "260820-04",
+      "fleet": "第1艦隊",
+      "comment": "潮と一夏の思い出",
+      "flagship_ocr": "潮改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260820.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "潮と一夏の思い出"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "相处场景",
+        "夏",
+        "抒情"
+      ],
+      "meaning_zh": "和潮度过的一夏回忆",
+      "observation_zh": "以回忆片段营造季节和陪伴感。",
+      "dependency_zh": "与潮关联；若为创作场景不声称真实经历"
+    },
+    {
+      "id": "260820-05",
+      "fleet": "第1艦隊",
+      "comment": "いつもありがとう加賀さん",
+      "flagship_ocr": "加賀改二",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260820.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "いつもありがとう加賀さん"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "玩家感想",
+        "感谢"
+      ],
+      "meaning_zh": "加贺小姐，一直以来谢谢你",
+      "observation_zh": "直接向角色道谢，让情感来自玩家自己的经历。",
+      "dependency_zh": "与加贺关联；不模仿其自称或语尾"
+    },
+    {
+      "id": "260820-06",
+      "fleet": "第1艦隊",
+      "comment": "全艦娘無事帰還",
+      "flagship_ocr": "朝日改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260820.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "全艦娘無事帰還"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "游戏日常",
+        "归航",
+        "报告"
+      ],
+      "meaning_zh": "全体舰娘平安归来",
+      "observation_zh": "报告式短句也可承载对平安返回的重视。",
+      "dependency_zh": "无特定角色依赖，完成报告或祝愿应依玩家语境区分"
+    },
+    {
+      "id": "260820-07",
+      "fleet": "第1艦隊",
+      "comment": "防空棲姫になりたい",
+      "flagship_ocr": "照月改",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260820.jpg",
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "source_text": {
+        "fleet": "第1艦隊",
+        "comment": "防空棲姫になりたい"
+      },
+      "verified_on": "2026-11-02",
+      "themes": [
+        "角色",
+        "愿望",
+        "幽默"
+      ],
+      "meaning_zh": "想成为防空栖姬",
+      "observation_zh": "直接说一个意外的变身愿望，轻松而简短。",
+      "dependency_zh": "涉及防空栖姬；不是其自述或设定事实"
+    }
+  ],
+  "coverage": {
+    "examples": 240,
+    "years": {
+      "2018": 13,
+      "2019": 18,
+      "2020": 21,
+      "2021": 20,
+      "2022": 16,
+      "2023": 32,
+      "2024": 33,
+      "2025": 28,
+      "2026": 59
+    },
+    "calendar_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "server_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "source_images": 49,
+    "corrected_examples": 23
+  }
+}

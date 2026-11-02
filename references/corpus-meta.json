@@ -1,0 +1,81 @@
+{
+  "version": "1.3.0",
+  "built_on": "2026-11-02",
+  "period_start": "2018-07",
+  "period_end": "2026-09",
+  "months": 99,
+  "servers": 20,
+  "images": 1980,
+  "records": 15840,
+  "source_review_counts": {
+    "待校对": 12322,
+    "两次识别一致，未人工校对": 3478,
+    "部分字段人工核对": 32,
+    "人工已核对": 8
+  },
+  "curated_text_verified": 240,
+  "curated_coverage": {
+    "examples": 240,
+    "years": {
+      "2018": 13,
+      "2019": 18,
+      "2020": 21,
+      "2021": 20,
+      "2022": 16,
+      "2023": 32,
+      "2024": 33,
+      "2025": 28,
+      "2026": 59
+    },
+    "calendar_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "server_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "source_images": 49,
+    "corrected_examples": 23
+  },
+  "empty_fields": {
+    "fleet": 7,
+    "comment": 0
+  },
+  "over_12_codepoints": {
+    "fleet": 15,
+    "comment": 51
+  },
+  "input_filename": "kancolle_selection_201807_202609.csv",
+  "input_sha256": "8270c235981bd443242b6658f30ccc4918cdf919e88ccfa4237f98772c1e629c",
+  "corpus_sha256": "05832c068930eed8f36214f44947ba970c0bd184e8e7ee8cea97b58cd64e7864",
+  "notice": "Selected records only. Most text is unreviewed OCR; this is not an award-probability dataset."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "舰C签名与舰队名创作"
+  short_description: "参考历史入选案例与 kcwiki 角色资料，创作日语签名和舰队名"
+  default_prompt: "请使用 $kancolle-comment，根据我的主题与角色偏好创作日语签名或舰队名，并附释义与字数。"
