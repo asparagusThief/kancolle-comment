@@ -14,7 +14,7 @@ description: 为舰队收藏（艦これ、舰C）玩家创作或润色日语签
 按任务选择参考资料：
 
 - **涉及角色的性格、关系、喜好或说话方式**：按 [角色资料核查](references/character-research.md) 检索 kcwiki，核对本次所需的身份、设定和语气。先理解玩家的表达目的与情境，再查相关资料；台词用于检查冲突，普通文案从玩家自己的感想和场景构思。玩家仅指定固定旗舰、内容不涉及角色描写时，可保持文案独立。
-- **参考历史写法**：用 [案例库说明](references/corpus.md) 中的本地检索找到相关记录。240 条核实案例可从 [主题索引](references/curated-index.md) 选取，使用 `search --reviewed-only --theme "相处场景"` 等命令按需读取；没有运行工具时，可按索引 ID 在 [核实案例文件](references/curated-examples.json) 中定位相关对象。完整库多数为 OCR 初提，不一次性读取整个 CSV 或全部核实案例。
+- **参考历史写法**：用 [案例库说明](references/corpus.md) 中的本地检索找到相关记录。1000 条核实案例可从 [主题索引](references/curated-index.md) 选取，使用 `search --reviewed-only --theme "相处场景"` 等命令按需读取；没有运行工具时，可按索引 ID 在 [核实案例文件](references/curated-examples.json) 中定位相关对象。完整库多数为 OCR 初提，不一次性读取整个 CSV 或全部核实案例。
 - **编辑与筛选**：需要时参考 [创作指南](references/writing-guide.md)。风格取决于当前请求，示例的主题与语气不构成默认偏好。
 
 ## 创作

@@ -1,0 +1,3380 @@
+{
+  "checked_fields": [
+    "fleet",
+    "comment"
+  ],
+  "flagship_rechecked": false,
+  "method": "Visual comparison with the original selection column; hashes identify the source bytes. Unicode code points with indistinguishable glyphs cannot be proven from a raster image alone.",
+  "images": [
+    {
+      "image_code": "180701",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180701.jpg",
+      "source_sha256": "4910eab125a7669938c67a9a926a225c81fac80f3e63107779099b75a7bc2e37",
+      "checked_ids": [
+        "180701-01",
+        "180701-02",
+        "180701-05",
+        "180701-06",
+        "180701-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "180703",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180703.jpg",
+      "source_sha256": "b8c15b996ece301dbcb076cf2242eb5e02b4ce9fa54862cba713d5b2d3d2b9ba",
+      "checked_ids": [
+        "180703-01",
+        "180703-02",
+        "180703-03",
+        "180703-04",
+        "180703-05",
+        "180703-06",
+        "180703-07",
+        "180703-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "180810",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180810.jpg",
+      "source_sha256": "4362809f88ed22794e9e5b9a20e28ee2e80ea3cf90d646d3ff7698288eabd3b2",
+      "checked_ids": [
+        "180810-01",
+        "180810-02",
+        "180810-03",
+        "180810-04",
+        "180810-05",
+        "180810-06",
+        "180810-07",
+        "180810-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "180911",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180911.jpg",
+      "source_sha256": "5030158ed1c1cb325207cb07dee7868e96e5ba370fde5ea1cdd21185c995413f",
+      "checked_ids": [
+        "180911-02",
+        "180911-03"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "180917",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank180917.jpg",
+      "source_sha256": "53ab3f17085535b2f9025c84901af29a692f2acd3fa467df1c24750fd666757d",
+      "checked_ids": [
+        "180917-01",
+        "180917-02",
+        "180917-03",
+        "180917-04",
+        "180917-05",
+        "180917-06",
+        "180917-07",
+        "180917-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "181004",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181004.jpg",
+      "source_sha256": "2198a5463928a7dcdac6cfba6a558550493f86200229f28029162916a1f25d9a",
+      "checked_ids": [
+        "181004-01",
+        "181004-02",
+        "181004-03",
+        "181004-04",
+        "181004-05",
+        "181004-06",
+        "181004-07",
+        "181004-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "181020",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181020.jpg",
+      "source_sha256": "4364dc84589bce842f0deb5983870a99c9fc4fd48f9a9a0ac8b7a0398bf70025",
+      "checked_ids": [
+        "181020-04"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "181111",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181111.jpg",
+      "source_sha256": "5143b62333114dc8ca0a45ef721e1674dfcdaab3e81ee2d0e0a65550273399a4",
+      "checked_ids": [
+        "181111-01",
+        "181111-02",
+        "181111-04",
+        "181111-05",
+        "181111-06",
+        "181111-07",
+        "181111-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "181202",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181202.jpg",
+      "source_sha256": "649db227b24af23c32fc8f04a96274c959b2b333f87bc93ea90b12141c455e38",
+      "checked_ids": [
+        "181202-02",
+        "181202-03",
+        "181202-04",
+        "181202-07",
+        "181202-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "181218",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank181218.jpg",
+      "source_sha256": "f01262ea2f7b2213d7a93bd5481a4e13c0a6a97fcca5ef69bbc28f813e874212",
+      "checked_ids": [
+        "181218-01",
+        "181218-02",
+        "181218-03",
+        "181218-04",
+        "181218-05",
+        "181218-06",
+        "181218-07",
+        "181218-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190105",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190105.jpg",
+      "source_sha256": "5bc8e0bd8a45391c9383ea8e68df404a650377ffac63c2a4d6580f01275b0f12",
+      "checked_ids": [
+        "190105-01",
+        "190105-02",
+        "190105-03",
+        "190105-04",
+        "190105-05",
+        "190105-06",
+        "190105-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190212",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190212.jpg",
+      "source_sha256": "2d100ecb00e0cadff2419b34bd7e8b7e52285cd9d28b7a3e85c835eb8f40797d",
+      "checked_ids": [
+        "190212-01",
+        "190212-02",
+        "190212-03",
+        "190212-04",
+        "190212-05",
+        "190212-06",
+        "190212-07",
+        "190212-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190303",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190303.jpg",
+      "source_sha256": "6851d3fa1ff4a863c5481fdf6bd633e23e1779db24dfb26b479f6415655bdb41",
+      "checked_ids": [
+        "190303-02",
+        "190303-03",
+        "190303-04",
+        "190303-06",
+        "190303-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "190319",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190319.jpg",
+      "source_sha256": "efd65c14e8cd9d0fa4be8f1ac3a6d5e6c671bb7737e9afbfce33fa71f8baf261",
+      "checked_ids": [
+        "190319-01",
+        "190319-02",
+        "190319-03",
+        "190319-04",
+        "190319-05",
+        "190319-07",
+        "190319-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190406",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190406.jpg",
+      "source_sha256": "504f54263ae7cf496bd3f745d3c6b9aaba544fcfa32a41c2e662831c695a78c4",
+      "checked_ids": [
+        "190406-01",
+        "190406-02",
+        "190406-03",
+        "190406-04",
+        "190406-05",
+        "190406-06",
+        "190406-07",
+        "190406-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190513",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190513.jpg",
+      "source_sha256": "b1733f173ae45274a22a9f256931ccc24eede6203cafe0f02fee2e9cd67ba802",
+      "checked_ids": [
+        "190513-01",
+        "190513-02",
+        "190513-03",
+        "190513-04",
+        "190513-05",
+        "190513-06",
+        "190513-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190604",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190604.jpg",
+      "source_sha256": "4deba51f103917124432e08576c497bc1b03d17c7588cbec92753955c89d13a0",
+      "checked_ids": [
+        "190604-01",
+        "190604-02",
+        "190604-03",
+        "190604-06",
+        "190604-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "190620",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190620.jpg",
+      "source_sha256": "6cffbd7c934952270c36c27209d5ec06cc6d0074718b1e9a0313ebefba9fea58",
+      "checked_ids": [
+        "190620-01",
+        "190620-02",
+        "190620-03",
+        "190620-04",
+        "190620-05",
+        "190620-06",
+        "190620-07",
+        "190620-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190707",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190707.jpg",
+      "source_sha256": "13bf0bb9f11dfc47c879b44302ffe3004d85900fdcccc2fe623aaec437ec366b",
+      "checked_ids": [
+        "190707-01",
+        "190707-02",
+        "190707-03",
+        "190707-04",
+        "190707-05",
+        "190707-06",
+        "190707-07",
+        "190707-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190814",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190814.jpg",
+      "source_sha256": "c43359ee716e24499fde7e764a5290206ff225e4350076c45de08ab5c95a208e",
+      "checked_ids": [
+        "190814-01",
+        "190814-02",
+        "190814-03",
+        "190814-04",
+        "190814-05",
+        "190814-06",
+        "190814-07",
+        "190814-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190901",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190901.jpg",
+      "source_sha256": "7fe532bff1a2d271f544bbb9169e1cd5ff9c60992a81e50b14bb0a99f6e39cdf",
+      "checked_ids": [
+        "190901-01",
+        "190901-02",
+        "190901-03",
+        "190901-04",
+        "190901-06",
+        "190901-07",
+        "190901-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "190905",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank190905.jpg",
+      "source_sha256": "64ff5e3e5add7445589672c905e9ef536d286dd1eb9ef397454c4bdefd1ec59d",
+      "checked_ids": [
+        "190905-01",
+        "190905-04",
+        "190905-05",
+        "190905-06",
+        "190905-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "191008",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank191008.jpg",
+      "source_sha256": "8f3c3ef6028ad0104dbd76edeb4220492c244fa59f521768f012b40e59db9366",
+      "checked_ids": [
+        "191008-01",
+        "191008-02",
+        "191008-03",
+        "191008-04",
+        "191008-05",
+        "191008-07",
+        "191008-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "191114",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank191114.jpg",
+      "source_sha256": "494ce942c16700eaf21311438b9b38f787cd0648c2369ce39553ed1e64d7155c",
+      "checked_ids": [
+        "191114-03",
+        "191114-07",
+        "191114-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "191115",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank191115.jpg",
+      "source_sha256": "4150ee7f9c9e5ecf60cb9c3c237892da3bbdfd9d193977f00995620741dec490",
+      "checked_ids": [
+        "191115-01",
+        "191115-02",
+        "191115-03",
+        "191115-04",
+        "191115-05",
+        "191115-06",
+        "191115-07",
+        "191115-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "191202",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank191202.jpg",
+      "source_sha256": "bee24666269a4808ef33641240d82453b0f1f148391e3f611e12b7954d38cf47",
+      "checked_ids": [
+        "191202-01",
+        "191202-02",
+        "191202-03",
+        "191202-04",
+        "191202-05",
+        "191202-06",
+        "191202-07",
+        "191202-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200106",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200106.jpg",
+      "source_sha256": "56835b4facde649749fbe6fa774cf456d450796ce9c3972eb349966489e8668b",
+      "checked_ids": [
+        "200106-01",
+        "200106-04",
+        "200106-05",
+        "200106-07",
+        "200106-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "200109",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200109.jpg",
+      "source_sha256": "0cb43c4a9fcfa06c4289f78ba0656d21a6d284178bfa1ddbd240da12244b007a",
+      "checked_ids": [
+        "200109-01",
+        "200109-02",
+        "200109-04",
+        "200109-06",
+        "200109-07",
+        "200109-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200216",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200216.jpg",
+      "source_sha256": "94ea0c08c189f559044815b2c7886c433601db2644ffa589456f22b9c252f080",
+      "checked_ids": [
+        "200216-01",
+        "200216-02",
+        "200216-03",
+        "200216-04",
+        "200216-05",
+        "200216-07",
+        "200216-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200303",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200303.jpg",
+      "source_sha256": "39331309452328b6d3ad576862547f7a53e2b6cd3be998b0be1a3f7c9e9c5a4e",
+      "checked_ids": [
+        "200303-01",
+        "200303-02",
+        "200303-03",
+        "200303-04",
+        "200303-05",
+        "200303-06",
+        "200303-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200407",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200407.jpg",
+      "source_sha256": "7a7e5828bfdc708dc1edaef787e85bd8229ca9cf6d628306f0c8690cebe7202f",
+      "checked_ids": [
+        "200407-02",
+        "200407-03",
+        "200407-04",
+        "200407-05",
+        "200407-06"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "200410",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200410.jpg",
+      "source_sha256": "d45e17aaa700ea701ee2b4886a323d368921addbcafbbdeadd011895a7086303",
+      "checked_ids": [
+        "200410-02",
+        "200410-03",
+        "200410-04",
+        "200410-05",
+        "200410-06",
+        "200410-07",
+        "200410-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200517",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200517.jpg",
+      "source_sha256": "2487f527db39ecd379a79d95e1f75fcded1f69a13cffa391b1cff5325ed8ebf8",
+      "checked_ids": [
+        "200517-01",
+        "200517-02",
+        "200517-03",
+        "200517-04",
+        "200517-05",
+        "200517-06",
+        "200517-07",
+        "200517-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200604",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200604.jpg",
+      "source_sha256": "40d06237d752ca6fb5eac204c78590e0d1da4e1961bf07ddce96eb9c036aac25",
+      "checked_ids": [
+        "200604-01",
+        "200604-02",
+        "200604-03",
+        "200604-04",
+        "200604-05",
+        "200604-06",
+        "200604-07",
+        "200604-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200708",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200708.jpg",
+      "source_sha256": "a6c8764d2f923de44d5692b28ea48cadfef154b0ef9a7621af8b834a1ff2a4fc",
+      "checked_ids": [
+        "200708-01",
+        "200708-03",
+        "200708-04",
+        "200708-06",
+        "200708-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "200711",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200711.jpg",
+      "source_sha256": "dad9cea384a7e7b0522279335d0b39c5e93fa47c529e334aa910f0a2abbb1382",
+      "checked_ids": [
+        "200711-01",
+        "200711-02",
+        "200711-03",
+        "200711-04",
+        "200711-05",
+        "200711-06",
+        "200711-07",
+        "200711-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200818",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200818.jpg",
+      "source_sha256": "7d902d573bd8b74371ac85c6078e590a62614ced37c403ab428d2f3fcbe531e0",
+      "checked_ids": [
+        "200818-01",
+        "200818-02",
+        "200818-03",
+        "200818-04",
+        "200818-05",
+        "200818-06",
+        "200818-07",
+        "200818-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "200905",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank200905.jpg",
+      "source_sha256": "6cb60f02d165de82f24ab2d3f575a35ef4ef73a48a306f8b716d34b01796c8ba",
+      "checked_ids": [
+        "200905-01",
+        "200905-02",
+        "200905-03",
+        "200905-04",
+        "200905-05",
+        "200905-06",
+        "200905-07",
+        "200905-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "201009",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201009.jpg",
+      "source_sha256": "a00dba00056c6efab5157a4810f8f4827dbba2c17091ae74001c5b17f1da34f3",
+      "checked_ids": [
+        "201009-01",
+        "201009-02",
+        "201009-03",
+        "201009-04",
+        "201009-05"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "201012",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201012.jpg",
+      "source_sha256": "2c5892c375b88ece2590c2943c0638a45b168d33d3a50b1ba308b202b61bc116",
+      "checked_ids": [
+        "201012-01",
+        "201012-02",
+        "201012-03",
+        "201012-04",
+        "201012-05",
+        "201012-06",
+        "201012-07",
+        "201012-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "201117",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201117.jpg",
+      "source_sha256": "9a2bdba33a7dad487872f06476e13813a1170d4a5a43a2f7bb704e3511708da3",
+      "checked_ids": [
+        "201117-06"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "201119",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201119.jpg",
+      "source_sha256": "23ea62c48a1ad9f59dde1c18ace37e74a4eb5b3fd810db21bcc0b3c89b5dcef8",
+      "checked_ids": [
+        "201119-01",
+        "201119-02",
+        "201119-03",
+        "201119-04",
+        "201119-05",
+        "201119-06",
+        "201119-07",
+        "201119-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "201206",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank201206.jpg",
+      "source_sha256": "94fea2c20d2b008116bc88bd967b25a50f5fdad079860482c951f8137c73b092",
+      "checked_ids": [
+        "201206-01",
+        "201206-02",
+        "201206-03",
+        "201206-06",
+        "201206-07",
+        "201206-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210113",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210113.jpg",
+      "source_sha256": "12749e3b0b729b277ce3dce342266202d60b28a9f26b3d9d5913296e0eee7ac9",
+      "checked_ids": [
+        "210113-02",
+        "210113-03",
+        "210113-04",
+        "210113-05",
+        "210113-06",
+        "210113-07",
+        "210113-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210210",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210210.jpg",
+      "source_sha256": "67454f106c8d3b80f2c21d4da2c03bb349f9d8e693b608faf39384db5b3776f0",
+      "checked_ids": [
+        "210210-01",
+        "210210-02",
+        "210210-03",
+        "210210-05",
+        "210210-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "210220",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210220.jpg",
+      "source_sha256": "87dbfbca60b93bfa2ebf1bb2eda37181a979aa37edeb6f076d8accf4356f542d",
+      "checked_ids": [
+        "210220-01",
+        "210220-02",
+        "210220-05",
+        "210220-06",
+        "210220-07",
+        "210220-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210307",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210307.jpg",
+      "source_sha256": "5ae0d07b7a766a1de2f48c3c027477734cdb9bf3369a3561766024f671850afc",
+      "checked_ids": [
+        "210307-01",
+        "210307-02",
+        "210307-03",
+        "210307-04",
+        "210307-05",
+        "210307-06",
+        "210307-07",
+        "210307-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210414",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210414.jpg",
+      "source_sha256": "f8dbf255602460c4925c8a4d916fdb3313f25bfd834e0228414848f389f51147",
+      "checked_ids": [
+        "210414-01",
+        "210414-02",
+        "210414-03",
+        "210414-04",
+        "210414-05",
+        "210414-06",
+        "210414-07",
+        "210414-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210501",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210501.jpg",
+      "source_sha256": "a1c2b508456c7a4d7bb8eb42811582be28c34c44d5ad62e4e979451baf9debef",
+      "checked_ids": [
+        "210501-01",
+        "210501-02",
+        "210501-03",
+        "210501-04",
+        "210501-05",
+        "210501-06",
+        "210501-07",
+        "210501-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210511",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210511.jpg",
+      "source_sha256": "59fd06eecc8b21751ea126b9b6ad8cd4c52fc9453b320839ffca6ac5e2397e7e",
+      "checked_ids": [
+        "210511-01",
+        "210511-02",
+        "210511-04",
+        "210511-06",
+        "210511-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "210608",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210608.jpg",
+      "source_sha256": "7d8e211a5ba1d2ad6532d6860dc429de27ccc3bb37664f45a4172144fb92bd19",
+      "checked_ids": [
+        "210608-01",
+        "210608-02",
+        "210608-03",
+        "210608-04",
+        "210608-05",
+        "210608-06",
+        "210608-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210715",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210715.jpg",
+      "source_sha256": "1ef3b1f7373e1a8209a09483239453462ea7bd7a7b120456ee69fab2a0c86e39",
+      "checked_ids": [
+        "210715-01",
+        "210715-02",
+        "210715-03",
+        "210715-04",
+        "210715-05",
+        "210715-06",
+        "210715-07",
+        "210715-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210802",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210802.jpg",
+      "source_sha256": "4f9ea83166d9ae6042ee58f9ffdc9ae05d8ec9304454d69607480c6074ec5d6a",
+      "checked_ids": [
+        "210802-01",
+        "210802-03",
+        "210802-04",
+        "210802-05",
+        "210802-06",
+        "210802-07",
+        "210802-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "210812",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210812.jpg",
+      "source_sha256": "630dde9d195065b91e8cff1e2191d0c3d51dd6249419c5caee386cc956885768",
+      "checked_ids": [
+        "210812-02",
+        "210812-03",
+        "210812-04",
+        "210812-07",
+        "210812-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "210909",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank210909.jpg",
+      "source_sha256": "d311cf209e29ccc85c10692bf1e7b4b42923bd074ed02369b6f474d748ee1cf7",
+      "checked_ids": [
+        "210909-01",
+        "210909-02",
+        "210909-03",
+        "210909-04",
+        "210909-05",
+        "210909-06",
+        "210909-07",
+        "210909-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "211016",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211016.jpg",
+      "source_sha256": "1e256956d5130ada3b3dcfff579a44c39c75d590f9dcef5620414f573cec9abf",
+      "checked_ids": [
+        "211016-02",
+        "211016-03",
+        "211016-04",
+        "211016-05",
+        "211016-06",
+        "211016-07",
+        "211016-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "211103",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211103.jpg",
+      "source_sha256": "d9a4a2d0625067bb6cd61d17c0e7c8578f16c4f7d2dae9500484da0a2d8194c0",
+      "checked_ids": [
+        "211103-01",
+        "211103-02",
+        "211103-03",
+        "211103-04",
+        "211103-05",
+        "211103-06",
+        "211103-07",
+        "211103-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "211113",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211113.jpg",
+      "source_sha256": "6114a293b48c42c43f9851e6df98a13e5c8cae1b3e2dfbd0b4334e3e59f370f0",
+      "checked_ids": [
+        "211113-01",
+        "211113-02",
+        "211113-03",
+        "211113-04",
+        "211113-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "211210",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank211210.jpg",
+      "source_sha256": "368d55dbddb4fd2029e4f2203ca3dc41ad6ff80d7e7f92b375135ef0eb7e77df",
+      "checked_ids": [
+        "211210-01",
+        "211210-02",
+        "211210-03",
+        "211210-04",
+        "211210-05",
+        "211210-06",
+        "211210-07",
+        "211210-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220117",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220117.jpg",
+      "source_sha256": "de5f7c050903a52f4f622dd4cbadfc79157fdfcc558e8c317e77a8e6c6c6adc1",
+      "checked_ids": [
+        "220117-01",
+        "220117-02",
+        "220117-03",
+        "220117-04",
+        "220117-05",
+        "220117-06",
+        "220117-07",
+        "220117-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220204",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220204.jpg",
+      "source_sha256": "4293c160c8560848a78e4984f7ad525e1591aff392d5469c604b6b91298e0f27",
+      "checked_ids": [
+        "220204-01",
+        "220204-02",
+        "220204-03",
+        "220204-04",
+        "220204-05",
+        "220204-06",
+        "220204-07",
+        "220204-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220311",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220311.jpg",
+      "source_sha256": "e54dcab1e22b2d4a51e01c3eb346fcf2a3d846df2726abbdb0cc0863797ef910",
+      "checked_ids": [
+        "220311-01",
+        "220311-02",
+        "220311-03",
+        "220311-04",
+        "220311-05",
+        "220311-06",
+        "220311-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220314",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220314.jpg",
+      "source_sha256": "41f986775ec8bdb6052a1f86e6443ebe3876810877e37003751361ff3924ce7e",
+      "checked_ids": [
+        "220314-01",
+        "220314-02",
+        "220314-05",
+        "220314-06",
+        "220314-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "220418",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220418.jpg",
+      "source_sha256": "e0d2a544bf1ca28c6bf76d3eaeaf5ccdde8dcbbf9a3439ac4dc12defdacbcd52",
+      "checked_ids": [
+        "220418-01",
+        "220418-02",
+        "220418-04",
+        "220418-05",
+        "220418-06",
+        "220418-07",
+        "220418-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220505",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220505.jpg",
+      "source_sha256": "ae257e68264eb478ba64f59b93d8958dcaba6e1a278e93d16ea11dc10854e883",
+      "checked_ids": [
+        "220505-01",
+        "220505-02",
+        "220505-03",
+        "220505-04",
+        "220505-05",
+        "220505-06",
+        "220505-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220612",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220612.jpg",
+      "source_sha256": "bdfae2130ac50bf2e9ee2c982ddff5664ac18d02d36a81d8dc5877476cab7a61",
+      "checked_ids": [
+        "220612-01",
+        "220612-02",
+        "220612-03",
+        "220612-04",
+        "220612-05",
+        "220612-06",
+        "220612-07",
+        "220612-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220615",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220615.jpg",
+      "source_sha256": "37a1998d7ce7e4fe2eb82999fc638a30f2ce118124eea253a533cba37cf0c669",
+      "checked_ids": [
+        "220615-01",
+        "220615-02",
+        "220615-03",
+        "220615-04",
+        "220615-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "220719",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220719.jpg",
+      "source_sha256": "f99df63f6f14b00f2c2b4d2309d9e4cb769e68a173b6f1d0f56d616d6ad7adf5",
+      "checked_ids": [
+        "220719-01",
+        "220719-02",
+        "220719-03",
+        "220719-04",
+        "220719-05",
+        "220719-06",
+        "220719-07",
+        "220719-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220806",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220806.jpg",
+      "source_sha256": "2334a108c2a20a031392938e7ac1d99920c02860c340f7fc18ec091f241a2871",
+      "checked_ids": [
+        "220806-01",
+        "220806-02",
+        "220806-03",
+        "220806-04",
+        "220806-05",
+        "220806-06",
+        "220806-07",
+        "220806-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220913",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220913.jpg",
+      "source_sha256": "1772fe707c337855d0c1b6a396053ea0290e7ace7944c87fb51fb8db2b785e56",
+      "checked_ids": [
+        "220913-01",
+        "220913-02",
+        "220913-03",
+        "220913-04",
+        "220913-05",
+        "220913-06",
+        "220913-07",
+        "220913-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "220916",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank220916.jpg",
+      "source_sha256": "03921daa01ab3f45ff4c7973f6a99e226c2afbe9ed6f7218e02e486452358e3f",
+      "checked_ids": [
+        "220916-02",
+        "220916-03",
+        "220916-04",
+        "220916-06",
+        "220916-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "221020",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank221020.jpg",
+      "source_sha256": "df5bf568c9c6b358e334598866a685f3801710c75a3df5ec87bafee9a0d5afbd",
+      "checked_ids": [
+        "221020-01",
+        "221020-02",
+        "221020-03",
+        "221020-04",
+        "221020-06",
+        "221020-07",
+        "221020-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "221107",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank221107.jpg",
+      "source_sha256": "f8fb83cab9fe6d5b0edd6cf653c43b92fbdbc20427e3a34fc4b259546d753c6d",
+      "checked_ids": [
+        "221107-01",
+        "221107-02",
+        "221107-03",
+        "221107-04",
+        "221107-05",
+        "221107-06",
+        "221107-07",
+        "221107-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "221214",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank221214.jpg",
+      "source_sha256": "ff35b1bed3becc17bc7c69e70c4353777c1137ddaa7db3a4b6134436acc771f3",
+      "checked_ids": [
+        "221214-01",
+        "221214-02",
+        "221214-03",
+        "221214-04",
+        "221214-05",
+        "221214-06",
+        "221214-07",
+        "221214-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "221217",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank221217.jpg",
+      "source_sha256": "4a5fabf1e4bf08b5f15975c03415598d4aaed7b74818895ad90be75d5a300e18",
+      "checked_ids": [
+        "221217-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "230101",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230101.jpg",
+      "source_sha256": "a43faca8a09a18d8027232f6ead6b13fc23545e56f23133be00d3a611377b7d3",
+      "checked_ids": [
+        "230101-01",
+        "230101-02",
+        "230101-04",
+        "230101-06",
+        "230101-07",
+        "230101-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "230102",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230102.jpg",
+      "source_sha256": "b0dbdc2edbc770857c12c55563194f69e154c07a587383af96af52f3ec6daae3",
+      "checked_ids": [
+        "230102-01",
+        "230102-03",
+        "230102-04",
+        "230102-05",
+        "230102-06",
+        "230102-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "230208",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230208.jpg",
+      "source_sha256": "66983fdf08f7766c5bde15ff346fe8e98ef724988bdcd8a39b00e4f594487e6c",
+      "checked_ids": [
+        "230208-01",
+        "230208-02",
+        "230208-03",
+        "230208-04",
+        "230208-05",
+        "230208-06",
+        "230208-07",
+        "230208-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "230214",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230214.jpg",
+      "source_sha256": "029631973dfba4a9f83b8b696aaf76249fa8d53e31a2527cc61c6ef626549df5",
+      "checked_ids": [
+        "230214-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "230302",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230302.jpg",
+      "source_sha256": "91639f6fa000b08e4b5fadd60df0910d42cf834642126d1559c37c0d8183fd86",
+      "checked_ids": [
+        "230302-02",
+        "230302-03",
+        "230302-04"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "230315",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230315.jpg",
+      "source_sha256": "97401fd9a1c300e54fad70aa14bde61126a9856e35b49e37cad6ebb263e10e43",
+      "checked_ids": [
+        "230315-01",
+        "230315-02",
+        "230315-03",
+        "230315-04",
+        "230315-05",
+        "230315-06",
+        "230315-07",
+        "230315-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "230402",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230402.jpg",
+      "source_sha256": "6f586a9ba68f9eb9b7473835ccb2c8e7d8512e52560d19dcbcf64e28f57e503e",
+      "checked_ids": [
+        "230402-01",
+        "230402-02",
+        "230402-03",
+        "230402-04",
+        "230402-05",
+        "230402-06",
+        "230402-07",
+        "230402-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "230417",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230417.jpg",
+      "source_sha256": "1a1ebc6630b75f87c7960bb125ec550019f4cc6e6cd8a861875c2d4f2b0b81f7",
+      "checked_ids": [
+        "230417-04",
+        "230417-05",
+        "230417-07",
+        "230417-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "230502",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230502.jpg",
+      "source_sha256": "c1bfd143cbd4940de7d8aba6e8a5836eed461395320acaed2225518a368f2fed",
+      "checked_ids": [
+        "230502-01",
+        "230502-02",
+        "230502-03",
+        "230502-06",
+        "230502-07",
+        "230502-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "230509",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230509.jpg",
+      "source_sha256": "608106463e103849f014e62330a250db7cc479e71938c76152436bdf81883a96",
+      "checked_ids": [
+        "230509-01",
+        "230509-02",
+        "230509-03",
+        "230509-04",
+        "230509-05",
+        "230509-06",
+        "230509-07",
+        "230509-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "230616",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230616.jpg",
+      "source_sha256": "050c0b1cd4ac3a10dddf8fefff93acba20495e6ff041749a609963825b2d4b08",
+      "checked_ids": [
+        "230616-01",
+        "230616-02",
+        "230616-03",
+        "230616-04",
+        "230616-05",
+        "230616-06",
+        "230616-07",
+        "230616-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "230703",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230703.jpg",
+      "source_sha256": "e02e9172360d3a4137f9e672253fc0b10d936b2d0c1daaceb2576dc44ab7d723",
+      "checked_ids": [
+        "230703-01",
+        "230703-02",
+        "230703-03",
+        "230703-04",
+        "230703-05",
+        "230703-06",
+        "230703-07",
+        "230703-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "230810",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230810.jpg",
+      "source_sha256": "709d4df654e244527bbe16899042ce49c236e2cf8b55988fc381df08d0d567f7",
+      "checked_ids": [
+        "230810-01",
+        "230810-02",
+        "230810-03",
+        "230810-04",
+        "230810-06",
+        "230810-07",
+        "230810-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "230903",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230903.jpg",
+      "source_sha256": "56bb98184571e49479f76f29e2b6c71873f2faea4f2961c85b2abd2ccbdf6a94",
+      "checked_ids": [
+        "230903-01",
+        "230903-02",
+        "230903-03",
+        "230903-04",
+        "230903-05",
+        "230903-06"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "230917",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank230917.jpg",
+      "source_sha256": "1b53042eb4b4a97e452abb663c3629f74d7b3851566ad21b53b787d8c5589d3e",
+      "checked_ids": [
+        "230917-01",
+        "230917-02",
+        "230917-03",
+        "230917-04",
+        "230917-05",
+        "230917-06",
+        "230917-07",
+        "230917-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "231004",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231004.jpg",
+      "source_sha256": "0493cce9f9142e25d428aee75a728d09eaeadc7ee0943f36ec6a91d7c3c7bbe6",
+      "checked_ids": [
+        "231004-01",
+        "231004-02",
+        "231004-03",
+        "231004-04",
+        "231004-05",
+        "231004-06",
+        "231004-07",
+        "231004-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "231111",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231111.jpg",
+      "source_sha256": "ffd1d9f4758eb294cfdc327610734a98cb0890a636b465aa5c775833cef715e6",
+      "checked_ids": [
+        "231111-01",
+        "231111-02",
+        "231111-03",
+        "231111-04",
+        "231111-05",
+        "231111-06",
+        "231111-07",
+        "231111-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "231204",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231204.jpg",
+      "source_sha256": "9cb10202996ebad7514ec1b86696c10fd797e5995b2ed9608793c0437410b023",
+      "checked_ids": [
+        "231204-01",
+        "231204-02",
+        "231204-03",
+        "231204-04",
+        "231204-06",
+        "231204-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "231218",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank231218.jpg",
+      "source_sha256": "2ebbde3fdac6ecd10468e2933fead705b6b96e87b32d6e748e12bec143e86fbc",
+      "checked_ids": [
+        "231218-01",
+        "231218-02",
+        "231218-03",
+        "231218-04",
+        "231218-05",
+        "231218-06",
+        "231218-07",
+        "231218-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240105",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240105.jpg",
+      "source_sha256": "34368befecf9974a3aa866f460b45b24c603672dcf13f99e7329092ff1103c29",
+      "checked_ids": [
+        "240105-01",
+        "240105-02",
+        "240105-04",
+        "240105-05",
+        "240105-06",
+        "240105-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "240106",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240106.jpg",
+      "source_sha256": "0e9d70a61ef56ac2e123f594c241a9e2a04afedfd2506091009b7608e8d8da3a",
+      "checked_ids": [
+        "240106-01",
+        "240106-02",
+        "240106-03",
+        "240106-04",
+        "240106-05",
+        "240106-06",
+        "240106-07",
+        "240106-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240212",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240212.jpg",
+      "source_sha256": "4ceb1f7ce4eb967ac6623572c0ed0b53c983eb8ff25d13f913d92b0300fe3e9c",
+      "checked_ids": [
+        "240212-01",
+        "240212-02",
+        "240212-03",
+        "240212-04",
+        "240212-05",
+        "240212-06",
+        "240212-07",
+        "240212-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240319",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240319.jpg",
+      "source_sha256": "c86241681b9435b6fd9ef9000ad5863e47dfb613d8b26eb4d49ec9f213a5840c",
+      "checked_ids": [
+        "240319-01",
+        "240319-02",
+        "240319-03",
+        "240319-04",
+        "240319-05",
+        "240319-06",
+        "240319-07",
+        "240319-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240406",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240406.jpg",
+      "source_sha256": "94640d687bf80cc35e7621bc6c8fc51c765d8c6e50fc9d8653c000cda166f035",
+      "checked_ids": [
+        "240406-01",
+        "240406-04",
+        "240406-05",
+        "240406-06",
+        "240406-07",
+        "240406-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "240407",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240407.jpg",
+      "source_sha256": "8f0488731ba26345a3ea8fccd5d7ca70a3bf3e999e461d2e0689c7316fa4f020",
+      "checked_ids": [
+        "240407-01",
+        "240407-02",
+        "240407-03",
+        "240407-04",
+        "240407-05",
+        "240407-06",
+        "240407-07",
+        "240407-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240513",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240513.jpg",
+      "source_sha256": "3bb1967505302cc6e94ae05e33ba02b3525ac3e6b1b8761a4db69fa3fb59d26a",
+      "checked_ids": [
+        "240513-01",
+        "240513-02",
+        "240513-03",
+        "240513-04",
+        "240513-05",
+        "240513-06",
+        "240513-07",
+        "240513-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240620",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240620.jpg",
+      "source_sha256": "6dfe4359f4d041e12b79a9ef5b33f4396aa69ad5038e33a2c9753f9ef28661a0",
+      "checked_ids": [
+        "240620-01",
+        "240620-02",
+        "240620-03",
+        "240620-04",
+        "240620-05",
+        "240620-06",
+        "240620-07",
+        "240620-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240707",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240707.jpg",
+      "source_sha256": "3e0cb826fcf9334e61e97f0c1af09d8c9a5b807dd9c6ffa00b2dd3671dfade72",
+      "checked_ids": [
+        "240707-01",
+        "240707-02",
+        "240707-04",
+        "240707-05",
+        "240707-06",
+        "240707-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "240708",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240708.jpg",
+      "source_sha256": "972d642835c736d89143f93f657f0f70893816e72f8f7b68fe8e2e2337c2828b",
+      "checked_ids": [
+        "240708-01",
+        "240708-02",
+        "240708-03",
+        "240708-04",
+        "240708-05",
+        "240708-06",
+        "240708-07",
+        "240708-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240814",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240814.jpg",
+      "source_sha256": "f8bdea40f2ed548b162702f5a49e5ebc6cd5df759501e3c8151ef8c1fecd0bdf",
+      "checked_ids": [
+        "240814-01",
+        "240814-02",
+        "240814-03",
+        "240814-04",
+        "240814-05",
+        "240814-06",
+        "240814-07",
+        "240814-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "240818",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240818.jpg",
+      "source_sha256": "c2cbbfdacbd4939283adc062134326aa4310521d360544d325c819e71cca76a5",
+      "checked_ids": [
+        "240818-01",
+        "240818-02",
+        "240818-06",
+        "240818-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "240901",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank240901.jpg",
+      "source_sha256": "119ea984e193ec8976b073c69432b7db886af7e2ac92d208802bc0f1fa081895",
+      "checked_ids": [
+        "240901-01",
+        "240901-02",
+        "240901-03",
+        "240901-04",
+        "240901-05",
+        "240901-06",
+        "240901-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "241008",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241008.jpg",
+      "source_sha256": "c2bcd6f2215420ab9cb5e4734f0866485bb803764106f4af4d593878536e4b28",
+      "checked_ids": [
+        "241008-01",
+        "241008-02",
+        "241008-03",
+        "241008-04",
+        "241008-07",
+        "241008-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "241009",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241009.jpg",
+      "source_sha256": "a6e6986ce781bf0f0a94dd2238d021f6f85457318b78da8808b4966a01c81abf",
+      "checked_ids": [
+        "241009-01",
+        "241009-02",
+        "241009-03",
+        "241009-04",
+        "241009-05",
+        "241009-06",
+        "241009-07",
+        "241009-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "241112",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241112.jpg",
+      "source_sha256": "dcbcfee653387b9fddcdebc0360130bfdc559e6c2ff1d4b1093b55e7eec02b6e",
+      "checked_ids": [
+        "241112-03",
+        "241112-04",
+        "241112-05",
+        "241112-07",
+        "241112-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "241115",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241115.jpg",
+      "source_sha256": "f347652f42d6ae9e5c152bf153b83d5e1a20f19ad9be575afcecc6b365592061",
+      "checked_ids": [
+        "241115-01",
+        "241115-02",
+        "241115-03",
+        "241115-04",
+        "241115-05",
+        "241115-06",
+        "241115-07",
+        "241115-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "241202",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank241202.jpg",
+      "source_sha256": "58a4d7d7906a4a670c14b95b1bd2cb240a6de3c81ebd2077b09875dcb15a30f9",
+      "checked_ids": [
+        "241202-01",
+        "241202-02",
+        "241202-03",
+        "241202-04",
+        "241202-05",
+        "241202-06",
+        "241202-07",
+        "241202-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250109",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250109.jpg",
+      "source_sha256": "1e8f30acf8073b1d825cc04350ef58a4fbca2a7369e9c0116e2f0244be4475e4",
+      "checked_ids": [
+        "250109-01",
+        "250109-02",
+        "250109-03",
+        "250109-04",
+        "250109-05",
+        "250109-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "250110",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250110.jpg",
+      "source_sha256": "18a3d60eac1921dc78655779704f098c238ca868cf732c12e6c844d0c39253b0",
+      "checked_ids": [
+        "250110-01",
+        "250110-02",
+        "250110-03",
+        "250110-04",
+        "250110-05",
+        "250110-06",
+        "250110-07",
+        "250110-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250216",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250216.jpg",
+      "source_sha256": "e431fb429134e4c39f598f884bb3c29a932e2c28aa598e013d634eea9ae20408",
+      "checked_ids": [
+        "250216-01",
+        "250216-02",
+        "250216-03",
+        "250216-04",
+        "250216-05",
+        "250216-06",
+        "250216-07",
+        "250216-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250303",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250303.jpg",
+      "source_sha256": "d5811c8a07faffe2ee3b29a12a2ad1231ff4697d5e3401e4583c83dffea21598",
+      "checked_ids": [
+        "250303-01",
+        "250303-02",
+        "250303-03",
+        "250303-04",
+        "250303-05",
+        "250303-06",
+        "250303-07",
+        "250303-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250410",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250410.jpg",
+      "source_sha256": "e8d45c0d4e4fc761b17f6ffcad5ff2466f6fd1dcfea0675041621592e14bb963",
+      "checked_ids": [
+        "250410-02",
+        "250410-04",
+        "250410-05",
+        "250410-06",
+        "250410-07",
+        "250410-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "250411",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250411.jpg",
+      "source_sha256": "6622a04f4c14e04eb2f4bfb668a905c0ffe9edf1475e54663dbae7b1f515e70c",
+      "checked_ids": [
+        "250411-01",
+        "250411-02",
+        "250411-03",
+        "250411-04",
+        "250411-05",
+        "250411-06",
+        "250411-07",
+        "250411-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250517",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250517.jpg",
+      "source_sha256": "60aee5b2aff5b5c084b4dab600f7188e2136d0d9d4dc0ab7cc330882fd674e3e",
+      "checked_ids": [
+        "250517-01",
+        "250517-02",
+        "250517-03",
+        "250517-04",
+        "250517-05",
+        "250517-06",
+        "250517-07",
+        "250517-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250604",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250604.jpg",
+      "source_sha256": "3bb2cfe884d4747739b237ca2dc3e286a5210fad904d885a8262cc0bdcf75285",
+      "checked_ids": [
+        "250604-01",
+        "250604-02",
+        "250604-03",
+        "250604-04",
+        "250604-05",
+        "250604-06",
+        "250604-07",
+        "250604-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250711",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250711.jpg",
+      "source_sha256": "4966d316ba8802136e41c03e02d3a217b238507af9e28d960a35ea50e7de8082",
+      "checked_ids": [
+        "250711-01",
+        "250711-02",
+        "250711-03",
+        "250711-04",
+        "250711-05",
+        "250711-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "250712",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250712.jpg",
+      "source_sha256": "2ed92971209775bcea0ce7f7154bc5b35e558b18d47b84a5849a9076d8535219",
+      "checked_ids": [
+        "250712-01",
+        "250712-02",
+        "250712-03",
+        "250712-04",
+        "250712-05",
+        "250712-06",
+        "250712-07",
+        "250712-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250818",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250818.jpg",
+      "source_sha256": "beaf57e6e05410036f67747cf6edf2482ebbcc589c48a3215ece4eaee8c125c3",
+      "checked_ids": [
+        "250818-01",
+        "250818-02",
+        "250818-03",
+        "250818-04",
+        "250818-05",
+        "250818-06",
+        "250818-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "250905",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank250905.jpg",
+      "source_sha256": "78c587d57c635efcbe884da19b76edde261aaf9b04b77ce82f53ff1ffbdc5d7c",
+      "checked_ids": [
+        "250905-01",
+        "250905-02",
+        "250905-03",
+        "250905-05",
+        "250905-06",
+        "250905-07",
+        "250905-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "251012",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251012.jpg",
+      "source_sha256": "f6fe4257b86ee204dafa99379bc1f0027f2b14971343f5fc097a987c045c2849",
+      "checked_ids": [
+        "251012-01",
+        "251012-02",
+        "251012-03",
+        "251012-04",
+        "251012-06",
+        "251012-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "251013",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251013.jpg",
+      "source_sha256": "d826e95ebf59379e8f004467b56637f433a306c106fd76c85bf5eae30e4f5232",
+      "checked_ids": [
+        "251013-01",
+        "251013-02",
+        "251013-03",
+        "251013-04",
+        "251013-05",
+        "251013-06",
+        "251013-07",
+        "251013-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "251119",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251119.jpg",
+      "source_sha256": "05d60064635063a4e78b51a16145e42a23e6e9a25659eb285dab181f50f5e421",
+      "checked_ids": [
+        "251119-01",
+        "251119-02",
+        "251119-03",
+        "251119-04",
+        "251119-05",
+        "251119-06",
+        "251119-07",
+        "251119-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "251206",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251206.jpg",
+      "source_sha256": "975eed7fc12f19771549ce359ed4b602cbe2ab428458d72d46b2398b5f4cbbd6",
+      "checked_ids": [
+        "251206-01",
+        "251206-02",
+        "251206-03",
+        "251206-04",
+        "251206-05",
+        "251206-06",
+        "251206-07",
+        "251206-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "251219",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank251219.jpg",
+      "source_sha256": "00a66c0bb097eefd9f1f348ccd3365595e1a32b3c548be1d948732c0ee97f417",
+      "checked_ids": [
+        "251219-02",
+        "251219-03",
+        "251219-04",
+        "251219-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260113",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260113.jpg",
+      "source_sha256": "2244c7afce0c2f4722dbf2ab77b19fb8314dc18984071e34f6ac7922274a10d5",
+      "checked_ids": [
+        "260113-01",
+        "260113-02",
+        "260113-03",
+        "260113-04",
+        "260113-06",
+        "260113-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260114",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260114.jpg",
+      "source_sha256": "a94cc5d23ce07ed6092104cafe31580c2653ed563e8c936bf00df74f73249e64",
+      "checked_ids": [
+        "260114-01",
+        "260114-03",
+        "260114-04",
+        "260114-05",
+        "260114-06",
+        "260114-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260214",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260214.jpg",
+      "source_sha256": "14db23cf1930d59e9ff3405f81853456d48b0f7ca1ab944f4b77f2a60e08d163",
+      "checked_ids": [
+        "260214-01",
+        "260214-02",
+        "260214-04",
+        "260214-05",
+        "260214-07",
+        "260214-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260220",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260220.jpg",
+      "source_sha256": "31487bb4caf8f230df287ae5005074b274ed51e2e588ca4212cea68092f2c379",
+      "checked_ids": [
+        "260220-01",
+        "260220-02",
+        "260220-03",
+        "260220-04",
+        "260220-05",
+        "260220-06",
+        "260220-07",
+        "260220-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260307",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260307.jpg",
+      "source_sha256": "507294185fa140c59efd18e53dc45c44b1ac99ac2546707977afe1c933f9e294",
+      "checked_ids": [
+        "260307-01",
+        "260307-02",
+        "260307-03",
+        "260307-04",
+        "260307-05",
+        "260307-06",
+        "260307-07",
+        "260307-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260315",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260315.jpg",
+      "source_sha256": "2b8d7775aaa8f102f1259baed27eb6cefc77ae3dca81131f33f629b89e5b5526",
+      "checked_ids": [
+        "260315-01",
+        "260315-03",
+        "260315-04",
+        "260315-06",
+        "260315-07",
+        "260315-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260414",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260414.jpg",
+      "source_sha256": "ed711b7fa0268a786e4edd4e2190be19c6ffaf120959b1fd37071211cdf3afb2",
+      "checked_ids": [
+        "260414-01",
+        "260414-02",
+        "260414-03",
+        "260414-04",
+        "260414-05",
+        "260414-06",
+        "260414-07",
+        "260414-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260416",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260416.jpg",
+      "source_sha256": "64522f4a7036b349c01d7e13b4fc346b2361602e7725d7ea59b19ca0df159e9e",
+      "checked_ids": [
+        "260416-01",
+        "260416-03",
+        "260416-05",
+        "260416-06",
+        "260416-07",
+        "260416-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260501",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260501.jpg",
+      "source_sha256": "ea1ae2c82ce9a97d5250ab5d7924b21147e651127d0a42b411e54b486a2f0b61",
+      "checked_ids": [
+        "260501-01",
+        "260501-02",
+        "260501-03",
+        "260501-04",
+        "260501-05",
+        "260501-06",
+        "260501-07",
+        "260501-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260517",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260517.jpg",
+      "source_sha256": "32a7976de3e0bb54dc39929fac7bc608805b9644daa1615fbffedd23e8b18783",
+      "checked_ids": [
+        "260517-01",
+        "260517-03",
+        "260517-04",
+        "260517-06",
+        "260517-07",
+        "260517-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260520",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260520.jpg",
+      "source_sha256": "d42fa6ba48f18c9ee0c20c25dac9a062a44fe05355d14c763a65590ad0b128f4",
+      "checked_ids": [
+        "260520-01",
+        "260520-04",
+        "260520-05",
+        "260520-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260608",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260608.jpg",
+      "source_sha256": "a81b5b50f9be5761f108cce0ce0d8870818ce98a44d0fec8a0a4b0ce14209f11",
+      "checked_ids": [
+        "260608-01",
+        "260608-02",
+        "260608-03",
+        "260608-04",
+        "260608-05",
+        "260608-06",
+        "260608-07",
+        "260608-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260618",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260618.jpg",
+      "source_sha256": "38e2ff9c197e1b5b2655fa9cb802d5adac09ea7ba0232a831fde936305498c61",
+      "checked_ids": [
+        "260618-01",
+        "260618-02",
+        "260618-03",
+        "260618-04",
+        "260618-07",
+        "260618-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260715",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260715.jpg",
+      "source_sha256": "145ac9480c987aacbc411bd57a9959b4305123fed1215da1da0acfef31896941",
+      "checked_ids": [
+        "260715-01",
+        "260715-02",
+        "260715-03",
+        "260715-04",
+        "260715-05",
+        "260715-06",
+        "260715-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260719",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260719.jpg",
+      "source_sha256": "39a9a7cc7e490b25b6f67592cc61c9c5eaeb7f1bf5c82711c2639fbd2796c3db",
+      "checked_ids": [
+        "260719-01",
+        "260719-02",
+        "260719-03",
+        "260719-04",
+        "260719-05",
+        "260719-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260802",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260802.jpg",
+      "source_sha256": "748f4eabc2c0c942293db487e9a4742ed748c593fbbb2d68278d8f4474a0cce5",
+      "checked_ids": [
+        "260802-01",
+        "260802-02",
+        "260802-03",
+        "260802-04",
+        "260802-05",
+        "260802-06",
+        "260802-07",
+        "260802-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260820",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260820.jpg",
+      "source_sha256": "9f460741a8bca0e64c19b6c773daa514d884824e44b034378b53cbf9c7cf4ab6",
+      "checked_ids": [
+        "260820-02",
+        "260820-03",
+        "260820-04",
+        "260820-05",
+        "260820-06",
+        "260820-07"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    },
+    {
+      "image_code": "260909",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260909.jpg",
+      "source_sha256": "af478636cbd33cabb758604b6845c615d5679a0100c3e3924972f73cf7d5e54c",
+      "checked_ids": [
+        "260909-01",
+        "260909-02",
+        "260909-03",
+        "260909-04",
+        "260909-05",
+        "260909-06",
+        "260909-07",
+        "260909-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-03",
+      "crop_xyxy": [
+        538,
+        255,
+        760,
+        686
+      ]
+    },
+    {
+      "image_code": "260918",
+      "source_url": "https://w00g.kancolle-server.com/kcscontents/information/image/rank260918.jpg",
+      "source_sha256": "805dd2322a4bf85ef1245ad872b802e0ada8f5d224253056c3856acb1ff62ec4",
+      "checked_ids": [
+        "260918-01",
+        "260918-02",
+        "260918-03",
+        "260918-05",
+        "260918-06",
+        "260918-07",
+        "260918-08"
+      ],
+      "checked_fields": [
+        "fleet",
+        "comment"
+      ],
+      "visual_review_date": "2026-11-02"
+    }
+  ]
+}

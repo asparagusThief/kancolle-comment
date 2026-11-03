@@ -1,6 +1,6 @@
 {
-  "version": "1.3.0",
-  "built_on": "2026-11-02",
+  "version": "1.4.0",
+  "built_on": "2026-11-03",
   "period_start": "2018-07",
   "period_end": "2026-09",
   "months": 99,
@@ -13,19 +13,19 @@
     "部分字段人工核对": 32,
     "人工已核对": 8
   },
-  "curated_text_verified": 240,
+  "curated_text_verified": 1000,
   "curated_coverage": {
-    "examples": 240,
+    "examples": 1000,
     "years": {
-      "2018": 13,
-      "2019": 18,
-      "2020": 21,
-      "2021": 20,
-      "2022": 16,
-      "2023": 32,
-      "2024": 33,
-      "2025": 28,
-      "2026": 59
+      "2018": 60,
+      "2019": 109,
+      "2020": 110,
+      "2021": 110,
+      "2022": 108,
+      "2023": 125,
+      "2024": 128,
+      "2025": 122,
+      "2026": 128
     },
     "calendar_months": [
       1,
@@ -63,8 +63,11 @@
       19,
       20
     ],
-    "source_images": 49,
-    "corrected_examples": 23
+    "source_images": 148,
+    "corrected_examples": 126,
+    "operation_months": 99,
+    "detailed_annotations": 240,
+    "brief_annotations": 760
   },
   "empty_fields": {
     "fleet": 7,
