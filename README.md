@@ -2,7 +2,7 @@
 
 为《舰队 Collection》（艦これ／舰C）玩家创作日语签名（comment）和舰队名的 Agent Skill。玩家用中文提出主题和喜好，智能体参考历史选拔案例，提供日语文案、中文释义与字数。
 
-当前版本：**v1.4.0**。
+当前版本：**v1.5.0**。
 
 ## 能做什么
 
@@ -42,10 +42,12 @@
 从 [主题索引](references/curated-index.md) 选择案例，或在仓库根目录运行：
 
 ```text
-python scripts/corpus.py search --reviewed-only --theme "相处场景" --limit 6
+python scripts/corpus.py search --theme "相处场景" --expand-query "一緒 散歩 お出かけ 旅" --limit 8
 python scripts/corpus.py show 230101-04 250410-02
 python scripts/corpus.py check candidates.json
 ```
+
+主题标签覆盖核实库的 1000 条记录，占全库 6.31%。`--expand-query` 另用日文关键词搜索全库，合并后兼顾主题案例与未标注线索；按需求调整示例中的词。结果附搜索范围、匹配依据和文字核实状态，关键词命中不会自动成为主题标签。只需要核实文本时加 `--reviewed-only`；引用未经核实的历史原文前须对照来源图。仅用 `--theme` 时仍只筛选带标签的案例。
 
 `candidates.json` 示例：
 

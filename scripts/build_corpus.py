@@ -62,7 +62,7 @@ def build(source, as_of):
     payload = buffer.getvalue().encode("utf-8")
     periods = sorted({row["month"] for row in rows})
     metadata = {
-        "version": "1.4.0", "built_on": as_of,
+        "version": "1.5.0", "built_on": as_of,
         "period_start": periods[0], "period_end": periods[-1], "months": len(periods),
         "servers": len({row["server_id"] for row in rows}),
         "images": len({row["source_url"] for row in rows}), "records": len(rows),

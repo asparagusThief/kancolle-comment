@@ -81,18 +81,35 @@ def result_limit(value):
     return number
 
 
+def theme_tags(row):
+    return row.get("curated", {}).get("themes", [])
+
+
+def coverage(rows):
+    tagged = sum(bool(theme_tags(row)) for row in rows)
+    return {
+        "corpus_records": len(rows),
+        "theme_tagged_records": tagged,
+        "theme_untagged_records": len(rows) - tagged,
+        "theme_tagged_percent": round(100 * tagged / len(rows), 2) if rows else 0,
+    }
+
+
 def search(rows, args):
     if args.since and args.until and args.since > args.until:
         raise ValueError("--since must not be later than --until")
     terms = [unicodedata.normalize("NFKC", token).casefold() for token in args.query.split()]
+    expand_query = getattr(args, "expand_query", "")
+    expansion = [unicodedata.normalize("NFKC", token).casefold() for token in expand_query.split()]
     flagship = unicodedata.normalize("NFKC", args.flagship).casefold()
-    theme = unicodedata.normalize("NFKC", args.theme).casefold()
-    matched = []
+    theme = unicodedata.normalize("NFKC", args.theme).casefold().strip()
+    if expansion and not theme:
+        raise ValueError("--expand-query requires --theme; use --query for keyword-only search")
+    if expand_query and not expansion:
+        raise ValueError("--expand-query must contain at least one keyword")
+    matched, eligible = [], []
     for row in rows:
         if args.reviewed_only and not row["text_verified"]:
-            continue
-        if theme and not any(theme in unicodedata.normalize("NFKC", tag).casefold()
-                             for tag in row.get("curated", {}).get("themes", [])):
             continue
         if args.month and int(row["month"][5:]) not in args.month:
             continue
@@ -103,28 +120,96 @@ def search(rows, args):
         ship = unicodedata.normalize("NFKC", row["flagship"]).casefold()
         if flagship and flagship not in ship:
             continue
+        eligible.append(row)
         text = unicodedata.normalize("NFKC", row["fleet"] + "\n" + row["comment"]).casefold()
-        hits = sum(term in text for term in terms)
-        if terms and (hits == 0 or (args.all and hits != len(terms))):
+        query_hits = [term for term in terms if term in text]
+        expansion_hits = [term for term in expansion if term in text]
+        query_match = not terms or bool(query_hits) and (not args.all or len(query_hits) == len(terms))
+        theme_match = not theme or any(
+            theme in unicodedata.normalize("NFKC", tag).casefold() for tag in theme_tags(row)
+        )
+        expanded = bool(expansion_hits) and (not args.all or len(expansion_hits) == len(expansion))
+        routes = []
+        if query_match and theme_match:
+            routes.append("theme" if theme else "keywords" if terms else "all_records")
+        if expanded:
+            routes.append("keyword_expansion")
+        if not routes:
             continue
-        matched.append((hits, row))
+        matched.append({
+            "row": row,
+            "score": max(len(query_hits) if query_match and theme_match else 0,
+                         len(expansion_hits) if expanded else 0),
+            "retrieval": {
+                "routes": routes,
+                "query_matches": query_hits if query_match and theme_match else [],
+                "expansion_matches": expansion_hits if expanded else [],
+            },
+        })
     rng = random.Random(args.seed) if args.seed is not None else random.SystemRandom()
     rng.shuffle(matched)
-    matched.sort(key=lambda item: (item[0], trust(item[1])), reverse=True)
-    unique = []
-    seen = set()
-    for _, row in matched:
+    matched.sort(key=lambda item: (item["score"], trust(item["row"])), reverse=True)
+    by_pair = {}
+    for item in matched:
+        row = item["row"]
         key = (normalize(row["fleet"]), normalize(row["comment"]))
-        if key not in seen:
-            seen.add(key)
-            unique.append(row)
+        if key not in by_pair or trust(row) > trust(by_pair[key]["row"]):
+            by_pair[key] = item
+    unique = sorted(by_pair.values(), key=lambda item: (item["score"], trust(item["row"])), reverse=True)
+    if expansion:
+        themed = [item for item in unique if "theme" in item["retrieval"]["routes"]]
+        untagged = [item for item in unique if not theme_tags(item["row"])]
+        other_tagged = [item for item in unique
+                        if "theme" not in item["retrieval"]["routes"] and theme_tags(item["row"])]
+        additional = untagged + other_tagged
+        # Keep untagged leads visible even when many tagged examples rank highly.
+        mixed = []
+        for index in range(max(len(themed), len(additional))):
+            if index < len(themed):
+                mixed.append(themed[index])
+            if index < len(additional):
+                mixed.append(additional[index])
+        unique = mixed
+    selected = unique[:args.limit]
+    scope = coverage(rows)
+    eligible_tagged = sum(bool(theme_tags(row)) for row in eligible)
+    scope.update({
+        "mode": "theme_with_keyword_expansion" if expansion else "theme_tags" if theme else "full_corpus",
+        "eligible_records": len(eligible),
+        "eligible_theme_tagged_records": eligible_tagged,
+        "eligible_theme_untagged_records": len(eligible) - eligible_tagged,
+        "eligible_text_verified_records": sum(row["text_verified"] for row in eligible),
+        "filters": {
+            "month": sorted(args.month) if args.month else [], "since": args.since,
+            "until": args.until, "flagship": args.flagship, "reviewed_only": args.reviewed_only,
+        },
+    })
+    warnings = []
+    if theme:
+        warnings.append("Theme counts describe only the tagged subset, not full-corpus theme prevalence; "
+                        "untagged records have unknown themes.")
+        if not expansion:
+            warnings.append("Use --expand-query with related Japanese words to explore untagged records.")
+    if expansion:
+        warnings.append("Keyword expansion is literal retrieval, not theme annotation; judge relevance "
+                        "and check source images before quoting unverified OCR as historical text.")
+    if args.reviewed_only and expansion:
+        warnings.append("--reviewed-only also restricts keyword expansion; unverified OCR is excluded.")
+    routes = ("theme", "keywords", "all_records", "keyword_expansion")
     return {
         "query": args.query,
         "theme": args.theme,
+        "expand_query": expand_query,
+        "scope": scope,
+        "warnings": warnings,
         "matched_records": len(matched),
+        "matched_by_route": {route: sum(route in item["retrieval"]["routes"] for item in matched)
+                             for route in routes},
         "unique_combinations": len(unique),
-        "returned": min(len(unique), args.limit),
-        "records": unique[:args.limit],
+        "returned": len(selected),
+        "returned_by_route": {route: sum(route in item["retrieval"]["routes"] for item in selected)
+                              for route in routes},
+        "records": [dict(item["row"], retrieval=item["retrieval"]) for item in selected],
     }
 
 
@@ -243,11 +328,13 @@ def main():
     commands.add_parser("stats", help="Print provenance and coverage metadata")
     show_parser = commands.add_parser("show", help="Get exact source records by ID")
     show_parser.add_argument("ids", nargs="+")
-    search_parser = commands.add_parser("search", help="Find distinct examples using literal Japanese keywords")
+    search_parser = commands.add_parser("search", help="Find examples using keywords, theme tags or both routes")
     search_parser.add_argument("--query", default="")
     search_parser.add_argument("--all", action="store_true")
     search_parser.add_argument("--flagship", default="")
     search_parser.add_argument("--theme", default="", help="Filter curated Chinese theme tags by literal substring")
+    search_parser.add_argument("--expand-query", default="",
+                               help="With --theme, add a separate full-corpus keyword search and mix results")
     search_parser.add_argument("--month", type=month_set)
     search_parser.add_argument("--since", type=month_value)
     search_parser.add_argument("--until", type=month_value)
@@ -259,7 +346,9 @@ def main():
     args = parser.parse_args()
     try:
         if args.command == "stats":
-            emit(json.loads((REFERENCES / "corpus-meta.json").read_text(encoding="utf-8")))
+            metadata = json.loads((REFERENCES / "corpus-meta.json").read_text(encoding="utf-8"))
+            metadata["retrieval_coverage"] = coverage(load_data())
+            emit(metadata)
             return 0
         rows = load_data()
         if args.command == "show":
