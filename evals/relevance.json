@@ -1,0 +1,1148 @@
+{
+  "version": 1,
+  "assessor": "single-maintainer-agent editorial assessment",
+  "frozen_before_ranking_changes": true,
+  "rubric": {
+    "2": "Directly useful for the requested subject and situation; not a correctness or canon judgment.",
+    "1": "Useful partial or transferable idea, such as another character in the requested situation.",
+    "0": "Unrelated, merely incidental substring, or conflicts with the requested situation."
+  },
+  "cases": {
+    "tea_kaga": [
+      {
+        "record_id": "180810-05",
+        "grade": 1,
+        "idea": "tea_wish"
+      },
+      {
+        "record_id": "200402-07",
+        "grade": 1,
+        "idea": "tea_wish"
+      },
+      {
+        "record_id": "200711-02",
+        "grade": 1,
+        "idea": "tea_request"
+      },
+      {
+        "record_id": "251003-01",
+        "grade": 1,
+        "idea": "tea_party"
+      },
+      {
+        "record_id": "240406-08",
+        "grade": 2,
+        "idea": "tea_enjoy"
+      },
+      {
+        "record_id": "210918-03",
+        "grade": 1,
+        "idea": "tea_party"
+      },
+      {
+        "record_id": "210909-02",
+        "grade": 0,
+        "idea": "cooking"
+      },
+      {
+        "record_id": "230906-05",
+        "grade": 1,
+        "idea": "tea_request"
+      },
+      {
+        "record_id": "250818-05",
+        "grade": 1,
+        "idea": "tea_break"
+      }
+    ],
+    "rain_shigure": [
+      {
+        "record_id": "200410-05",
+        "grade": 1,
+        "idea": "encouragement"
+      },
+      {
+        "record_id": "230812-02",
+        "grade": 2,
+        "idea": "walk"
+      },
+      {
+        "record_id": "250604-08",
+        "grade": 1,
+        "idea": "umbrella"
+      },
+      {
+        "record_id": "230606-01",
+        "grade": 0,
+        "idea": "upgrade"
+      },
+      {
+        "record_id": "240319-02",
+        "grade": 1,
+        "idea": "walk"
+      },
+      {
+        "record_id": "260205-08",
+        "grade": 1,
+        "idea": "praise"
+      },
+      {
+        "record_id": "190620-06",
+        "grade": 0,
+        "idea": "combat"
+      },
+      {
+        "record_id": "230520-04",
+        "grade": 1,
+        "idea": "walk"
+      },
+      {
+        "record_id": "211103-04",
+        "grade": 1,
+        "idea": "longing"
+      },
+      {
+        "record_id": "241009-07",
+        "grade": 0,
+        "idea": "wedding"
+      },
+      {
+        "record_id": "260618-03",
+        "grade": 1,
+        "idea": "flowers"
+      },
+      {
+        "record_id": "260113-01",
+        "grade": 0,
+        "idea": "greeting"
+      },
+      {
+        "record_id": "180703-05",
+        "grade": 0,
+        "idea": "anniversary"
+      },
+      {
+        "record_id": "240513-04",
+        "grade": 0,
+        "idea": "flowers"
+      }
+    ],
+    "travel_asashio": [
+      {
+        "record_id": "230101-04",
+        "grade": 2,
+        "idea": "travel_plan"
+      },
+      {
+        "record_id": "220217-02",
+        "grade": 1,
+        "idea": "travel_plan"
+      },
+      {
+        "record_id": "250410-06",
+        "grade": 1,
+        "idea": "game_travel"
+      },
+      {
+        "record_id": "250314-06",
+        "grade": 1,
+        "idea": "travel_report"
+      },
+      {
+        "record_id": "210307-02",
+        "grade": 1,
+        "idea": "travel_wish"
+      },
+      {
+        "record_id": "211007-04",
+        "grade": 1,
+        "idea": "travel_wish"
+      },
+      {
+        "record_id": "230502-01",
+        "grade": 1,
+        "idea": "travel_plan"
+      },
+      {
+        "record_id": "230319-06",
+        "grade": 1,
+        "idea": "travel_wish"
+      },
+      {
+        "record_id": "201012-03",
+        "grade": 1,
+        "idea": "travel_wish"
+      }
+    ],
+    "autumn_food": [
+      {
+        "record_id": "211016-04",
+        "grade": 2,
+        "idea": "cooking"
+      },
+      {
+        "record_id": "231112-05",
+        "grade": 2,
+        "idea": "food_list"
+      },
+      {
+        "record_id": "241112-04",
+        "grade": 2,
+        "idea": "condiment"
+      },
+      {
+        "record_id": "231020-03",
+        "grade": 2,
+        "idea": "cooking"
+      },
+      {
+        "record_id": "191008-01",
+        "grade": 2,
+        "idea": "food_drink"
+      },
+      {
+        "record_id": "191019-02",
+        "grade": 2,
+        "idea": "meal"
+      },
+      {
+        "record_id": "241112-05",
+        "grade": 1,
+        "idea": "fishing"
+      },
+      {
+        "record_id": "231117-02",
+        "grade": 2,
+        "idea": "food_comparison"
+      },
+      {
+        "record_id": "241011-08",
+        "grade": 2,
+        "idea": "food_list"
+      },
+      {
+        "record_id": "211020-08",
+        "grade": 2,
+        "idea": "food_list"
+      },
+      {
+        "record_id": "220909-01",
+        "grade": 2,
+        "idea": "seasonal_appetite"
+      }
+    ],
+    "rest": [
+      {
+        "record_id": "241115-01",
+        "grade": 0,
+        "idea": "fishing"
+      },
+      {
+        "record_id": "251214-01",
+        "grade": 0,
+        "idea": "alcohol"
+      },
+      {
+        "record_id": "200303-04",
+        "grade": 1,
+        "idea": "work_rest"
+      },
+      {
+        "record_id": "260814-06",
+        "grade": 2,
+        "idea": "rest_advice"
+      },
+      {
+        "record_id": "201117-06",
+        "grade": 2,
+        "idea": "rest_wish"
+      },
+      {
+        "record_id": "231104-04",
+        "grade": 1,
+        "idea": "sleep_scene"
+      },
+      {
+        "record_id": "250303-03",
+        "grade": 0,
+        "idea": "upgrade"
+      },
+      {
+        "record_id": "240615-01",
+        "grade": 2,
+        "idea": "sleep_advice"
+      },
+      {
+        "record_id": "230918-06",
+        "grade": 1,
+        "idea": "rest_wish"
+      },
+      {
+        "record_id": "190406-03",
+        "grade": 1,
+        "idea": "rest_wish"
+      },
+      {
+        "record_id": "200711-01",
+        "grade": 2,
+        "idea": "rest_advice"
+      },
+      {
+        "record_id": "190319-08",
+        "grade": 1,
+        "idea": "rest_wish"
+      },
+      {
+        "record_id": "191008-07",
+        "grade": 0,
+        "idea": "snack"
+      }
+    ],
+    "expedition": [
+      {
+        "record_id": "250110-08",
+        "grade": 2,
+        "idea": "save_calmly"
+      },
+      {
+        "record_id": "211212-03",
+        "grade": 2,
+        "idea": "saving_report"
+      },
+      {
+        "record_id": "240406-01",
+        "grade": 2,
+        "idea": "resource_gathering"
+      },
+      {
+        "record_id": "181113-02",
+        "grade": 2,
+        "idea": "saving_report"
+      },
+      {
+        "record_id": "190620-05",
+        "grade": 1,
+        "idea": "expedition_season"
+      },
+      {
+        "record_id": "241106-02",
+        "grade": 1,
+        "idea": "saving_goal"
+      },
+      {
+        "record_id": "190105-04",
+        "grade": 2,
+        "idea": "expedition_return"
+      },
+      {
+        "record_id": "241201-05",
+        "grade": 1,
+        "idea": "saving_call"
+      },
+      {
+        "record_id": "190104-06",
+        "grade": 1,
+        "idea": "resource_shortage"
+      },
+      {
+        "record_id": "230502-02",
+        "grade": 1,
+        "idea": "expedition_scene"
+      }
+    ],
+    "thanks_inazuma": [
+      {
+        "record_id": "191115-01",
+        "grade": 0,
+        "idea": "appearance"
+      },
+      {
+        "record_id": "220511-08",
+        "grade": 2,
+        "idea": "gratitude"
+      },
+      {
+        "record_id": "240901-01",
+        "grade": 1,
+        "idea": "drop_joy"
+      },
+      {
+        "record_id": "250409-07",
+        "grade": 1,
+        "idea": "gratitude"
+      },
+      {
+        "record_id": "230616-03",
+        "grade": 0,
+        "idea": "equipment"
+      },
+      {
+        "record_id": "230713-05",
+        "grade": 1,
+        "idea": "gratitude"
+      },
+      {
+        "record_id": "221214-07",
+        "grade": 1,
+        "idea": "affection"
+      },
+      {
+        "record_id": "230506-08",
+        "grade": 1,
+        "idea": "picnic"
+      },
+      {
+        "record_id": "260719-02",
+        "grade": 1,
+        "idea": "gratitude"
+      },
+      {
+        "record_id": "250410-02",
+        "grade": 2,
+        "idea": "gratitude"
+      },
+      {
+        "record_id": "180703-08",
+        "grade": 1,
+        "idea": "affection"
+      }
+    ],
+    "winter_yamakaze": [
+      {
+        "record_id": "220117-03",
+        "grade": 1,
+        "idea": "winter_walk"
+      },
+      {
+        "record_id": "230117-05",
+        "grade": 2,
+        "idea": "hand_holding"
+      },
+      {
+        "record_id": "210113-02",
+        "grade": 1,
+        "idea": "hot_spring"
+      },
+      {
+        "record_id": "251118-02",
+        "grade": 1,
+        "idea": "kotatsu_rest"
+      },
+      {
+        "record_id": "260715-05",
+        "grade": 0,
+        "idea": "summer"
+      },
+      {
+        "record_id": "250114-04",
+        "grade": 1,
+        "idea": "kotatsu_rest"
+      },
+      {
+        "record_id": "231204-04",
+        "grade": 2,
+        "idea": "care_gesture"
+      },
+      {
+        "record_id": "260101-02",
+        "grade": 1,
+        "idea": "winter_together"
+      },
+      {
+        "record_id": "231214-01",
+        "grade": 1,
+        "idea": "winter_together"
+      },
+      {
+        "record_id": "210211-04",
+        "grade": 1,
+        "idea": "hibernation"
+      },
+      {
+        "record_id": "230109-02",
+        "grade": 2,
+        "idea": "kotatsu_rest"
+      },
+      {
+        "record_id": "181216-02",
+        "grade": 1,
+        "idea": "kotatsu_comfort"
+      },
+      {
+        "record_id": "231119-03",
+        "grade": 1,
+        "idea": "kotatsu_date"
+      }
+    ],
+    "snack_pair": [
+      {
+        "record_id": "220916-06",
+        "grade": 1,
+        "idea": "snack_question"
+      },
+      {
+        "record_id": "221003-01",
+        "grade": 2,
+        "idea": "snack_request"
+      },
+      {
+        "record_id": "190901-02",
+        "grade": 1,
+        "idea": "snack_wordplay"
+      },
+      {
+        "record_id": "250219-07",
+        "grade": 0,
+        "idea": "romance"
+      },
+      {
+        "record_id": "231204-02",
+        "grade": 0,
+        "idea": "combat"
+      },
+      {
+        "record_id": "200510-08",
+        "grade": 0,
+        "idea": "pampering"
+      },
+      {
+        "record_id": "260220-08",
+        "grade": 0,
+        "idea": "identity_joke"
+      },
+      {
+        "record_id": "260919-08",
+        "grade": 1,
+        "idea": "food_enjoy"
+      },
+      {
+        "record_id": "201009-01",
+        "grade": 1,
+        "idea": "snack_giving"
+      },
+      {
+        "record_id": "201012-01",
+        "grade": 1,
+        "idea": "candy_preparation"
+      },
+      {
+        "record_id": "191008-07",
+        "grade": 1,
+        "idea": "snack_giving"
+      },
+      {
+        "record_id": "250818-05",
+        "grade": 1,
+        "idea": "tea_break"
+      },
+      {
+        "record_id": "200214-06",
+        "grade": 2,
+        "idea": "snack_question"
+      }
+    ],
+    "tea_kongo": [
+      {
+        "record_id": "180810-05",
+        "grade": 1,
+        "idea": "tea_wish"
+      },
+      {
+        "record_id": "181103-08",
+        "grade": 2,
+        "idea": "tea_party"
+      },
+      {
+        "record_id": "200711-02",
+        "grade": 1,
+        "idea": "tea_request"
+      },
+      {
+        "record_id": "210313-06",
+        "grade": 1,
+        "idea": "greeting"
+      },
+      {
+        "record_id": "241008-01",
+        "grade": 1,
+        "idea": "tea_food"
+      },
+      {
+        "record_id": "190215-01",
+        "grade": 2,
+        "idea": "tea_wish"
+      },
+      {
+        "record_id": "250216-04",
+        "grade": 0,
+        "idea": "festival"
+      },
+      {
+        "record_id": "250910-06",
+        "grade": 2,
+        "idea": "tea_wish"
+      },
+      {
+        "record_id": "250110-04",
+        "grade": 1,
+        "idea": "tea_dislike"
+      },
+      {
+        "record_id": "210301-07",
+        "grade": 2,
+        "idea": "tea_wish"
+      },
+      {
+        "record_id": "260716-03",
+        "grade": 1,
+        "idea": "wordplay"
+      },
+      {
+        "record_id": "210906-04",
+        "grade": 2,
+        "idea": "moon_tea"
+      }
+    ],
+    "anniversary_zuikaku": [
+      {
+        "record_id": "240406-06",
+        "grade": 2,
+        "idea": "anniversary_toast"
+      },
+      {
+        "record_id": "231114-01",
+        "grade": 2,
+        "idea": "launch_anniversary"
+      },
+      {
+        "record_id": "260414-08",
+        "grade": 1,
+        "idea": "anniversary_toast"
+      },
+      {
+        "record_id": "250408-07",
+        "grade": 1,
+        "idea": "anniversary_greeting"
+      },
+      {
+        "record_id": "230402-06",
+        "grade": 1,
+        "idea": "anniversary_together"
+      },
+      {
+        "record_id": "240601-08",
+        "grade": 0,
+        "idea": "upgrade"
+      },
+      {
+        "record_id": "200407-02",
+        "grade": 1,
+        "idea": "anniversary_together"
+      },
+      {
+        "record_id": "240408-02",
+        "grade": 1,
+        "idea": "anniversary_together"
+      },
+      {
+        "record_id": "220612-08",
+        "grade": 1,
+        "idea": "wedding"
+      },
+      {
+        "record_id": "230502-06",
+        "grade": 0,
+        "idea": "travel"
+      },
+      {
+        "record_id": "260307-05",
+        "grade": 1,
+        "idea": "affection"
+      },
+      {
+        "record_id": "210113-03",
+        "grade": 1,
+        "idea": "personality"
+      },
+      {
+        "record_id": "250711-04",
+        "grade": 0,
+        "idea": "appearance"
+      }
+    ],
+    "snow_fubuki": [
+      {
+        "record_id": "181218-06",
+        "grade": 1,
+        "idea": "snow_wish"
+      },
+      {
+        "record_id": "240404-04",
+        "grade": 0,
+        "idea": "anniversary"
+      },
+      {
+        "record_id": "231218-05",
+        "grade": 0,
+        "idea": "drinking"
+      },
+      {
+        "record_id": "210205-07",
+        "grade": 1,
+        "idea": "winter_scene"
+      },
+      {
+        "record_id": "231218-02",
+        "grade": 0,
+        "idea": "year_end"
+      },
+      {
+        "record_id": "190218-02",
+        "grade": 2,
+        "idea": "snow_image"
+      },
+      {
+        "record_id": "260113-06",
+        "grade": 0,
+        "idea": "new_year"
+      },
+      {
+        "record_id": "210409-04",
+        "grade": 0,
+        "idea": "anniversary"
+      },
+      {
+        "record_id": "260414-03",
+        "grade": 0,
+        "idea": "congratulation"
+      },
+      {
+        "record_id": "220615-02",
+        "grade": 0,
+        "idea": "summer_walk"
+      },
+      {
+        "record_id": "201012-05",
+        "grade": 1,
+        "idea": "praise"
+      },
+      {
+        "record_id": "190904-05",
+        "grade": 1,
+        "idea": "calm_play"
+      }
+    ],
+    "spring_sakura": [
+      {
+        "record_id": "220418-02",
+        "grade": 2,
+        "idea": "spring_view"
+      },
+      {
+        "record_id": "240315-01",
+        "grade": 1,
+        "idea": "spring_walk"
+      },
+      {
+        "record_id": "230315-07",
+        "grade": 2,
+        "idea": "spring_arrival"
+      },
+      {
+        "record_id": "240310-02",
+        "grade": 2,
+        "idea": "flower_viewing"
+      },
+      {
+        "record_id": "240319-06",
+        "grade": 2,
+        "idea": "spring_together"
+      },
+      {
+        "record_id": "260313-05",
+        "grade": 2,
+        "idea": "spring_image"
+      },
+      {
+        "record_id": "250411-03",
+        "grade": 1,
+        "idea": "metaphor"
+      },
+      {
+        "record_id": "210311-03",
+        "grade": 1,
+        "idea": "online_viewing"
+      },
+      {
+        "record_id": "240316-06",
+        "grade": 2,
+        "idea": "spring_breeze"
+      },
+      {
+        "record_id": "230408-07",
+        "grade": 2,
+        "idea": "flower_viewing"
+      },
+      {
+        "record_id": "200415-07",
+        "grade": 2,
+        "idea": "flower_nap"
+      },
+      {
+        "record_id": "200306-03",
+        "grade": 2,
+        "idea": "indoor_viewing"
+      },
+      {
+        "record_id": "200320-08",
+        "grade": 2,
+        "idea": "flower_drink"
+      },
+      {
+        "record_id": "220319-01",
+        "grade": 2,
+        "idea": "flower_viewing"
+      },
+      {
+        "record_id": "220405-06",
+        "grade": 2,
+        "idea": "flower_viewing"
+      },
+      {
+        "record_id": "240310-03",
+        "grade": 2,
+        "idea": "spring_arrival"
+      }
+    ],
+    "summer_health": [
+      {
+        "record_id": "230810-04",
+        "grade": 0,
+        "idea": "event"
+      },
+      {
+        "record_id": "220618-02",
+        "grade": 2,
+        "idea": "hydration"
+      },
+      {
+        "record_id": "190707-08",
+        "grade": 0,
+        "idea": "training"
+      },
+      {
+        "record_id": "250718-02",
+        "grade": 2,
+        "idea": "hydration"
+      },
+      {
+        "record_id": "250711-03",
+        "grade": 1,
+        "idea": "cool_food"
+      },
+      {
+        "record_id": "250705-01",
+        "grade": 1,
+        "idea": "spicy_food"
+      },
+      {
+        "record_id": "240707-06",
+        "grade": 2,
+        "idea": "air_conditioning"
+      },
+      {
+        "record_id": "250716-06",
+        "grade": 1,
+        "idea": "weather"
+      },
+      {
+        "record_id": "190703-01",
+        "grade": 2,
+        "idea": "hydration"
+      },
+      {
+        "record_id": "240705-01",
+        "grade": 2,
+        "idea": "hydration"
+      },
+      {
+        "record_id": "260701-08",
+        "grade": 2,
+        "idea": "hydration"
+      },
+      {
+        "record_id": "250601-05",
+        "grade": 2,
+        "idea": "hydration"
+      },
+      {
+        "record_id": "260614-03",
+        "grade": 1,
+        "idea": "hydration"
+      }
+    ],
+    "mistake": [
+      {
+        "record_id": "260307-06",
+        "grade": 1,
+        "idea": "slow_progress"
+      },
+      {
+        "record_id": "210318-07",
+        "grade": 2,
+        "idea": "calm_play"
+      },
+      {
+        "record_id": "260501-03",
+        "grade": 1,
+        "idea": "casual_play"
+      },
+      {
+        "record_id": "250511-01",
+        "grade": 2,
+        "idea": "take_it_easy"
+      },
+      {
+        "record_id": "180917-08",
+        "grade": 0,
+        "idea": "collection"
+      },
+      {
+        "record_id": "250415-07",
+        "grade": 1,
+        "idea": "autonomy"
+      },
+      {
+        "record_id": "200410-04",
+        "grade": 0,
+        "idea": "level"
+      },
+      {
+        "record_id": "210907-07",
+        "grade": 1,
+        "idea": "future_effort"
+      },
+      {
+        "record_id": "190901-04",
+        "grade": 2,
+        "idea": "reassurance"
+      },
+      {
+        "record_id": "240818-02",
+        "grade": 2,
+        "idea": "learn_from_failure"
+      },
+      {
+        "record_id": "180810-01",
+        "grade": 0,
+        "idea": "hero_quote"
+      },
+      {
+        "record_id": "200517-06",
+        "grade": 0,
+        "idea": "luck"
+      },
+      {
+        "record_id": "190620-07",
+        "grade": 1,
+        "idea": "character_reassurance"
+      },
+      {
+        "record_id": "210501-04",
+        "grade": 0,
+        "idea": "unrelated_winning"
+      },
+      {
+        "record_id": "201012-01",
+        "grade": 0,
+        "idea": "festival"
+      },
+      {
+        "record_id": "190102-02",
+        "grade": 1,
+        "idea": "reassurance"
+      }
+    ],
+    "practice": [
+      {
+        "record_id": "250411-05",
+        "grade": 0,
+        "idea": "collection"
+      },
+      {
+        "record_id": "240501-07",
+        "grade": 0,
+        "idea": "drinking"
+      },
+      {
+        "record_id": "240406-07",
+        "grade": 1,
+        "idea": "slow_progress"
+      },
+      {
+        "record_id": "250415-04",
+        "grade": 2,
+        "idea": "routine"
+      },
+      {
+        "record_id": "251013-06",
+        "grade": 0,
+        "idea": "combat_goal"
+      },
+      {
+        "record_id": "240218-05",
+        "grade": 2,
+        "idea": "practice_routine"
+      },
+      {
+        "record_id": "191115-07",
+        "grade": 1,
+        "idea": "fleet_pride"
+      },
+      {
+        "record_id": "240703-04",
+        "grade": 1,
+        "idea": "mission_progress"
+      },
+      {
+        "record_id": "240305-07",
+        "grade": 2,
+        "idea": "take_it_easy"
+      },
+      {
+        "record_id": "211003-04",
+        "grade": 0,
+        "idea": "character_play"
+      }
+    ],
+    "moon_akizuki": [
+      {
+        "record_id": "251013-07",
+        "grade": 1,
+        "idea": "pumpkin"
+      },
+      {
+        "record_id": "240911-04",
+        "grade": 2,
+        "idea": "moon_together"
+      },
+      {
+        "record_id": "250905-07",
+        "grade": 2,
+        "idea": "moon_together"
+      },
+      {
+        "record_id": "200904-03",
+        "grade": 2,
+        "idea": "moon_together"
+      },
+      {
+        "record_id": "211113-03",
+        "grade": 0,
+        "idea": "decoration"
+      },
+      {
+        "record_id": "231015-03",
+        "grade": 2,
+        "idea": "moon_wish"
+      },
+      {
+        "record_id": "210909-04",
+        "grade": 1,
+        "idea": "moon_together"
+      },
+      {
+        "record_id": "210920-03",
+        "grade": 2,
+        "idea": "moon_report"
+      },
+      {
+        "record_id": "210307-02",
+        "grade": 0,
+        "idea": "travel"
+      },
+      {
+        "record_id": "250216-06",
+        "grade": 0,
+        "idea": "food_wish"
+      }
+    ],
+    "screws_pair": [
+      {
+        "record_id": "210501-03",
+        "grade": 1,
+        "idea": "labor_shortage"
+      },
+      {
+        "record_id": "220703-07",
+        "grade": 1,
+        "idea": "upgrade_plan"
+      },
+      {
+        "record_id": "190620-03",
+        "grade": 0,
+        "idea": "cloud_wordplay"
+      },
+      {
+        "record_id": "231208-06",
+        "grade": 1,
+        "idea": "resource_shortage"
+      },
+      {
+        "record_id": "200604-08",
+        "grade": 0,
+        "idea": "hair_wordplay"
+      },
+      {
+        "record_id": "220306-02",
+        "grade": 1,
+        "idea": "coin_shortage"
+      },
+      {
+        "record_id": "250411-06",
+        "grade": 0,
+        "idea": "combat"
+      },
+      {
+        "record_id": "230816-08",
+        "grade": 0,
+        "idea": "drink_wish"
+      },
+      {
+        "record_id": "250303-03",
+        "grade": 1,
+        "idea": "upgrade_choice"
+      },
+      {
+        "record_id": "200304-07",
+        "grade": 1,
+        "idea": "upgrade_wish"
+      },
+      {
+        "record_id": "250208-04",
+        "grade": 0,
+        "idea": "hot_spring"
+      },
+      {
+        "record_id": "230211-07",
+        "grade": 1,
+        "idea": "luck_upgrade"
+      },
+      {
+        "record_id": "190412-08",
+        "grade": 1,
+        "idea": "screw_wordplay"
+      },
+      {
+        "record_id": "200307-07",
+        "grade": 1,
+        "idea": "steady_upgrade"
+      },
+      {
+        "record_id": "260219-03",
+        "grade": 1,
+        "idea": "aircraft_upgrade"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1295 @@
+{
+  "script_sha256": "c7780679c1f391aaba83d528e353ae169d3a5b17f8a29ac1a9153cd764b1ad00",
+  "requests_sha256": "a0c80bf4380d8c06ddfd114a5c6f22cfd8aec60d905174f77b061b6eaad27e7c",
+  "judgments_sha256": "a6c4e95521324aabf2e5bcf71108ece8e5b8c1a8c36d039e6761c637751174ae",
+  "supplemental_judgments_sha256": "1c3f10f6cd2d5ae92a2b79827cee8d6c05f9508a3bd92f7426d8e63a7d36e6ad",
+  "note": "Single-maintainer editorial judgments; unjudged results count as zero, not proven irrelevant. NDCG uses only the judged pool. This is a retrieval benchmark, not a generation-quality or award-probability score.",
+  "summaries": {
+    "development": {
+      "useful_at8": 0.9028,
+      "direct_at8": 0.3611,
+      "ndcg_at8_judged_pool": 0.8578,
+      "judged_coverage_at8": 1.0,
+      "distinct_useful_ideas_at8": 5.2222,
+      "requests": 9
+    },
+    "holdout": {
+      "useful_at8": 0.8889,
+      "direct_at8": 0.4861,
+      "ndcg_at8_judged_pool": 0.8353,
+      "judged_coverage_at8": 1.0,
+      "distinct_useful_ideas_at8": 5.6667,
+      "requests": 9
+    },
+    "all": {
+      "useful_at8": 0.8958,
+      "direct_at8": 0.4236,
+      "ndcg_at8_judged_pool": 0.8465,
+      "judged_coverage_at8": 1.0,
+      "distinct_useful_ideas_at8": 5.4444,
+      "requests": 18
+    }
+  },
+  "results": [
+    {
+      "id": "tea_kaga",
+      "split": "development",
+      "prompt": "旗舰加贺，写秋天一起喝茶的日常签名，以玩家口吻表达，不引用台词。",
+      "metrics": {
+        "useful_at8": 0.75,
+        "direct_at8": 0.125,
+        "ndcg_at8_judged_pool": 0.891021738961607,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 5
+      },
+      "records": [
+        {
+          "id": "240406-08",
+          "fleet": "第3艦隊",
+          "comment": "今日も加賀の茶は美味い",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "200402-07",
+          "fleet": "秋霜ちゃん天使",
+          "comment": "秋霜ちゃんのお茶を飲み隊",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "210908-02",
+          "fleet": "第1艦隊",
+          "comment": "秋は紅茶を嗜む心地良さ",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "251120-04",
+          "fleet": "演習艦隊",
+          "comment": "秋刀魚のおいしい喫茶店?!",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "210918-03",
+          "fleet": "お茶会艦隊",
+          "comment": "白露型と秋のお茶会",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "231015-06",
+          "fleet": "23",
+          "comment": "加賀さんと秋仕度♪",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "200801-01",
+          "fleet": "共に加賀を的み交わす",
+          "comment": "秋の夜長に加賀岬",
+          "grade": 0,
+          "text_verified": false
+        },
+        {
+          "id": "220719-03",
+          "fleet": "熱中症注意、なのです！",
+          "comment": "夏は日陰で六駆と麦茶。",
+          "grade": 0,
+          "text_verified": true
+        }
+      ]
+    },
+    {
+      "id": "rain_shigure",
+      "split": "development",
+      "prompt": "想写和时雨雨天散步的签名，语气平静，不需要台词梗。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 0.125,
+        "ndcg_at8_judged_pool": 1.0,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 4
+      },
+      "records": [
+        {
+          "id": "230812-02",
+          "fleet": "残暑で溶けちゃう",
+          "comment": "時雨と海をお散歩",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "200606-04",
+          "fleet": "雨降りの鎮守府",
+          "comment": "雨の中を散歩しょう阿武隈",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "240602-02",
+          "fleet": "東カリマンタン演習艦隊",
+          "comment": "大井っちと雨の散歩道",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "240603-04",
+          "fleet": "対空レベリング第1部隊",
+          "comment": "雨の日も艦娘とお散歩",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "230520-04",
+          "fleet": "金剛大好きクラブ",
+          "comment": "金剛と雨の日散歩",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "221107-06",
+          "fleet": "がんばれ瑞鶴2",
+          "comment": "瑞鶴と散歩したい秋",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "240319-02",
+          "fleet": "あさひ提督による朝日艦隊",
+          "comment": "朝日さんと朝の散歩",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "241011-06",
+          "fleet": "春雨おいしい",
+          "comment": "はるさめと秋散歩",
+          "grade": 1,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "travel_asashio",
+      "split": "development",
+      "prompt": "给朝潮写一起旅行的愿望，可以搭配舰队名。",
+      "metrics": {
+        "useful_at8": 0.75,
+        "direct_at8": 0.125,
+        "ndcg_at8_judged_pool": 0.874671053662869,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 5
+      },
+      "records": [
+        {
+          "id": "230101-04",
+          "fleet": "第一護衛隊群",
+          "comment": "そろそろ朝潮と旅行いくわ",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "220505-06",
+          "fleet": "補給は大切です！",
+          "comment": "霞と行く春のバス旅",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "230703-04",
+          "fleet": "プール遠征部隊",
+          "comment": "朝潮はプールで泳ぎたい",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "260315-03",
+          "fleet": "第1艦隊",
+          "comment": "朝潮をナデナデする会",
+          "grade": 0,
+          "text_verified": true
+        },
+        {
+          "id": "210307-02",
+          "fleet": "かぼちゃ艦隊",
+          "comment": "秋月型とグルメ旅行したい",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "230502-01",
+          "fleet": "平戸の眼鏡になりたい",
+          "comment": "6月は平戸と佐世保旅行",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "250410-06",
+          "fleet": "遊撃部隊",
+          "comment": "艦娘達と行く海域攻略旅行",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "191119-01",
+          "fleet": "010",
+          "comment": "朝潮魂",
+          "grade": 0,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "autumn_food",
+      "split": "development",
+      "prompt": "写秋天吃秋刀鱼、栗子或烤红薯的小事，像普通玩家的生活记录。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 1.0,
+        "ndcg_at8_judged_pool": 1.0,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 5
+      },
+      "records": [
+        {
+          "id": "241011-08",
+          "fleet": "第1艦隊",
+          "comment": "芋栗南瓜！秋のあじ！！",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "220909-01",
+          "fleet": "演習",
+          "comment": "芋栗南瓜が美味しい季節",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "231112-05",
+          "fleet": "第2任務舞開団",
+          "comment": "秋刀魚と焼芋と白雪と白雲",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "260909-04",
+          "fleet": "カステラ1番艦隊",
+          "comment": "お芋の秋、食欲の秋です",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "231117-02",
+          "fleet": "お芋がいっちばーん！",
+          "comment": "秋刀魚もいいけどお芋もね",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "241008-04",
+          "fleet": "予備2",
+          "comment": "秋は秋霜!!そしてお芋！",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "211020-08",
+          "fleet": "秋刀魚漁たーのしー！！",
+          "comment": "秋刀魚に焼き芋！食欲の秋",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "191019-02",
+          "fleet": "秋刀魚も焼き芋も美味",
+          "comment": "今夜の飯は秋刀魚と焼き芋",
+          "grade": 2,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "rest",
+      "split": "development",
+      "prompt": "最近有点累，想写提醒自己休息和早睡的温和签名。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 0.625,
+        "ndcg_at8_judged_pool": 0.8676588645861981,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 5
+      },
+      "records": [
+        {
+          "id": "260814-06",
+          "fleet": "演習艦隊",
+          "comment": "お疲れ、ゆっくり休んでね",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "201117-06",
+          "fleet": "今年もまったり",
+          "comment": "たまには休みたい時もある",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "200711-01",
+          "fleet": "輸送船団護衛作戦",
+          "comment": "休息は大事大事",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "220117-08",
+          "fleet": "バシクル",
+          "comment": "休艦日も重要です！",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "190319-08",
+          "fleet": "第壱艦隊",
+          "comment": "休みと嫁が欲しい",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "230815-04",
+          "fleet": "E3-2-1",
+          "comment": "瞬間睡眠！ (六時間)",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "230912-05",
+          "fleet": "第1艦隊",
+          "comment": "ちゃんと睡眠は取ろうぜ",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "230508-06",
+          "fleet": "スヤスヤ…",
+          "comment": "秋月の膝枕で睡眠したい",
+          "grade": 1,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "expedition",
+      "split": "development",
+      "prompt": "远征慢慢攒资源，不想写争排名的口号，写轻松一点的游戏日常。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 0.5,
+        "ndcg_at8_judged_pool": 0.8282075898867507,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 7
+      },
+      "records": [
+        {
+          "id": "211212-03",
+          "fleet": "週二休でも改二し隊！練",
+          "comment": "提督は資源を貯めている",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "241106-02",
+          "fleet": "7-4",
+          "comment": "貯めた資源は艦娘と甲の為",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "241201-05",
+          "fleet": "教導艦隊",
+          "comment": "今だ！資源大備蓄祭り！",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "240406-01",
+          "fleet": "第1艦隊4-4",
+          "comment": "資源集めなら漣にお任せ！",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "190620-05",
+          "fleet": "第1艦隊",
+          "comment": "春だ！遠征の季節が来た！",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "190105-04",
+          "fleet": "もうだめぽ",
+          "comment": "母港に帰るまでが遠征です",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "230502-02",
+          "fleet": "北方遠征艦隊F",
+          "comment": "藤波ちゃんと北方遠征！",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "181113-02",
+          "fleet": "白澤隊",
+          "comment": "妖精さん貯金箱で備蓄中",
+          "grade": 2,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "thanks_inazuma",
+      "split": "development",
+      "prompt": "向电表达谢谢陪伴，朴素一点，不玩口癖梗。",
+      "metrics": {
+        "useful_at8": 0.75,
+        "direct_at8": 0.25,
+        "ndcg_at8_judged_pool": 0.7896445736996199,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 3
+      },
+      "records": [
+        {
+          "id": "220511-08",
+          "fleet": "宗谷が居そうやなぁ",
+          "comment": "バナー電ありがとう",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "260719-02",
+          "fleet": "演習艦隊",
+          "comment": "夏の艦娘達の艶姿に感謝",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "191115-01",
+          "fleet": "練度向上中",
+          "comment": "電ちゃんの私服が至福",
+          "grade": 0,
+          "text_verified": true
+        },
+        {
+          "id": "240901-01",
+          "fleet": "第1艦隊",
+          "comment": "未だに電ドロップが嬉しい",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "230616-03",
+          "fleet": "デンターンもいいなぁ",
+          "comment": "増設電探でセカイが変わる",
+          "grade": 0,
+          "text_verified": true
+        },
+        {
+          "id": "180703-08",
+          "fleet": "電ちゃん可愛い隊",
+          "comment": "電の可愛いさで世界を救う",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "221214-07",
+          "fleet": "第1艦隊",
+          "comment": "やっぱ電ちゃんよ",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "250410-02",
+          "fleet": "しあわせ空間",
+          "comment": "電ちゃんありがとね",
+          "grade": 2,
+          "text_verified": true
+        }
+      ]
+    },
+    {
+      "id": "winter_yamakaze",
+      "split": "development",
+      "prompt": "山风和被炉的冬日场景，写玩家想照顾她的小事。",
+      "metrics": {
+        "useful_at8": 0.875,
+        "direct_at8": 0.375,
+        "ndcg_at8_judged_pool": 0.8826262866594279,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 6
+      },
+      "records": [
+        {
+          "id": "230109-02",
+          "fleet": "ずっとコタツで過ごし隊",
+          "comment": "コタツの山風、不動の如し",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "251118-02",
+          "fleet": "演習",
+          "comment": "冬月とこたつでまったり",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "230117-05",
+          "fleet": "山風大好き！",
+          "comment": "真冬に山風と繋ぐ手と手",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "191215-04",
+          "fleet": "第1艦隊@@@",
+          "comment": "艦娘冬のこたつ大作戦の巻",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "231119-03",
+          "fleet": "5-3p",
+          "comment": "冬はグラ子とこたつデート",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "181216-02",
+          "fleet": "おみかん食べ隊",
+          "comment": "冬のこたつは至高！！",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "260715-05",
+          "fleet": "第1艦隊",
+          "comment": "山風さんと程々な夏休みを",
+          "grade": 0,
+          "text_verified": true
+        },
+        {
+          "id": "231204-04",
+          "fleet": "寒さ耐性ゼロ艦隊",
+          "comment": "山風ちゃんおこた出したよ",
+          "grade": 2,
+          "text_verified": true
+        }
+      ]
+    },
+    {
+      "id": "snack_pair",
+      "split": "development",
+      "prompt": "想写吃点心停不下来的小玩笑，舰队名和comment可以相互呼应。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 0.125,
+        "ndcg_at8_judged_pool": 0.586077629881343,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 7
+      },
+      "records": [
+        {
+          "id": "220916-06",
+          "fleet": "ボーキは300個まで！",
+          "comment": "ボーキはおやつですか？",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "190901-02",
+          "fleet": "白露1番 電話は2番",
+          "comment": "3時のおやつは連装砲",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "250818-05",
+          "fleet": "第一艦隊",
+          "comment": "お茶とお菓子でほっと一息",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "221003-01",
+          "fleet": "甘いお菓子もらい隊♪",
+          "comment": "キャンディちょーだい！",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "220816-02",
+          "fleet": "東急艦隊",
+          "comment": "鎮守府おやつ節約月間",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "201009-01",
+          "fleet": "幸運艦隊",
+          "comment": "初霜におやつあげ隊",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "191008-07",
+          "fleet": "休憩中泊地遊泳艦隊",
+          "comment": "余った鰯は多摩のおやつに",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "190517-08",
+          "fleet": "瑞鳳に卵焼きを食べさせ隊",
+          "comment": "おやつは鹿屋のかるかんで",
+          "grade": 1,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "tea_kongo",
+      "split": "holdout",
+      "prompt": "金刚，一起喝红茶的日常，想写玩家自己的感想，不引用原台词。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 0.75,
+        "ndcg_at8_judged_pool": 0.8430614373322769,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 7
+      },
+      "records": [
+        {
+          "id": "181103-08",
+          "fleet": "特一級紅茶艦隊",
+          "comment": "金剛十由良さんはお茶会中",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "210301-07",
+          "fleet": "第1艦隊",
+          "comment": "金剛とまったり紅茶したい",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "250110-04",
+          "fleet": "第1艦隊",
+          "comment": "嫁艦金剛だが紅茶は苦手",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "260716-03",
+          "fleet": "ボ一キ输送",
+          "comment": "紅茶も滴るいい金剛",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "210314-02",
+          "fleet": "まったり",
+          "comment": "金剛と縁側で紅茶タイム",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "210906-04",
+          "fleet": "ティータイム中ネ～",
+          "comment": "金剛と紅茶でお月見",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "250910-06",
+          "fleet": "紅茶派",
+          "comment": "金剛と紅茶飲みたい",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "240819-01",
+          "fleet": "金剛型と艦娘音頭を踊り隊",
+          "comment": "金剛と紅茶と花火と。",
+          "grade": 2,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "anniversary_zuikaku",
+      "split": "holdout",
+      "prompt": "想和瑞鹤庆祝共同度过的周年，表达干杯和陪伴。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 0.25,
+        "ndcg_at8_judged_pool": 0.9637078658838959,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 7
+      },
+      "records": [
+        {
+          "id": "240406-06",
+          "fleet": "第一艦隊",
+          "comment": "瑞鶴、11年を乾杯しよう",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "260414-08",
+          "fleet": "第壱艦隊",
+          "comment": "祝13周年！母港に乾杯！",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "231114-01",
+          "fleet": "瑞鶴結婚記念艦隊",
+          "comment": "瑞鶴進水日おめでとう！",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "220612-08",
+          "fleet": "3-5",
+          "comment": "瑞鶴と結婚致しました！",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "241016-03",
+          "fleet": "ゴトランドへ愛を込めて",
+          "comment": "乾杯ういずGotland",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "210118-01",
+          "fleet": "艦これの繁栄を祈願して",
+          "comment": "蒼龍とレモンサワーで乾杯",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "220911-01",
+          "fleet": "第1艦隊",
+          "comment": "秋の夜長にポーラと乾杯",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "200407-02",
+          "fleet": "今日も嫁艦に癒される",
+          "comment": "記念日を嫁艦と共に",
+          "grade": 1,
+          "text_verified": true
+        }
+      ]
+    },
+    {
+      "id": "snow_fubuki",
+      "split": "holdout",
+      "prompt": "吹雪，想写冬天下雪时一起出门的场景，避免只是改写名字梗。",
+      "metrics": {
+        "useful_at8": 0.625,
+        "direct_at8": 0.125,
+        "ndcg_at8_judged_pool": 0.608085774043102,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 5
+      },
+      "records": [
+        {
+          "id": "210205-07",
+          "fleet": "24時間営業中",
+          "comment": "吹雪の冬も響とハラショー",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "210409-04",
+          "fleet": "答えはこうだイヤァオ",
+          "comment": "8周年の海も吹雪と一緒に",
+          "grade": 0,
+          "text_verified": false
+        },
+        {
+          "id": "190218-02",
+          "fleet": "ちいちゃん!",
+          "comment": "吹雪の瞳は冬の海色雪景色",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "201204-04",
+          "fleet": "暖炉炬燧柚湯に師走",
+          "comment": "雪風/丹陽と温かい冬を月",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "181116-03",
+          "fleet": "第1Perfume艦隊",
+          "comment": "深雪さまと冬イベ支度",
+          "grade": 0,
+          "text_verified": false
+        },
+        {
+          "id": "241207-04",
+          "fleet": "第3艦隊",
+          "comment": "冬だ雪だろーちゃんだ！",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "250106-05",
+          "fleet": "深雪第1楽団",
+          "comment": "深雪と奏でる冬の交響曲",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "201007-01",
+          "fleet": "第一艦隊",
+          "comment": "冬の雪風も良いぞ",
+          "grade": 0,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "spring_sakura",
+      "split": "holdout",
+      "prompt": "春天去看樱花，写轻快的季节问候，不指定角色。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 1.0,
+        "ndcg_at8_judged_pool": 1.0,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 6
+      },
+      "records": [
+        {
+          "id": "230408-07",
+          "fleet": "第4艦隊",
+          "comment": "大和の桜で花見する",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "200306-03",
+          "fleet": "桜餅",
+          "comment": "桜色の執務室でお花見気分",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "230312-02",
+          "fleet": "桜の木の下レンジャーさん",
+          "comment": "桜だ花見だレンジャーさん",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "220319-01",
+          "fleet": "第一艦隊",
+          "comment": "阿武隈と桜舞うお花見",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "230315-07",
+          "fleet": "ボーキサイト船団護衛",
+          "comment": "来た。空が桜呑む春が。",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "200320-08",
+          "fleet": "5-3",
+          "comment": "満開の、桜と大和と花見酒",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "220418-02",
+          "fleet": "第1艦隊",
+          "comment": "瑞鶴と桜重なる春の窓",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "240319-06",
+          "fleet": "択捉ちゃんと海を護り隊",
+          "comment": "択捉ちゃんと春と桜",
+          "grade": 2,
+          "text_verified": true
+        }
+      ]
+    },
+    {
+      "id": "summer_health",
+      "split": "holdout",
+      "prompt": "天气很热，提醒来演习的提督开空调、补充水分，友善一点。",
+      "metrics": {
+        "useful_at8": 0.75,
+        "direct_at8": 0.75,
+        "ndcg_at8_judged_pool": 0.8112689688197959,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 2
+      },
+      "records": [
+        {
+          "id": "250718-02",
+          "fleet": "東方…ういーー↑くりー↓",
+          "comment": "暑が夏いゼ！水分補給大事",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "220618-02",
+          "fleet": "水分補給は大事。",
+          "comment": "夏の暑さにも負けません！",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "240707-06",
+          "fleet": "大朱屋艦隊朱色隊",
+          "comment": "我慢すな、エアコン使え！",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "230810-04",
+          "fleet": "第1艦隊",
+          "comment": "暑い内は夏です夏イベです",
+          "grade": 0,
+          "text_verified": true
+        },
+        {
+          "id": "220705-01",
+          "fleet": "第一艦隊",
+          "comment": "瑞鳳さん、エアコンつけて",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "190602-01",
+          "fleet": "萩風の健康アドバイス",
+          "comment": "熱中症予防に水分塩分野分",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "240705-01",
+          "fleet": "第1艦隊",
+          "comment": "水分をとって、ご安全に！",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "231203-07",
+          "fleet": "只今、育成中！",
+          "comment": "八王子…夏は暑く冬は寒い",
+          "grade": 0,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "mistake",
+      "split": "holdout",
+      "prompt": "游戏里失误了，想写安慰自己慢慢再来的签名，不要过分燃。",
+      "metrics": {
+        "useful_at8": 0.875,
+        "direct_at8": 0.375,
+        "ndcg_at8_judged_pool": 0.8001710072457018,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 6
+      },
+      "records": [
+        {
+          "id": "240818-02",
+          "fleet": "なんとか成り隊",
+          "comment": "失敗の経験を次に活かし隊",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "190901-04",
+          "fleet": "さらば誓いの友よ",
+          "comment": "大丈夫次もきっと",
+          "grade": 2,
+          "text_verified": true
+        },
+        {
+          "id": "211218-07",
+          "fleet": "モーニング艦隊。",
+          "comment": "失敗を楽しめるのが一番",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "230109-01",
+          "fleet": "第1艦隊",
+          "comment": "遠征失敗0が今年の目標",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "260307-06",
+          "fleet": "5-3レベリング",
+          "comment": "ゆっくりと艦隊強化",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "200504-06",
+          "fleet": "第一戦隊",
+          "comment": "那珂ちゃんがいれば大丈夫",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "220401-03",
+          "fleet": "夜船おはぎ水雷戦隊",
+          "comment": "萩風だって春の夜は大丈夫",
+          "grade": 0,
+          "text_verified": false
+        },
+        {
+          "id": "240112-01",
+          "fleet": "42",
+          "comment": "榛名は新しい年でも大丈夫",
+          "grade": 1,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "split": "holdout",
+      "prompt": "演习每天慢慢来，写随和的日常心态，不强调胜负。",
+      "metrics": {
+        "useful_at8": 0.75,
+        "direct_at8": 0.375,
+        "ndcg_at8_judged_pool": 0.8041376277749437,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 5
+      },
+      "records": [
+        {
+          "id": "240218-05",
+          "fleet": "泊地修理",
+          "comment": "毎日、豆に演習をする。",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "251106-07",
+          "fleet": "第1艦隊",
+          "comment": "毎日コツコツ頑張るぞい",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "260517-08",
+          "fleet": "金剛型大好き艦隊",
+          "comment": "演習は勝利への近道",
+          "grade": 0,
+          "text_verified": true
+        },
+        {
+          "id": "240703-04",
+          "fleet": "演習",
+          "comment": "任務をコツコツ進めます",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "250415-04",
+          "fleet": "演習",
+          "comment": "艦これは毎日のルーティン",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "240305-07",
+          "fleet": "演習育成艦隊",
+          "comment": "無理せずコツコツで",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "211003-04",
+          "fleet": "演習",
+          "comment": "佐渡様と遊ぶだけの毎日",
+          "grade": 0,
+          "text_verified": false
+        },
+        {
+          "id": "200819-02",
+          "fleet": "主力かも艦隊",
+          "comment": "毎日コツコツ提督生活",
+          "grade": 1,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "moon_akizuki",
+      "split": "holdout",
+      "prompt": "秋月和中秋赏月的感觉，写含蓄一点的玩家愿望。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 0.5,
+        "ndcg_at8_judged_pool": 0.9214542588037522,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 6
+      },
+      "records": [
+        {
+          "id": "240911-04",
+          "fleet": "秋の夜長は",
+          "comment": "中秋の秋月とお月見",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "210920-03",
+          "fleet": "お月見艦隊",
+          "comment": "秋月とお月見出来ました。",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "231015-03",
+          "fleet": "第1艦隊",
+          "comment": "秋の夜長に秋月とお月見を",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "200904-03",
+          "fleet": "秋月とお月見艦隊",
+          "comment": "中秋の名月は秋月と一緒に",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "250901-06",
+          "fleet": "球磨型仲良く月見隊",
+          "comment": "秋は酒と団子で月見だな",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "250902-03",
+          "fleet": "月見酒航戰",
+          "comment": "秋の月見て龍も飛ぶ",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "251012-03",
+          "fleet": "おつかれさまです",
+          "comment": "大井さんと月見",
+          "grade": 1,
+          "text_verified": true
+        },
+        {
+          "id": "200913-04",
+          "fleet": "皆でお月見し隊",
+          "comment": "瑞鳳と秋の夜長に月見酒",
+          "grade": 1,
+          "text_verified": false
+        }
+      ]
+    },
+    {
+      "id": "screws_pair",
+      "split": "holdout",
+      "prompt": "改修螺丝总不够，写一组舰队名和comment的小吐槽。",
+      "metrics": {
+        "useful_at8": 1.0,
+        "direct_at8": 0.25,
+        "ndcg_at8_judged_pool": 0.7660407195379345,
+        "judged_coverage_at8": 1.0,
+        "distinct_useful_ideas_at8": 7
+      },
+      "records": [
+        {
+          "id": "220703-07",
+          "fleet": "第壱艦隊",
+          "comment": "資源回復と改修強化",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "190412-08",
+          "fleet": "コマンドー艦隊",
+          "comment": "ネジ焼いたけどたべりゅ？",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "220104-07",
+          "fleet": "ステイホームしたい艦娘達",
+          "comment": "明石さんにネジプレゼント",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "211101-03",
+          "fleet": "しじみのお味噌汁",
+          "comment": "ネジは秋刀魚と塩の味",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "210301-05",
+          "fleet": "大日本帝国海軍第一艦隊",
+          "comment": "ネジをねじ込む",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "190207-01",
+          "fleet": "かもかもは強く生きるかも",
+          "comment": "ネジは飲み物",
+          "grade": 2,
+          "text_verified": false
+        },
+        {
+          "id": "260219-03",
+          "fleet": "第1艦隊",
+          "comment": "航空機改修を進めようかな",
+          "grade": 1,
+          "text_verified": false
+        },
+        {
+          "id": "250809-07",
+          "fleet": "戰略機動し隊",
+          "comment": "瑞穂きた水戦改修できる",
+          "grade": 1,
+          "text_verified": false
+        }
+      ]
+    }
+  ]
+}

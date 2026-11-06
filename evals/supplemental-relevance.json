@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "phase": "Supplemental pooled judgments after ranking was frozen; initial judgments unchanged.",
+  "ranking_script_sha256": "7999052e3cefc430214c656806c770cdbfd982642a553e6d90a53ded2f35724f",
+  "cases": {
+    "tea_kaga": [
+      {
+        "record_id": "200801-01",
+        "grade": 0,
+        "idea": "song"
+      },
+      {
+        "record_id": "210908-02",
+        "grade": 1,
+        "idea": "tea_enjoy"
+      },
+      {
+        "record_id": "220719-03",
+        "grade": 0,
+        "idea": "summer_tea"
+      },
+      {
+        "record_id": "231015-06",
+        "grade": 1,
+        "idea": "autumn_preparation"
+      },
+      {
+        "record_id": "251120-04",
+        "grade": 1,
+        "idea": "tea_food"
+      }
+    ],
+    "rain_shigure": [
+      {
+        "record_id": "200606-04",
+        "grade": 1,
+        "idea": "rain_walk"
+      },
+      {
+        "record_id": "221107-06",
+        "grade": 1,
+        "idea": "walk_wish"
+      },
+      {
+        "record_id": "240602-02",
+        "grade": 1,
+        "idea": "rain_walk"
+      },
+      {
+        "record_id": "240603-04",
+        "grade": 1,
+        "idea": "rain_walk"
+      },
+      {
+        "record_id": "241011-06",
+        "grade": 1,
+        "idea": "autumn_walk"
+      }
+    ],
+    "travel_asashio": [
+      {
+        "record_id": "191119-01",
+        "grade": 0,
+        "idea": "character_motto"
+      },
+      {
+        "record_id": "210501-05",
+        "grade": 0,
+        "idea": "character_life"
+      },
+      {
+        "record_id": "220505-06",
+        "grade": 1,
+        "idea": "bus_trip"
+      },
+      {
+        "record_id": "230703-04",
+        "grade": 1,
+        "idea": "pool_outing"
+      },
+      {
+        "record_id": "260315-03",
+        "grade": 0,
+        "idea": "petting"
+      }
+    ],
+    "autumn_food": [
+      {
+        "record_id": "241008-04",
+        "grade": 2,
+        "idea": "seasonal_food"
+      },
+      {
+        "record_id": "260909-04",
+        "grade": 2,
+        "idea": "seasonal_appetite"
+      }
+    ],
+    "rest": [
+      {
+        "record_id": "220101-07",
+        "grade": 2,
+        "idea": "sleep_advice"
+      },
+      {
+        "record_id": "220117-08",
+        "grade": 2,
+        "idea": "rest_advice"
+      },
+      {
+        "record_id": "230508-06",
+        "grade": 1,
+        "idea": "sleep_wish"
+      },
+      {
+        "record_id": "230815-04",
+        "grade": 1,
+        "idea": "sleep_joke"
+      },
+      {
+        "record_id": "230912-05",
+        "grade": 2,
+        "idea": "sleep_advice"
+      }
+    ],
+    "expedition": [],
+    "thanks_inazuma": [],
+    "winter_yamakaze": [
+      {
+        "record_id": "191215-04",
+        "grade": 1,
+        "idea": "kotatsu_plan"
+      },
+      {
+        "record_id": "211016-07",
+        "grade": 1,
+        "idea": "kotatsu_wish"
+      },
+      {
+        "record_id": "221214-02",
+        "grade": 1,
+        "idea": "kotatsu_food"
+      }
+    ],
+    "snack_pair": [
+      {
+        "record_id": "190517-08",
+        "grade": 1,
+        "idea": "local_snack"
+      },
+      {
+        "record_id": "220816-02",
+        "grade": 1,
+        "idea": "snack_budget"
+      },
+      {
+        "record_id": "250801-03",
+        "grade": 2,
+        "idea": "snack_priority"
+      }
+    ],
+    "tea_kongo": [
+      {
+        "record_id": "210314-02",
+        "grade": 2,
+        "idea": "tea_scene"
+      },
+      {
+        "record_id": "240819-01",
+        "grade": 2,
+        "idea": "tea_fireworks"
+      },
+      {
+        "record_id": "260515-02",
+        "grade": 2,
+        "idea": "tea_company"
+      }
+    ],
+    "anniversary_zuikaku": [
+      {
+        "record_id": "210118-01",
+        "grade": 1,
+        "idea": "toast_drink"
+      },
+      {
+        "record_id": "220411-02",
+        "grade": 1,
+        "idea": "toast_drink"
+      },
+      {
+        "record_id": "220911-01",
+        "grade": 1,
+        "idea": "seasonal_toast"
+      },
+      {
+        "record_id": "230904-03",
+        "grade": 1,
+        "idea": "seasonal_toast"
+      },
+      {
+        "record_id": "240319-01",
+        "grade": 1,
+        "idea": "hope_toast"
+      },
+      {
+        "record_id": "241016-03",
+        "grade": 1,
+        "idea": "toast_company"
+      },
+      {
+        "record_id": "250820-04",
+        "grade": 1,
+        "idea": "toast_company"
+      }
+    ],
+    "snow_fubuki": [
+      {
+        "record_id": "181116-03",
+        "grade": 0,
+        "idea": "event_preparation"
+      },
+      {
+        "record_id": "201007-01",
+        "grade": 0,
+        "idea": "winter_praise"
+      },
+      {
+        "record_id": "201204-04",
+        "grade": 1,
+        "idea": "winter_together"
+      },
+      {
+        "record_id": "241207-04",
+        "grade": 1,
+        "idea": "snow_joy"
+      },
+      {
+        "record_id": "250106-05",
+        "grade": 1,
+        "idea": "winter_music"
+      }
+    ],
+    "spring_sakura": [
+      {
+        "record_id": "210509-04",
+        "grade": 2,
+        "idea": "flower_picnic"
+      },
+      {
+        "record_id": "230312-02",
+        "grade": 2,
+        "idea": "flower_viewing"
+      }
+    ],
+    "summer_health": [
+      {
+        "record_id": "190602-01",
+        "grade": 2,
+        "idea": "hydration"
+      },
+      {
+        "record_id": "220705-01",
+        "grade": 2,
+        "idea": "air_conditioning"
+      },
+      {
+        "record_id": "231203-07",
+        "grade": 0,
+        "idea": "weather"
+      }
+    ],
+    "mistake": [
+      {
+        "record_id": "200504-06",
+        "grade": 1,
+        "idea": "character_reassurance"
+      },
+      {
+        "record_id": "211218-07",
+        "grade": 2,
+        "idea": "enjoy_failure"
+      },
+      {
+        "record_id": "220401-03",
+        "grade": 0,
+        "idea": "night_scene"
+      },
+      {
+        "record_id": "230109-01",
+        "grade": 1,
+        "idea": "avoid_mistakes"
+      },
+      {
+        "record_id": "240112-01",
+        "grade": 1,
+        "idea": "character_reassurance"
+      }
+    ],
+    "practice": [
+      {
+        "record_id": "200819-02",
+        "grade": 1,
+        "idea": "slow_progress"
+      },
+      {
+        "record_id": "251106-07",
+        "grade": 1,
+        "idea": "slow_progress"
+      },
+      {
+        "record_id": "260517-08",
+        "grade": 0,
+        "idea": "victory"
+      },
+      {
+        "record_id": "260914-05",
+        "grade": 1,
+        "idea": "slow_progress"
+      }
+    ],
+    "moon_akizuki": [
+      {
+        "record_id": "200913-04",
+        "grade": 1,
+        "idea": "moon_drink"
+      },
+      {
+        "record_id": "250901-06",
+        "grade": 1,
+        "idea": "moon_food"
+      },
+      {
+        "record_id": "250902-03",
+        "grade": 1,
+        "idea": "moon_wordplay"
+      },
+      {
+        "record_id": "251012-03",
+        "grade": 1,
+        "idea": "moon_together"
+      }
+    ],
+    "screws_pair": [
+      {
+        "record_id": "190207-01",
+        "grade": 2,
+        "idea": "screw_consumption"
+      },
+      {
+        "record_id": "210301-05",
+        "grade": 1,
+        "idea": "screw_wordplay"
+      },
+      {
+        "record_id": "211101-03",
+        "grade": 2,
+        "idea": "screw_reward"
+      },
+      {
+        "record_id": "220104-07",
+        "grade": 1,
+        "idea": "screw_gift"
+      },
+      {
+        "record_id": "250809-07",
+        "grade": 1,
+        "idea": "upgrade_opportunity"
+      }
+    ]
+  }
+}

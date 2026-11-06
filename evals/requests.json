@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "baseline_version": "1.5.0",
+  "baseline_script_sha256": "439e951ac40cf7cc013af993ab28cb9e4799f0f5a61b7dccd05d0ae990b05edb",
+  "corpus_sha256": "05832c068930eed8f36214f44947ba970c0bd184e8e7ee8cea97b58cd64e7864",
+  "requests": [
+    {
+      "id": "tea_kaga",
+      "split": "development",
+      "prompt": "旗舰加贺，写秋天一起喝茶的日常签名，以玩家口吻表达，不引用台词。",
+      "category": "role_scene",
+      "search": {
+        "theme": "相处场景",
+        "expand_query": "加賀 茶 お茶 秋",
+        "prefer": "加賀 茶"
+      }
+    },
+    {
+      "id": "rain_shigure",
+      "split": "development",
+      "prompt": "想写和时雨雨天散步的签名，语气平静，不需要台词梗。",
+      "category": "role_scene",
+      "search": {
+        "theme": "相处场景",
+        "expand_query": "時雨 雨 散歩",
+        "prefer": "時雨 散歩"
+      }
+    },
+    {
+      "id": "travel_asashio",
+      "split": "development",
+      "prompt": "给朝潮写一起旅行的愿望，可以搭配舰队名。",
+      "category": "pair",
+      "search": {
+        "theme": "相处场景",
+        "expand_query": "朝潮 旅行 旅",
+        "prefer": "朝潮 旅"
+      }
+    },
+    {
+      "id": "autumn_food",
+      "split": "development",
+      "prompt": "写秋天吃秋刀鱼、栗子或烤红薯的小事，像普通玩家的生活记录。",
+      "category": "season",
+      "search": {
+        "theme": "食物",
+        "expand_query": "秋刀魚 栗 芋 柿 秋",
+        "prefer": "秋刀魚 栗 芋"
+      }
+    },
+    {
+      "id": "rest",
+      "split": "development",
+      "prompt": "最近有点累，想写提醒自己休息和早睡的温和签名。",
+      "category": "feeling",
+      "search": {
+        "theme": "日常",
+        "expand_query": "休 ゆっくり 寝 睡眠 夜",
+        "prefer": "休 睡眠"
+      }
+    },
+    {
+      "id": "expedition",
+      "split": "development",
+      "prompt": "远征慢慢攒资源，不想写争排名的口号，写轻松一点的游戏日常。",
+      "category": "game",
+      "search": {
+        "theme": "游戏日常",
+        "expand_query": "遠征 資源 貯 備蓄",
+        "prefer": "遠征 資源"
+      }
+    },
+    {
+      "id": "thanks_inazuma",
+      "split": "development",
+      "prompt": "向电表达谢谢陪伴，朴素一点，不玩口癖梗。",
+      "category": "role_feeling",
+      "search": {
+        "theme": "玩家感想",
+        "expand_query": "電 ありがとう 感謝",
+        "prefer": "電 感謝"
+      }
+    },
+    {
+      "id": "winter_yamakaze",
+      "split": "development",
+      "prompt": "山风和被炉的冬日场景，写玩家想照顾她的小事。",
+      "category": "role_scene",
+      "search": {
+        "theme": "相处场景",
+        "expand_query": "山風 こたつ コタツ 冬",
+        "prefer": "山風 こたつ"
+      }
+    },
+    {
+      "id": "snack_pair",
+      "split": "development",
+      "prompt": "想写吃点心停不下来的小玩笑，舰队名和comment可以相互呼应。",
+      "category": "pair",
+      "search": {
+        "theme": "幽默",
+        "expand_query": "お菓子 甘 ケーキ おやつ",
+        "prefer": "お菓子 おやつ"
+      }
+    },
+    {
+      "id": "tea_kongo",
+      "split": "holdout",
+      "prompt": "金刚，一起喝红茶的日常，想写玩家自己的感想，不引用原台词。",
+      "category": "role_scene",
+      "search": {
+        "theme": "相处场景",
+        "expand_query": "金剛 紅茶 お茶 茶",
+        "prefer": "金剛 紅茶"
+      }
+    },
+    {
+      "id": "anniversary_zuikaku",
+      "split": "holdout",
+      "prompt": "想和瑞鹤庆祝共同度过的周年，表达干杯和陪伴。",
+      "category": "role_feeling",
+      "search": {
+        "theme": "纪念",
+        "expand_query": "瑞鶴 乾杯 記念 祝",
+        "prefer": "瑞鶴 乾杯"
+      }
+    },
+    {
+      "id": "snow_fubuki",
+      "split": "holdout",
+      "prompt": "吹雪，想写冬天下雪时一起出门的场景，避免只是改写名字梗。",
+      "category": "role_scene",
+      "search": {
+        "theme": "相处场景",
+        "expand_query": "吹雪 雪 冬 一緒",
+        "prefer": "吹雪 雪"
+      }
+    },
+    {
+      "id": "spring_sakura",
+      "split": "holdout",
+      "prompt": "春天去看樱花，写轻快的季节问候，不指定角色。",
+      "category": "season",
+      "search": {
+        "theme": "春",
+        "expand_query": "桜 花見 春 散歩",
+        "prefer": "桜 花見"
+      }
+    },
+    {
+      "id": "summer_health",
+      "split": "holdout",
+      "prompt": "天气很热，提醒来演习的提督开空调、补充水分，友善一点。",
+      "category": "season",
+      "search": {
+        "theme": "日常",
+        "expand_query": "暑 エアコン 水分 夏",
+        "prefer": "エアコン 水分"
+      }
+    },
+    {
+      "id": "mistake",
+      "split": "holdout",
+      "prompt": "游戏里失误了，想写安慰自己慢慢再来的签名，不要过分燃。",
+      "category": "feeling",
+      "search": {
+        "theme": "游戏日常",
+        "expand_query": "失敗 大丈夫 次 ゆっくり",
+        "prefer": "失敗 大丈夫"
+      }
+    },
+    {
+      "id": "practice",
+      "split": "holdout",
+      "prompt": "演习每天慢慢来，写随和的日常心态，不强调胜负。",
+      "category": "game",
+      "search": {
+        "theme": "游戏日常",
+        "expand_query": "演習 毎日 コツコツ",
+        "prefer": "演習"
+      }
+    },
+    {
+      "id": "moon_akizuki",
+      "split": "holdout",
+      "prompt": "秋月和中秋赏月的感觉，写含蓄一点的玩家愿望。",
+      "category": "role_scene",
+      "search": {
+        "theme": "秋",
+        "expand_query": "秋月 月見 満月 秋",
+        "prefer": "秋月 月見"
+      }
+    },
+    {
+      "id": "screws_pair",
+      "split": "holdout",
+      "prompt": "改修螺丝总不够，写一组舰队名和comment的小吐槽。",
+      "category": "pair",
+      "search": {
+        "theme": "幽默",
+        "expand_query": "改修 ネジ 足 資源",
+        "prefer": "改修 ネジ"
+      }
+    }
+  ],
+  "curated_semantic_sha256": "dc92b14e8a9c5dbe90088f196acd54c62eaa09eb84e6cea2ae29fe58b17a970d"
+}

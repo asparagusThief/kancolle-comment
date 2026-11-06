@@ -23,6 +23,7 @@ python scripts/corpus.py search --query "遠征 任務" --limit 8
 python scripts/corpus.py search --reviewed-only --seed 42
 python scripts/corpus.py search --reviewed-only --theme "双关" --limit 6
 python scripts/corpus.py search --theme "食物" --expand-query "ご飯 食べ 料理 おにぎり カレー" --limit 8
+python scripts/corpus.py search --theme "相处场景" --expand-query "加賀 茶 お茶 秋" --prefer "加賀 茶" --limit 8
 python scripts/corpus.py search --query "桜" --month 3,4 --since 2024-01 --until 2026-09
 python scripts/corpus.py check /absolute/path/candidates.json
 ```
@@ -37,13 +38,19 @@ python scripts/corpus.py check /absolute/path/candidates.json
 
 按主题拓展灵感时，同时提供 `--theme` 和 `--expand-query`：前者查询已标注案例，后者用当前情境相关的日文词独立检索全库，两路结果取并集并去重。关键词由智能体根据本次需求展开，不固定套用示例词表。普通的 `--theme ... --query ...` 仍表示交集；若两者都提供，`--query` 只进一步筛选标签这一路，扩展词独立匹配。`--all` 要求各自这一路的全部查询词都出现。月份、起止范围、旗舰和 `--reviewed-only` 同时约束两路，扩展不会绕过这些条件。
 
-合并展示时，主题案例与扩展结果交替选取；扩展一路优先展示未标注线索，再用其他带标签的关键词命中补足。`--limit 1` 优先展示主题案例；两路有不同记录时，至少返回 2 条才能分别展示。某一路无结果时用另一路补足，不编造匹配。`--expand-query` 必须与 `--theme` 一起使用；仅按关键词搜索全库时用 `--query`。扩展只提供字面匹配线索，不为原始记录新增标签，也不改变文字核实状态。引用未经核实的历史原文前应核对来源图。
+`--expand-query` 必须与 `--theme` 一起使用；仅按关键词搜索全库时用 `--query`。扩展只提供字面匹配线索，不为原始记录新增标签，也不改变文字核实状态。引用未经核实的历史原文前应核对来源图。
+
+内容有明确重点时，可用 `--prefer` 提供角色名或场景词作为软偏好。它只影响已有命中的排序，不改变筛选条件或新增匹配；词不出现时仍可返回其他案例。角色名较短或容易歧义时，可选择更具体的词，如“電ちゃん”；`--flagship` 仍只筛选原旗舰字段。两者用途不同，不由旗舰字段推断文案主题。
+
+提供扩展词或软偏好时，按关键词证据排序：较少见的词给予有限加权，comment 中的命中权重略高于仅舰队名命中，主题标签和重点词提供额外参考。“茶／お茶”“雨／時雨”这类嵌套词在同组证据中不重复加分。随后用 comment 的相邻双字重合度减少近似措辞，`--no-diversity` 可关闭这一步。两路按相关性共同选取，数量由实际匹配决定；未标注记录不受固定比例限制。普通查询没有扩展词或软偏好时，仍按命中词数和核实程度排序。`--seed` 可复现同一版本、数据和参数下的结果。
+
+排序依据是字面线索，不能判断完整语义、日语自然度、角色事实或是否引用台词；措辞不同也可能是同一构思。需要编辑判断和后续创作检查，检索分值不能用作入选概率或文案质量评分。
 
 ## 输出字段
 
 `stats` 的 `retrieval_coverage` 与每次检索的 `scope` 动态统计全库数量、带标签数量、未标注数量和标签覆盖百分比；当前为 15,840、1,000、14,840 和 6.31%。检索还给出 `eligible_records`、`eligible_theme_tagged_records`、`eligible_theme_untagged_records` 和 `eligible_text_verified_records`，表示应用月份、旗舰、核实状态等公共条件后、应用主题及关键词前的范围；`scope.filters` 记录这些条件。`scope.mode` 区分全库搜索、仅标签筛选与标签加关键词扩展。主题命中数与索引频数只描述已标注子集，不代表全库主题分布。
 
-`matched_records` 是两路合并、组合去重前的记录数；`unique_combinations` 是去重后的总数，`returned` 是受数量限制的实际展示数。`matched_by_route` 和 `returned_by_route` 分别统计各路命中及展示数，同一记录可以同时命中两路，因此分路计数之和可能超过合并计数。每条结果的 `retrieval.routes` 标明来自 `theme`、`keywords`、`all_records` 或 `keyword_expansion`，`query_matches` 和 `expansion_matches` 列出实际命中的查询词。关键词匹配依据不构成编辑主题标签；`warnings` 提示标签范围与扩展结果的使用边界。
+`matched_records` 是两路合并、组合去重前的记录数；`unique_combinations` 是去重后的总数，`returned` 是受数量限制的实际展示数。`matched_by_route` 和 `returned_by_route` 分别统计各路命中及展示数，同一记录可以同时命中两路，因此分路计数之和可能超过合并计数。每条结果的 `retrieval.routes` 标明来自 `theme`、`keywords`、`all_records` 或 `keyword_expansion`，`query_matches` 和 `expansion_matches` 列出实际命中的查询词。启用相关性排序时，另有 `preference_matches` 与 `relevance_score`，分别表示命中的重点词与字面检索分值；`scope.selection` 记录是否使用措辞多样性。关键词匹配依据不构成编辑主题标签；`warnings` 提示标签范围与扩展结果的使用边界。
 
 CSV 字段为 `id,month,server_id,fleet,comment,flagship,review_status,review_notes,source_url`。唯一 `id` 形如 `260918-03`。检索返回的 `curated` 对象包含核实字段、主题和中文意思；`observation_zh`（写法解读）与 `dependency_zh`（依赖说明）为可选字段。其中中文解读是技能作者对表达的理解，不是官方解释。`source_text` 用于检查核实案例所依据的 OCR 快照是否发生变化，`ocr_text` 在返回的正文已修正时记录原文。
 

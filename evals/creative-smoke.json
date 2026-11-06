@@ -1,0 +1,643 @@
+{
+  "note": "Newly authored player-voice examples, editorial self-review by the same maintainer agent. No independent player panel, no baseline generation comparison, no claim of canonical character research.",
+  "rubric": [
+    "符合本次玩家表达目的",
+    "玩家口吻与日语自然度",
+    "同批构思有区别",
+    "两栏组合有效",
+    "未将原创场景声称为官方事实",
+    "字数与历史同文检查"
+  ],
+  "cases": [
+    {
+      "request_id": "tea_kaga",
+      "candidates": [
+        {
+          "text": {
+            "comment": "加賀と、湯気を半分こ"
+          },
+          "meaning_zh": "和加贺分一半热茶的氤氲",
+          "approach_zh": "以共享茶的意象写陪伴"
+        },
+        {
+          "text": {
+            "comment": "お茶が冷めても話そう"
+          },
+          "meaning_zh": "茶凉了也继续聊吧",
+          "approach_zh": "把重点放在交谈的愿望"
+        },
+        {
+          "text": {
+            "comment": "加賀と秋のひと休み"
+          },
+          "meaning_zh": "与加贺一起在秋日歇一会",
+          "approach_zh": "直接记录季节中的片刻休息"
+        }
+      ],
+      "editorial_review": "玩家视角、原创构思与释义相符；允许短签名的自然省略。角色示例未主张具体设定。",
+      "automated_checks": {
+        "ok": true,
+        "results": [
+          {
+            "candidate": 1,
+            "text": {
+              "comment": "加賀と、湯気を半分こ"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 10,
+                "utf16_units": 10,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 2,
+            "text": {
+              "comment": "お茶が冷めても話そう"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 10,
+                "utf16_units": 10,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 3,
+            "text": {
+              "comment": "加賀と秋のひと休み"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 9,
+                "utf16_units": 9,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "request_id": "rest",
+      "candidates": [
+        {
+          "text": {
+            "comment": "今日は早めに、おやすみ"
+          },
+          "meaning_zh": "今天早点睡，晚安",
+          "approach_zh": "直接温和地道晚安"
+        },
+        {
+          "text": {
+            "comment": "任務より先にひと休み"
+          },
+          "meaning_zh": "做任务之前先歇一会",
+          "approach_zh": "借游戏日常提醒休息"
+        },
+        {
+          "text": {
+            "comment": "明日の自分に睡眠を"
+          },
+          "meaning_zh": "把睡眠留给明天的自己",
+          "approach_zh": "用关照未来自己的角度表达"
+        }
+      ],
+      "editorial_review": "玩家视角、原创构思与释义相符；允许短签名的自然省略。角色示例未主张具体设定。",
+      "automated_checks": {
+        "ok": true,
+        "results": [
+          {
+            "candidate": 1,
+            "text": {
+              "comment": "今日は早めに、おやすみ"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 11,
+                "utf16_units": 11,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 2,
+            "text": {
+              "comment": "任務より先にひと休み"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 10,
+                "utf16_units": 10,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 3,
+            "text": {
+              "comment": "明日の自分に睡眠を"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 9,
+                "utf16_units": 9,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "request_id": "summer_health",
+      "candidates": [
+        {
+          "text": {
+            "comment": "提督、水分補給も忘れず"
+          },
+          "meaning_zh": "提督，也别忘记补水",
+          "approach_zh": "直接面向来访者提醒"
+        },
+        {
+          "text": {
+            "comment": "涼しい部屋でまた演習"
+          },
+          "meaning_zh": "在凉快的房间里再来演习吧",
+          "approach_zh": "把避暑和演习场景结合"
+        },
+        {
+          "text": {
+            "comment": "その一戦の前にひと口"
+          },
+          "meaning_zh": "开打之前先喝一口",
+          "approach_zh": "用开战前的小动作表达关心"
+        }
+      ],
+      "editorial_review": "玩家视角、原创构思与释义相符；允许短签名的自然省略。角色示例未主张具体设定。",
+      "automated_checks": {
+        "ok": true,
+        "results": [
+          {
+            "candidate": 1,
+            "text": {
+              "comment": "提督、水分補給も忘れず"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 11,
+                "utf16_units": 11,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 2,
+            "text": {
+              "comment": "涼しい部屋でまた演習"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 10,
+                "utf16_units": 10,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 3,
+            "text": {
+              "comment": "その一戦の前にひと口"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 10,
+                "utf16_units": 10,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "request_id": "practice",
+      "candidates": [
+        {
+          "text": {
+            "comment": "今日も演習、ぼちぼちと"
+          },
+          "meaning_zh": "今天也慢慢来做演习",
+          "approach_zh": "轻松记录日常"
+        },
+        {
+          "text": {
+            "comment": "勝っても負けてもまた明日"
+          },
+          "meaning_zh": "赢也好输也好，明天再见",
+          "approach_zh": "淡化胜负，保留继续玩的心态"
+        },
+        {
+          "text": {
+            "comment": "いつもの顔に、よろしく"
+          },
+          "meaning_zh": "又见熟面孔，请多关照",
+          "approach_zh": "从熟悉的相遇写日常问候"
+        }
+      ],
+      "editorial_review": "玩家视角、原创构思与释义相符；允许短签名的自然省略。角色示例未主张具体设定。",
+      "automated_checks": {
+        "ok": true,
+        "results": [
+          {
+            "candidate": 1,
+            "text": {
+              "comment": "今日も演習、ぼちぼちと"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 11,
+                "utf16_units": 11,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 2,
+            "text": {
+              "comment": "勝っても負けてもまた明日"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 12,
+                "utf16_units": 12,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 3,
+            "text": {
+              "comment": "いつもの顔に、よろしく"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 11,
+                "utf16_units": 11,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "request_id": "snack_pair",
+      "candidates": [
+        {
+          "text": {
+            "comment": "別腹にも限度はあった",
+            "fleet": "おやつは別腹"
+          },
+          "meaning_zh": "舰队名说点心另有肚子，签名发现那个肚子也有限度",
+          "approach_zh": "两栏先铺垫再自我拆台"
+        },
+        {
+          "text": {
+            "comment": "ひと口だけが止まらない",
+            "fleet": "本日も補給日和"
+          },
+          "meaning_zh": "今天也适合补给，所谓只吃一口却停不下来",
+          "approach_zh": "用嘴上克制和实际行动的反差"
+        },
+        {
+          "text": {
+            "comment": "戦果より先におかわり",
+            "fleet": "甘党遠征部隊"
+          },
+          "meaning_zh": "嗜甜远征队，先别管战果，先续一份",
+          "approach_zh": "把游戏优先级换成吃点心"
+        }
+      ],
+      "editorial_review": "玩家视角、原创构思与释义相符；允许短签名的自然省略。角色示例未主张具体设定。",
+      "automated_checks": {
+        "ok": true,
+        "results": [
+          {
+            "candidate": 1,
+            "text": {
+              "comment": "別腹にも限度はあった",
+              "fleet": "おやつは別腹"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 10,
+                "utf16_units": 10,
+                "errors": [],
+                "warnings": []
+              },
+              "fleet": {
+                "codepoints": 6,
+                "utf16_units": 6,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 2,
+            "text": {
+              "comment": "ひと口だけが止まらない",
+              "fleet": "本日も補給日和"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 11,
+                "utf16_units": 11,
+                "errors": [],
+                "warnings": []
+              },
+              "fleet": {
+                "codepoints": 7,
+                "utf16_units": 7,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 3,
+            "text": {
+              "comment": "戦果より先におかわり",
+              "fleet": "甘党遠征部隊"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 10,
+                "utf16_units": 10,
+                "errors": [],
+                "warnings": []
+              },
+              "fleet": {
+                "codepoints": 6,
+                "utf16_units": 6,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "request_id": "anniversary_zuikaku",
+      "candidates": [
+        {
+          "text": {
+            "comment": "瑞鶴と、次の一年へ"
+          },
+          "meaning_zh": "与瑞鹤一起走向下一年",
+          "approach_zh": "以未来的同行愿望纪念周年"
+        },
+        {
+          "text": {
+            "comment": "乾杯の先も瑞鶴と"
+          },
+          "meaning_zh": "干杯之后，也继续和瑞鹤在一起",
+          "approach_zh": "把当下庆祝延伸为日后的陪伴"
+        },
+        {
+          "text": {
+            "comment": "隣にいてくれて感謝"
+          },
+          "meaning_zh": "谢谢你一直在身旁",
+          "approach_zh": "直接表达玩家的感谢"
+        }
+      ],
+      "editorial_review": "玩家视角、原创构思与释义相符；允许短签名的自然省略。角色示例未主张具体设定。",
+      "automated_checks": {
+        "ok": true,
+        "results": [
+          {
+            "candidate": 1,
+            "text": {
+              "comment": "瑞鶴と、次の一年へ"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 9,
+                "utf16_units": 9,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 2,
+            "text": {
+              "comment": "乾杯の先も瑞鶴と"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 8,
+                "utf16_units": 8,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          },
+          {
+            "candidate": 3,
+            "text": {
+              "comment": "隣にいてくれて感謝"
+            },
+            "ok": true,
+            "fields": {
+              "comment": {
+                "codepoints": 9,
+                "utf16_units": 9,
+                "errors": [],
+                "warnings": []
+              }
+            },
+            "errors": [],
+            "warnings": [],
+            "history": {
+              "exact_comment_count": 0,
+              "exact_pair_count": 0,
+              "examples": [],
+              "near": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

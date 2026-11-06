@@ -5,6 +5,7 @@ import argparse
 import csv
 import difflib
 import json
+import math
 import random
 import re
 import sys
@@ -95,12 +96,65 @@ def coverage(rows):
     }
 
 
+def query_terms(value):
+    return list(dict.fromkeys(unicodedata.normalize("NFKC", token).casefold() for token in value.split()))
+
+
+def select_relevant(items, eligible, terms, preferences, limit, diversify):
+    """Rank literal evidence, then reduce repeated wording within the result set."""
+    vocabulary = list(dict.fromkeys(terms + preferences))
+    texts = [unicodedata.normalize("NFKC", row["fleet"] + "\n" + row["comment"]).casefold()
+             for row in eligible]
+    weights = {term: 1 + math.log((len(texts) + 1) / (1 + sum(term in text for text in texts)))
+               / max(1, math.log(len(texts) + 1)) for term in vocabulary}
+
+    def evidence(hits, comment):
+        # Nested words such as 茶/お茶 or 雨/時雨 are one piece of evidence.
+        distinct = [term for term in hits if not any(term != other and term in other for other in hits)]
+        return sum(weights[term] * (1 if term in comment else 0.65) for term in distinct)
+
+    for item in items:
+        row = item["row"]
+        comment = unicodedata.normalize("NFKC", row["comment"]).casefold()
+        text = unicodedata.normalize("NFKC", row["fleet"] + "\n" + row["comment"]).casefold()
+        preferred = [term for term in preferences if term in text]
+        hits = [term for term in terms if term in text]
+        relevance = evidence(hits, comment) + 0.75 * evidence(preferred, comment)
+        if "theme" in item["retrieval"]["routes"]:
+            relevance += 1
+        item["relevance"] = relevance
+        item["max_overlap"] = 0
+        item["retrieval"]["preference_matches"] = preferred
+        item["retrieval"]["relevance_score"] = round(relevance, 3)
+        normalized = normalize(row["comment"])
+        item["bigrams"] = {normalized[i:i + 2] for i in range(len(normalized) - 1)} if len(normalized) >= 4 else set()
+    remaining = sorted(items, key=lambda item: (item["relevance"], trust(item["row"])), reverse=True)
+    selected = []
+    penalty_scale = 0.2 * max((item["relevance"] for item in items), default=0)
+
+    def value(item):
+        return (item["relevance"] - penalty_scale * item["max_overlap"], trust(item["row"]), item["relevance"])
+
+    while remaining and len(selected) < limit:
+        item = max(remaining, key=value) if diversify else remaining[0]
+        selected.append(item)
+        remaining.remove(item)
+        if diversify and item["bigrams"]:
+            for other in remaining:
+                if other["bigrams"]:
+                    overlap = 2 * len(item["bigrams"] & other["bigrams"]) / (len(item["bigrams"]) + len(other["bigrams"]))
+                    other["max_overlap"] = max(other["max_overlap"], overlap)
+    return selected
+
+
 def search(rows, args):
     if args.since and args.until and args.since > args.until:
         raise ValueError("--since must not be later than --until")
-    terms = [unicodedata.normalize("NFKC", token).casefold() for token in args.query.split()]
+    terms = query_terms(args.query)
     expand_query = getattr(args, "expand_query", "")
-    expansion = [unicodedata.normalize("NFKC", token).casefold() for token in expand_query.split()]
+    expansion = query_terms(expand_query)
+    prefer = getattr(args, "prefer", "")
+    preferences = query_terms(prefer)
     flagship = unicodedata.normalize("NFKC", args.flagship).casefold()
     theme = unicodedata.normalize("NFKC", args.theme).casefold().strip()
     if expansion and not theme:
@@ -156,25 +210,16 @@ def search(rows, args):
         if key not in by_pair or trust(row) > trust(by_pair[key]["row"]):
             by_pair[key] = item
     unique = sorted(by_pair.values(), key=lambda item: (item["score"], trust(item["row"])), reverse=True)
-    if expansion:
-        themed = [item for item in unique if "theme" in item["retrieval"]["routes"]]
-        untagged = [item for item in unique if not theme_tags(item["row"])]
-        other_tagged = [item for item in unique
-                        if "theme" not in item["retrieval"]["routes"] and theme_tags(item["row"])]
-        additional = untagged + other_tagged
-        # Keep untagged leads visible even when many tagged examples rank highly.
-        mixed = []
-        for index in range(max(len(themed), len(additional))):
-            if index < len(themed):
-                mixed.append(themed[index])
-            if index < len(additional):
-                mixed.append(additional[index])
-        unique = mixed
-    selected = unique[:args.limit]
+    ranked = bool(expansion or preferences)
+    diversify = ranked and not getattr(args, "no_diversity", False)
+    selected = (select_relevant(unique, eligible, list(dict.fromkeys(terms + expansion)),
+                                preferences, args.limit, diversify)
+                if ranked else unique[:args.limit])
     scope = coverage(rows)
     eligible_tagged = sum(bool(theme_tags(row)) for row in eligible)
     scope.update({
         "mode": "theme_with_keyword_expansion" if expansion else "theme_tags" if theme else "full_corpus",
+        "selection": "relevance_and_text_diversity" if diversify else "literal_relevance" if ranked else "keyword_hits_then_verification",
         "eligible_records": len(eligible),
         "eligible_theme_tagged_records": eligible_tagged,
         "eligible_theme_untagged_records": len(eligible) - eligible_tagged,
@@ -200,6 +245,7 @@ def search(rows, args):
         "query": args.query,
         "theme": args.theme,
         "expand_query": expand_query,
+        "prefer": prefer,
         "scope": scope,
         "warnings": warnings,
         "matched_records": len(matched),
@@ -335,6 +381,10 @@ def main():
     search_parser.add_argument("--theme", default="", help="Filter curated Chinese theme tags by literal substring")
     search_parser.add_argument("--expand-query", default="",
                                help="With --theme, add a separate full-corpus keyword search and mix results")
+    search_parser.add_argument("--prefer", default="",
+                               help="Soft ranking preference for literal subject or scene words; does not filter matches")
+    search_parser.add_argument("--no-diversity", action="store_true",
+                               help="Disable wording-diversity reranking for expanded or preferred searches")
     search_parser.add_argument("--month", type=month_set)
     search_parser.add_argument("--since", type=month_value)
     search_parser.add_argument("--until", type=month_value)
